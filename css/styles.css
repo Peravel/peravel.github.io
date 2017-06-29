@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 0;
     font: inherit;
     font-size: 100%;
-    vertical-align: baseline
+   /* vertical-align: baseline */
 }
 
 html {
@@ -1501,7 +1501,7 @@ figure.effect-selena {
 
 section.get-started {
     position: relative;
-    padding: 90px 0;
+    padding: 20px 0;
     background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
     background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%)
 }
@@ -1688,78 +1688,78 @@ footer .footer-nav {
 -------------------------------------------------------------- */
 
 
-.scrollup {
-    position: fixed;
-    width: 100px;
-    height: 32px;
-    bottom: 11px;
-    right: 40px;
-    background: #6a6a6a;
-    padding-top: 8px;
-    padding-bottom: 20px;
-    border-bottom: 0px solid #aaa387;
-    z-index: 10001;
+.scrollup{
+    position:fixed;
+	width:36px;
+	height:36px;
+    bottom:19px;
+    right:40px;
+	background: hidden;
+    padding-top: 8px;   
+	padding-bottom: 18px;
+	border-bottom: 0px solid #aaa387;
+	
+	 }
+	 
+.FB{
+    position:fixed;
+	width:32px;
+	height:32px;
+    bottom:19px;
+    left:calc(50vw + 20px);
+	background: hidden;
+    padding-top: 8px;   
+	padding-bottom: 20px;
+	border-bottom: 0px solid #aaa387;
+	 }	 
+
+.TW{
+    position:fixed;
+	width:32px;
+	height:32px;
+    bottom:19px;
+    left:calc(50vw - 28px);
+	background: hidden;
+    padding-top: 8px;   
+	padding-bottom: 20px;
+	border-bottom: 0px solid #aaa387;
 }
 
-.scrollup2 {
-    position: fixed;
-    width: 32px;
-    height: 32px;
-    bottom: 19px;
-    left: 40px;
-    background: #f3f3f3;
-    padding-top: 8px;
-    padding-bottom: 20px;
-    border-bottom: 0px solid #aaa387;
-}
-
-.scrollup3 {
-    position: fixed;
-    width: 32px;
-    height: 32px;
-    bottom: 19px;
-    left: 88px;
-    background: #f3f3f3;
-    padding-top: 8px;
-    padding-bottom: 20px;
-    border-bottom: 0px solid #aaa387;
-}
-
-.scrollup4 {
-    position: fixed;
-    width: 32px;
-    height: 32px;
-    bottom: 19px;
-    left: 136px;
-    background: #f3f3f3;
-    padding-top: 8px;
-    padding-bottom: 20px;
-    border-bottom: 0px solid #aaa387;
+.DA{
+    position:fixed;
+	width:32px;
+	height:32px;
+    bottom:19px;
+    left:calc(50vw - 76px);
+	background: hidden;
+    padding-top: 8px;   
+	padding-bottom: 20px;
+	border-bottom: 0px solid #aaa387;
 }
 
 
-.scrollup5 {
-    position: fixed;
-    width: 100px;
-    height: 32px;
-    bottom: 11px;
-    right: 40px;
-    background: #6a6a6a;
-    padding-top: 8px;
-    padding-bottom: 20px;
-    border-bottom: 0px solid #aaa387;
-}
+.scrollup5{
+    position:fixed;
+	width:100px;
+	height:32px;
+    bottom:11px;
+    center:40px;
+	background: hidden;
+    padding-top: 8px;   
+	padding-bottom: 20px;
+	border-bottom: 0px solid #aaa387;
+	 }
 
-.scrollup6 {
-    position: fixed;
-    width: 100px;
-    height: 32px;
-    bottom: 11px;
-    right: 40px;
-    background: #6a6a6a;
-    padding-top: 8px;
-    padding-bottom: 20px;
-    border-bottom: 0px solid #aaa387;
+.scrollup6{
+    position:fixed;
+	width:100px;
+	height:32px;
+    bottom:11px;
+    center:40px;
+	background: hidden;
+    padding-top: 8px;   
+	padding-bottom: 20px;
+	border-bottom: 0px solid #aaa387;
 }
 
 a.scrollup {
