@@ -1690,9 +1690,9 @@ footer .footer-nav {
 
 .scrollup{
     position:fixed;
-	width:36px;
-	height:36px;
-    bottom:19px;
+	width:32px;
+	height:32px;
+    bottom:16px;
     right:40px;
 	background: hidden;
     padding-top: 8px;   
@@ -1738,16 +1738,16 @@ footer .footer-nav {
 }
 
 
-.scrollup5{
+.IMP{
     position:fixed;
 	width:100px;
 	height:32px;
-    bottom:11px;
-    center:40px;
-	background: hidden;
+    bottom:17px;
+    left:40px;
     padding-top: 8px;   
 	padding-bottom: 20px;
 	border-bottom: 0px solid #aaa387;
+	font-weight:700;
 	 }
 
 .scrollup6{
