@@ -1794,20 +1794,7 @@ body {
 
 #wrapper {
     width: 99%;
-    max-width: 1920px;
-    min-width: 400px;
-    margin: 10px auto;
-}
-
-#columns {
-    -webkit-column-count: 2;
-    -webkit-column-gap: 10px;
-    -webkit-column-fill: auto;
-    -moz-column-count: 2;
-    -moz-column-gap: 10px;
-    column-count: 2;
-    column-gap: 10px;
-    column-fill: auto;
+    margin: 0 auto;
 }
 
 .grid {
@@ -2049,3 +2036,29 @@ textarea {
 .navbar-nav li a:hover {
     background-color:transparent !important;
 }
+
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+@media(max-width:768px) {
+    .navbar {
+        padding: 0px;
+    }
+}
+
+/*
+    Fixed artwork display in firefox, new javascript library is used
+*/
+
+.article-post {
+    float: left;
+    padding: 5px;
+    width: 300px !important;
+}
+
+    .article-post a img {
+        max-width: 100%;
+        height: auto;
+    }
