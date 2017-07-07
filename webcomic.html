@@ -68,6 +68,50 @@
 	</script>    
     
     
+    <script>
+	var pagetop, yPos;
+	function yScroll(){
+		pagetop = document.getElementById('pagetop');
+		yPos = window.pageYOffset;
+		if(yPos > 440){
+			pagetop.style.top = "-68px";
+		} else {
+			pagetop.style.top = "0px";
+		}
+	}
+	window.addEventListener("scroll", yScroll);	
+	</script>
+    
+    <script>
+	var pagebottom, yPos;
+	function yScroll(){
+		pagebottom = document.getElementById('pagebottom');
+		yPos = window.pageYOffset;
+		if(yPos < 10484){
+			pagebottom.style.bottom = "-53px";
+		} else {
+			pagebottom.style.bottom = "0px";
+		}
+	}
+	window.addEventListener("scroll", yScroll);
+	</script>
+    
+    
+<!-- DIV HEIGHT == IMG HEIGHT (wegen Mobil-Ansicht)
+
+    <script>
+	var containerHeight, img, imgHeight,
+	function ShortenContainerHeight(){
+		containerHeight = document.getElementsByClassName('Carousel-cellC');
+		img = document.getElementById('#myImg');
+		imgHeight = img.clientHeight;
+		if (imgHeight < 10000) {
+			containerHeight.style.height = imgHeight;
+		}
+	}
+	</script>-->
+      
+    
 </head>
 
 
@@ -77,24 +121,24 @@
 	<!--[if lt IE 8]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
+    
 
-<a name="top" id="top"></a>
+    <a name="top" id="top"></a>
 
     <div class="navbar-wrapper">
-        <div class="container-fluid">
+        <div class="container-fluid alternate-bg" id="pagetop">
 
             <nav class="navbar" id="custom-navbar">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle navbar-item-verticalCenter-fixed collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <p class="menu-font">Menu</p>
                     </button>
                     <div class="navbar-brand navbar-item-verticalCenter">
                         <a href="index.html"><img src="img-my/PSign_s.png" alt="Designportfolio"></a>
                     </div>
+                    <div class="scrollup-m"><a href="#top"><img src="img/scrollup-m.png" alt="PageUp" width="28" height="28"></a></div>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -144,81 +188,41 @@
 
 
 
+  <header class="hero">
+        <div class="carousel js-flickity" data-flickity-options='{ "autoPlay": false }'>
+            <div class="carousel-cellC" style="background-image: url(img-my/cp001.jpg);" id="myImg"> </div>
+            
+            <div class="carousel-cellC" style="background-image: url(img-my/cp001.jpg);" id="myImg"> </div>
 
+            <div class="carousel-cellC" style="background-image: url(img-my/hero-bg-03.png);" id="myImg"> </div>
 
-
-	<!-- SECTION --------------------------------------------------------- -->
-	
-	<!-- END SECTION -->
-    
-    
-    
-    
-    
-	<!-- SECTION --------------------WITH LIGHTBOX------------------------------------------- -->
-	<!-- END SECTION -->
-
-
-
-
-
-
-
-
-
-
-	<!-- SECTION: Another Grid --------------------------------------------------------- -->
-	<!-- END SECTION -->
-
-
-
-
-
-	<!-- SECTION --------------------------------------------------------- -->
-	<section class="webcomic has-padding-tall">
-
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 no-padding">
-					<article class="article-image">
-						<figure class="has-overlay">
-							<img src="img-my/proj-singularity.png" alt="Sedna Freebie">
-						</figure>
-					</article>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- END SECTION -->
-
-
-	<!-- SECTION --------------------------------------------------------- -->
-	
-	<!-- END SECTION: Intro -->		
+        </div>
+  </header>
 
 
 
 
 
 	<!-- SECTION: Footer -->
-	<footer class="has-padding footer-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 footer-branding">
-					<img class="footer-branding-logo" src="img/designportfolio-logo.png" alt="designportfolio">
-					<p>Short description some words</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 footer-nav">
-					<ul class="footer-secondary-nav">
-						<li>© DESIGHNPORTFOLIO 2017. <a href="#">IMPRESSUM</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
+    <div class="container-fluid">
+
+        <div class="row">
+		  <div class="footer-nav-wrapper alternate-bg" id="pagebottom">
+				<div class="logo">  
+
+
+	<span class="IMP"><a href="impressum.html"><p>IMPRESSUM</p></a></span>
+
+    <span class="FB"><a href="#top"><img src="img/facebook32x32d.png" alt="Facebook"></a></span>
+    <span class="TW"><a href="#top"><img src="img/twitter32x32d.png" alt="Twitter"></a></span>
+    <span class="DA"><a href="#top"><img src="img/da32x32b.png" alt="DeviantArt"></a></span>
+    
+    <span class="scrollup"><a href="#top"><img src="img/arrow-up36x36.png" alt="PageUp" width="28" height="28"></a></span>
+ 
+    			</div>
+       	  </div>
+        </div>
+    </div>
 	<!-- END SECTION: Footer -->
 	<!-- JS CDNs -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -241,7 +245,7 @@
     
     
 	<script src="js/lightbox.js"></script>
-    <a href="#top" class="scrollup">back to top</a>
+    <a href="#top">
 
 
     

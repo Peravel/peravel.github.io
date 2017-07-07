@@ -1426,10 +1426,21 @@ pre code {
 	}
 }
 .container-fluid {
+	width:100%;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
-	margin-left: auto
+	margin-left: auto;
+	position: fixed;
+	z-index: 10000;
+}
+.container-fluidC {
+	width:100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 10000;
 }
 .row {
 	margin-right: -15px;
@@ -3537,7 +3548,6 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .navbar {
 	position: relative;
-	min-height: 50px;
 	margin-bottom: 20px;
 	border: 1px solid transparent
 }
@@ -3796,6 +3806,12 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 		box-shadow: none
 	}
 }
+
+@media (min-width:766px) {
+	.scrollup-m {
+		visibility: hidden;
+}
+
 .navbar-nav>li>.dropdown-menu {
 	margin-top: 0;
 	border-top-left-radius: 0;
