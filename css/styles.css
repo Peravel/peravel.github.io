@@ -917,7 +917,7 @@ div.mouse {
 }
 
 .stats {
-    background: url("../img/stats-bg.jpg") no-repeat center center;
+    background: url("../img/my-webcomic.png") no-repeat center center;
     background-size: cover
 }
 
@@ -963,7 +963,6 @@ div.mouse {
 
 .orientation_r {
 	float: right;
-	right: 0;
 }
 
 .crew article.crew-member {
@@ -1049,7 +1048,7 @@ div.mouse {
         -webkit-transition: all 300ms;
         transition: all 300ms;
         opacity: 0;
-        background-color: rgba(122,226,222,0.8)
+        background-color: rgba(255,255,255,0.7)
     }
 
     .crew article.crew-member .overlayB {
@@ -1401,6 +1400,44 @@ figure.effect-selena {
         background-position: center;
         background-size: cover
     }
+
+.latest-articles article.article-post {
+    position: relative;
+    overflow: hidden;
+}
+
+    .latest-articles article.article-post-l .article-image-l {
+        position: relative;
+        overflow: hidden;
+        height: 225px;
+        max-height: 250px;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover
+    }
+
+
+.latest-articles article.article-post-r {
+    position: relative;
+    overflow: hidden;
+}
+
+    .latest-articles article.article-post-r .article-image-r {
+        position: relative;
+        overflow: hidden;
+        height: 225px;
+        max-height: 250px;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover
+    }
+
+
+
+
+
 
 .latest-articles .has-overlay:after, .latest-articles .freebies .has-overlay:after {
     position: absolute;
@@ -2009,7 +2046,7 @@ div.navbar-header {
    /* box-shadow: 0px 2px 22px 0px rgba(0,0,0,0.11); */
     background-color: #FEFEFE;
     z-index: 10000;
-	padding-bottom:68px;
+	padding-bottom:67px;
 }
 
 .navbar-nav li a {
@@ -2134,3 +2171,36 @@ div.navbar-header {
         max-width: 100%;
         height: auto;
     }
+	
+.article-post-l {
+	float: left;
+	width: 98%;
+    max-width: 1680px !important;
+}
+
+    .article-post a img {
+        max-width: 100%;
+        height: auto;
+    }
+	
+	.article-text-l {
+	float: left;
+	width: 600px !important;
+	}
+
+.article-post-r {
+	float: right;
+	width: 98%;
+    width: 680px !important;
+	height:400px;
+}
+
+    .article-post-r a img {
+        max-width: 100%;
+        height: auto;
+    }
+	
+	.article-text-r {
+	float: right;
+	width: 600px !important;
+	}
