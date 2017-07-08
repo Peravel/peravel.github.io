@@ -81,7 +81,7 @@ body.lb-disable-scrolling {
   width: 40px;
   left: 0;
   float: left;
-  background: url(../img/prev.png) left 50% no-repeat;
+  background: url(../img/prevb.png) left 50% no-repeat;
   background-size: 40px;
   opacity: 0.4;
 }
@@ -94,7 +94,7 @@ body.lb-disable-scrolling {
   width: 40px;
   right: 0;
   float: right;
-  background: url(../img/next.png) right 50% no-repeat;
+  background: url(../img/nextb.png) right 50% no-repeat;
   background-size: 40px;
   opacity: 0.4;
 }
