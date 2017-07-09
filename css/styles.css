@@ -2241,10 +2241,10 @@ div.navbar-header {
     border: 1px solid #ddd;
 }
 
-.webcomic-wrapper .pager a.disabled {
+.webcomic-wrapper .pager a.disabled, .webcomic-wrapper .pager a.disabled span {
     color: #777;
     cursor: not-allowed;
-    background-color: #fff;
+    background-color: #e7e7e7 !important;
 }
 
 .webcomic-wrapper .pager a.rounded {
