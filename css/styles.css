@@ -2207,10 +2207,16 @@ div.navbar-header {
 
 /* ------------ WEBCOMIC ------------- */
 .webcomic-wrapper {
-    width: calc(100% - 50px);
     margin: 0 auto;
     max-width:1000px;
     padding-top:10px;
+}
+
+@media (min-width: 768px) {
+    width: calc(100% - 50px);
+}
+@media (max-width: 768px) {
+    width: 100%;
 }
 
 .webcomic-wrapper .webcomic-page {
@@ -2221,7 +2227,7 @@ div.navbar-header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 
 .webcomic-wrapper .jumpTo {
