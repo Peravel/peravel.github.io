@@ -30,74 +30,65 @@
 	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
 	<!-- end favicon links -->
-
-
-
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/flickity.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    
-    
-    
-    
-  	<link href="css/lightbox.css" rel="stylesheet"> 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>  
-    
-    
-    
-        <script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
-	});
-	</script>    
-    
-    
-    <script>
-	var pagetop, yPos;
-	function yScroll(){
-		pagetop = document.getElementById('pagetop');
-		yPos = window.pageYOffset;
-		if(yPos > 440){
-			pagetop.style.top = "-68px";
-		} else {
-			pagetop.style.top = "0px";
-		}
-	}
-	window.addEventListener("scroll", yScroll);	
+	<link href="css/lightbox.css" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		$(function () {
+			$('a[href*=#]:not([href=#])').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
 	</script>
-    
-    <script>
-	var pagebottom, yPos;
-	function yScroll(){
-		pagebottom = document.getElementById('pagebottom');
-		yPos = window.pageYOffset;
-		if(yPos < 10484){
-			pagebottom.style.bottom = "-53px";
-		} else {
-			pagebottom.style.bottom = "0px";
+
+
+	<script>
+		var pagetop, yPos;
+		function yScroll() {
+			pagetop = document.getElementById('pagetop');
+			yPos = window.pageYOffset;
+			if (yPos > 440) {
+				pagetop.style.top = "-68px";
+			} else {
+				pagetop.style.top = "0px";
+			}
 		}
-	}
-	window.addEventListener("scroll", yScroll);
+		window.addEventListener("scroll", yScroll);
 	</script>
-    
-    
-<!-- DIV HEIGHT == IMG HEIGHT (wegen Mobil-Ansicht)
+
+	<script>
+		var pagebottom, yPos;
+		function yScroll() {
+			pagebottom = document.getElementById('pagebottom');
+			yPos = window.pageYOffset;
+			if (yPos < 10484) {
+				pagebottom.style.bottom = "-53px";
+			} else {
+				pagebottom.style.bottom = "0px";
+			}
+		}
+		window.addEventListener("scroll", yScroll);
+	</script>
+
+
+	<!-- DIV HEIGHT == IMG HEIGHT (wegen Mobil-Ansicht)
 
     <script>
 	var containerHeight, img, imgHeight,
@@ -110,63 +101,61 @@
 		}
 	}
 	</script>-->
-      
-    
+
+
 </head>
-
-
 
 
 <body>
 	<!--[if lt IE 8]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
-    
 
-    <a name="top" id="top"></a>
 
-    <div class="navbar-wrapper">
-        <div class="container-fluid alternate-bg" id="pagetop">
+	<a name="top" id="top"></a>
 
-            <nav class="navbar" id="custom-navbar">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle navbar-item-verticalCenter-fixed collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	<div class="navbar-wrapper">
+		<div class="container-fluid alternate-bg" id="pagetop">
+
+			<nav class="navbar" id="custom-navbar">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle navbar-item-verticalCenter-fixed collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					 aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <p class="menu-font">Menu</p>
                     </button>
-                    <div class="navbar-brand navbar-item-verticalCenter">
-                        <a href="index.html"><img src="img-my/PSign_s.png" alt="Designportfolio"></a>
-                    </div>
-                    <div class="scrollup-m"><a href="#top"><img src="img/scrollup-m.png" alt="PageUp" width="28" height="28"></a></div>
-                </div>
+					<div class="navbar-brand navbar-item-verticalCenter">
+						<a href="index.html"><img src="img-my/PSign_s.png" alt="Designportfolio"></a>
+					</div>
+					<div class="scrollup-m"><a href="#top"><img src="img/scrollup-m.png" alt="PageUp" width="28" height="28"></a></div>
+				</div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="navbar-collapse collapsed collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="navbar-collapse collapsed collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
 
-                    <ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-right">
-                        <li class="subscribe"><a href="index.html">Home</a></li>
-                        </li>
-                    </ul>
+					<ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-right">
+						<li class="subscribe"><a href="index.html">Home</a></li>
+						</li>
+					</ul>
 
-                    <ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-middle">
-                        <li><a href="artworks.html">Artworks</a></li>
-                        <li><a href="webcomic.html">Webcomic</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+					<ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-middle">
+						<li><a href="artworks.html">Artworks</a></li>
+						<li><a href="webcomic.html">Webcomic</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
 
-                </div><!-- /.navbar-collapse -->
-            </nav>
-        </div>
-    </div>
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+		</div>
+	</div>
 
-<header class="heroB">
+	<header class="heroB">
 		<div class="carousel">
-  
-  
-            <div class="carousel-cellB has-padding-tall" style="background-image: url(img-my/h_projects.png);">
+			<div class="carousel-cellB has-padding-tall" style="background-image: url(img-my/h_projects.png);">
 				<div class="hero-bg">
 					<div class="container">
 						<div class="row">
@@ -182,48 +171,54 @@
 					</div>
 				</div>
 			</div>
-  
-
 		</div>
-</header>
+	</header>
 
+	<div class="webcomic-wrapper">
+		<div class="pager">
+			<a href="#" class="previous rounded"><span aria-hidden="true">&larr;</span>Previous</a>
+			<div class="input-group jumpTo">
+				<input class="form-control small-input" title="Go to page" type="text">
+				<a href="#" class="input-group-addon" title="Go to page"><i class="fa fa-search" aria-hidden="true"></i></a>
+			</div>
+			<a href="#" class="next rounded">Next <span aria-hidden="true">&rarr;</span></a>
+		</div>
 
+		<img class="webcomic-page" id="webcomic-image" comic-url-base="img-my/cp" comic-pages="3" comic-currentPage="1" src="img-my/cp1.jpg" />
 
-  <header class="hero">
-        <div class="carousel js-flickity" data-flickity-options='{ "autoPlay": false }'>
-            <div class="carousel-cellC" style="background-image: url(img-my/cp001.jpg);" id="myImg"> </div>
-            
-            <div class="carousel-cellC" style="background-image: url(img-my/cp001.jpg);" id="myImg"> </div>
+		<div class="pager">
+			<a href="#" class="previous rounded"><span aria-hidden="true">&larr;</span>Previous</a>
+			<div class="input-group jumpTo">
+				<input class="form-control small-input" title="Go to page" type="text">
+				<a href="#" class="input-group-addon" title="Go to page"><i class="fa fa-search" aria-hidden="true"></i></a>
+			</div>
+			<a href="#" class="next rounded">Next <span aria-hidden="true">&rarr;</span></a>
+		</div>
+	</div>
 
-            <div class="carousel-cellC" style="background-image: url(img-my/hero-bg-03.png);" id="myImg"> </div>
-
-        </div>
-  </header>
-
-
-
-
+	<br/>
+	<br/>
 
 	<!-- SECTION: Footer -->
-    <div class="container-fluid">
+	<div class="container-fluid">
 
-        <div class="row">
-		  <div class="footer-nav-wrapper alternate-bg" id="pagebottom">
-				<div class="logo">  
+		<div class="row">
+			<div class="footer-nav-wrapper alternate-bg" id="pagebottom">
+				<div class="logo">
 
 
-	<span class="IMP"><a href="impressum.html"><p>IMPRESSUM</p></a></span>
+					<span class="IMP"><a href="impressum.html"><p>IMPRESSUM</p></a></span>
 
-    <span class="FB"><a href="#top"><img src="img/facebook32x32d.png" alt="Facebook"></a></span>
-    <span class="TW"><a href="#top"><img src="img/twitter32x32d.png" alt="Twitter"></a></span>
-    <span class="DA"><a href="#top"><img src="img/da32x32b.png" alt="DeviantArt"></a></span>
-    
-    <span class="scrollup"><a href="#top"><img src="img/arrow-up36x36.png" alt="PageUp" width="28" height="28"></a></span>
- 
-    			</div>
-       	  </div>
-        </div>
-    </div>
+			<span class="FB"><a href="#top"><img src="img/facebook32x32d.png" alt="Facebook"></a></span>
+			<span class="TW"><a href="#top"><img src="img/twitter32x32d.png" alt="Twitter"></a></span>
+			<span class="DA"><a href="#top"><img src="img/da32x32b.png" alt="DeviantArt"></a></span>
+
+			<span class="scrollup"><a href="#top"><img src="img/arrow-up36x36.png" alt="PageUp" width="28" height="28"></a></span>
+
+		</div>
+	</div>
+	</div>
+	</div>
 	<!-- END SECTION: Footer -->
 	<!-- JS CDNs -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -231,7 +226,7 @@
 	<script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
 	<!-- jQuery local fallback -->
 	<script>
-	window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
+		window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
 	</script>
 	<!-- JS Locals -->
 	<script src="js/min/bootstrap.min.js"></script>
@@ -240,16 +235,10 @@
 	<script src="js/min/jquery.waypoints.min.js"></script>
 	<script src="js/min/flickity.pkgd.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
-	
-    
-    
-    
-    
 	<script src="js/lightbox.js"></script>
-    <a href="#top">
+	<script src="js/webcomic.js"></script>
+	<a href="#top" />
 
-
-    
 </body>
 
 </html>
