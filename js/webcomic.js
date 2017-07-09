@@ -49,8 +49,6 @@ $(document).ready(function () {
 function jumpToPageEvent(webcomicWrapper, jumpToWrapper) {
 	let jumpToInput = jumpToWrapper.find("input");
 	let requestedPage =	parseInt(jumpToInput.val());
-	//clear input
-	jumpToInput.val("");
 
 	//if the requested page is an integer, we will continue
 	if(requestedPage) {
@@ -92,6 +90,7 @@ function updateNavigationButtons(webcomicWrapper) {
 	let currentPage = webcomicImage.attr("comic-currentPage");
 
 	//update placeholder-value of jump-to-input field
+	webcomicWrapper.find(".jumpTo input").val("");
 	webcomicWrapper.find(".jumpTo input").attr("placeholder", currentPage);
 
 	if(currentPage == 1) {
