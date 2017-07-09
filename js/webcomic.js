@@ -64,6 +64,7 @@ function navigateToPage(webcomicWrapper, requestedPage) {
 	let maxPage = parseInt(webcomicImage.attr("comic-pages"));
 	let currentPage = webcomicImage.attr("comic-currentPage");
 	let urlBase = webcomicImage.attr("comic-url-base");
+	let fileType = webcomicImage.attr("comic-page-filetype");
 
 	if (requestedPage <= 0 || requestedPage > maxPage || requestedPage == currentPage) {
 		//yeah, something went wrong.. the requested page is either the same as the currently loaded one or it's out of bounce
@@ -80,7 +81,7 @@ function navigateToPage(webcomicWrapper, requestedPage) {
 
 	//fadeout, replace image, fade in
 	webcomicImage.fadeOut(300, function() {
-		webcomicImage.attr("src", urlBase + requestedPage + ".jpg");
+		webcomicImage.attr("src", urlBase + requestedPage + "." + fileType);
 	}).fadeIn(300);
 }
 
