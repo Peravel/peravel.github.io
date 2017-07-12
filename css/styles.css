@@ -2250,7 +2250,7 @@ div.navbar-header {
 .webcomic-wrapper .pager a.disabled, .webcomic-wrapper .pager a.disabled span {
     color: #777;
     cursor: not-allowed;
-    background-color: #e7e7e7 !important;
+    background-color: #F3F3F3 !important;
 }
 
 .webcomic-wrapper .pager a.rounded {
