@@ -493,7 +493,7 @@ ul, ol {
         border-bottom: 0px solid #aaaaaa;
         background-color: #FFFFFF
     }
-
+	
 
 .footer-nav-wrapper {
 	position: fixed;
@@ -504,11 +504,11 @@ ul, ol {
 
     .footer-nav-wrapper .logo {
         display: inline-block;
-        width: 340px;
-        padding: 25px 0;
-        text-align: center;
+        width: 100%;
+        padding: 8px 0;
         border-bottom: 0px solid #aaaaaa;
     }
+	
 
 @media (max-width:1023px) {
 
@@ -1951,51 +1951,39 @@ footer .footer-nav {
 
 
 .scrollup{
-    position:fixed;
+	position:relative;;
 	width:32px;
 	height:32px;
-    bottom:16px;
-    right:40px;
+    right: 40px;
 	background: hidden;
-    padding-top: 8px;   
-	padding-bottom: 18px;
 	border-bottom: 0px solid #aaa387;
 	
 	 }
 	 
 .FB{
-    position:fixed;
+
 	width:32px;
 	height:32px;
-    bottom:19px;
     left:calc(50vw + 26px);
 	background: hidden;
-    padding-top: 8px;   
-	padding-bottom: 20px;
 	border-bottom: 0px solid #aaa387;
 	 }	 
 
 .TW{
-    position:fixed;
+
 	width:32px;
 	height:32px;
-    bottom:19px;
     left:calc(50vw - 20px);
 	background: hidden;
-    padding-top: 8px;   
-	padding-bottom: 20px;
 	border-bottom: 0px solid #aaa387;
 }
 
 .DA{
-    position:fixed;
+
 	width:32px;
 	height:32px;
-    bottom:19px;
     left:calc(50vw - 68px);
 	background: hidden;
-    padding-top: 8px;   
-	padding-bottom: 20px;
 	border-bottom: 0px solid #aaa387;
 }
 
@@ -2392,6 +2380,7 @@ div.navbar-header {
     flex-direction: row;
     justify-content: space-between;
     margin: 20px 20px;
+	padding-bottom: 40px;
 }
 
 .webcomic-wrapper .jumpTo {
