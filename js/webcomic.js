@@ -91,7 +91,7 @@ function updateNavigationButtons(webcomicWrapper) {
 
 	//update placeholder-value of jump-to-input field
 	webcomicWrapper.find(".jumpTo input").val("");
-	webcomicWrapper.find(".jumpTo input").attr("placeholder", currentPage);
+	webcomicWrapper.find(".jumpTo input").attr("placeholder", currentPage + "/" + maxPage);
 
 	if(currentPage == 1) {
 		webcomicWrapper.find(".previous").addClass("disabled");

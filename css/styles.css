@@ -2371,10 +2371,16 @@ div.navbar-header {
 
 /* ------------ WEBCOMIC ------------- */
 .webcomic-wrapper {
-    width: calc(100% - 50px);
     margin: 0 auto;
     max-width:1000px;
     padding-top:10px;
+}
+
+@media (min-width: 768px) {
+    width: calc(100% - 50px);
+}
+@media (max-width: 768px) {
+    width: 100%;
 }
 
 .webcomic-wrapper .webcomic-page {
@@ -2385,7 +2391,7 @@ div.navbar-header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 
 .webcomic-wrapper .jumpTo {
@@ -2405,10 +2411,10 @@ div.navbar-header {
     border: 1px solid #ddd;
 }
 
-.webcomic-wrapper .pager a.disabled {
+.webcomic-wrapper .pager a.disabled, .webcomic-wrapper .pager a.disabled span {
     color: #777;
     cursor: not-allowed;
-    background-color: #fff;
+    background-color: #F3F3F3 !important;
 }
 
 .webcomic-wrapper .pager a.rounded {
