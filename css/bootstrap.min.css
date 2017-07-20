@@ -3807,12 +3807,12 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 		box-shadow: none
 	}
 }
-
-@media (min-width:766px) {
+/*
+@media (min-width:993px) {
 	.scrollup-m {
 		visibility: hidden;
 }
-
+*/
 .navbar-nav>li>.dropdown-menu {
 	margin-top: 0;
 	border-top-left-radius: 0;
