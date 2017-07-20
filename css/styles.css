@@ -2204,7 +2204,8 @@ textarea {
 
 div.navbar-header {
 	padding-left: 0px;
-	padding-right: 0px; 
+    padding-right: 0px; 
+    width: 100%;
 }
 
 .navbar-wrapper {
@@ -2272,16 +2273,47 @@ div.navbar-header {
         background-color: black;
     }
 
-.navbar-item-verticalCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 65px;
-}
+
 
 .navbar-item-verticalCenter-fixed {
-    margin-top: 17px;
+    margin-top: 17px; 
 }
+
+ @media (min-width: 768px) { 
+    .navbar-item-verticalCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65px;
+    }
+ } 
+
+@media (max-width:768px) { 
+    .navbar-bar {
+        margin-top: -12px;   
+    }
+
+    .navbar-nav {
+        margin-bottom: 0px;
+    }
+}
+
+/* WORKAROUND START */
+
+/* Add bottom bottoim  while collapsing as a workaround to fix changing position.. */
+ .navbar-collapse.collapsing .navbar-nav {
+    padding-bottom: 15px;
+}
+
+.navbar-collapse.collapsing #navbar-middle {
+    padding-right:4.5px;
+} 
+
+.navbar-collapse.collapse.in {
+    height: 215px; /* Especially bad - you have to change the height everytime a new item is added to the navbar /or if a padding/margin is changed */
+}
+
+/* WORKAROUND END */
 
 /*
     Fix a-tag hover animation
