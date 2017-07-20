@@ -2314,6 +2314,7 @@ div.navbar-header {
 
 .navbar-toggle {
     margin-right: 0px;
+    z-index: 1;
 }
 
 @media(max-width:993px) {
