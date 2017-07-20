@@ -374,7 +374,8 @@ ul, ol {
     height: calc(36vh - 8.2em);
     margin-right: 10px;
     background-position: center;
-    background-size: cover
+    background-size: cover;
+	padding: 40px;
 }
 
 .carousel-cellC {
@@ -1770,6 +1771,13 @@ section.get-started {
     padding: 20px 0;
     background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
     background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%)
+}
+
+
+@media (max-width: 768px) {
+	section.get-started h2{
+		font-size:18px;
+	}
 }
 
     section.get-started h2 {
