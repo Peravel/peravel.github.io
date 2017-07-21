@@ -479,13 +479,13 @@ ul, ol {
 }
 
 .wp1 {
-    -webkit-animation-delay: .6s;
-    animation-delay: .6s
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s
 }
 
 .wp2 {
-    -webkit-animation-delay: .8s;
-    animation-delay: .8s
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s
 }
 
 .wp3 {
@@ -1095,7 +1095,7 @@ div.mouse {
         background-color: rgba(20,180,222,0.8)
     }
 
---> /// CREW-ARTWORK EDITION ///////
+--> /// CREW-ARTICLE EDITION ///////
 
 .crew-aw article.crew-member {
     position: relative;
@@ -1203,6 +1203,9 @@ div.mouse {
 */
 
 
+.mail-me {
+	margin-bottom: 100px;
+}
 
 
 .contact-formular article.contact-formular-member {
@@ -2003,7 +2006,7 @@ footer .footer-nav {
 	height:32px;
     right: 40px;
 	background: hidden;
-	border-bottom: 0px solid #aaa387;
+	border-bottom: 0px solid #2b2121;
 
 	 }
 
@@ -2013,7 +2016,7 @@ footer .footer-nav {
 	height:32px;
     left:calc(50vw + 26px);
 	background: hidden;
-	border-bottom: 0px solid #aaa387;
+	border-bottom: 0px solid #2b2121;
 	 }
 
 .TW{
@@ -2022,7 +2025,7 @@ footer .footer-nav {
 	height:32px;
     left:calc(50vw - 20px);
 	background: hidden;
-	border-bottom: 0px solid #aaa387;
+	border-bottom: 0px solid #2b2121;
 }
 
 .DA{
@@ -2031,7 +2034,7 @@ footer .footer-nav {
 	height:32px;
     left:calc(50vw - 68px);
 	background: hidden;
-	border-bottom: 0px solid #aaa387;
+	border-bottom: 0px solid #2b2121;
 }
 
 
@@ -2043,7 +2046,7 @@ footer .footer-nav {
     left:40px;
     padding-top: 8px;
 	padding-bottom: 20px;
-	border-bottom: 0px solid #aaa387;
+	border-bottom: 0px solid #2b2121;
 	font-weight:700;
 	 }
 
