@@ -806,7 +806,8 @@ header.heroB {
 
     header.heroB .hero-bg {
         display: table-cell;
-        vertical-align: middle
+        vertical-align: middle;
+		padding: 30px;
     }
 
         header.heroB .hero-bg .hero-intro-text {
