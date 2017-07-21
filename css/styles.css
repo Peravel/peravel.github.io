@@ -132,8 +132,7 @@ h5 {
 
     .btn.secondary:hover {
         color: #fff;
-        background-color: #555555;
-        border-color: #555555
+        border-color: #fff
     }
 
     .btn.secondary:focus {
@@ -156,13 +155,13 @@ h5 {
 	margin-top: 6px;
 }
 
-    /*
+
 	.btn.secondary-white:hover {
         color: #aaaaaa;
-        background-color: #fff;
+        -background-color: #fff;
         border-color: #fff
     }
-	*/
+
 
     .btn.secondary-white:focus {
         color: #aaaaaa;
@@ -209,6 +208,10 @@ a.text-link {
 
 .has-padding {
     padding: 125px 0
+}
+
+.has-padding-atcl {
+	padding: 120px 0 60px 0;
 }
 
 .has-padding-low {
@@ -996,7 +999,7 @@ div.mouse {
 
             .crew article.crew-member figure figcaption p {
                 padding: 15px 15px 25px;
-                color: #2b2121
+                color: #fff
             }
 
             .crew article.crew-member figure figcaption a {
@@ -1025,7 +1028,7 @@ div.mouse {
         font-weight: 600;
         line-height: 20px;
         text-transform: uppercase;
-        color: #2b2121
+        color: #fff
     }
 
     .crew article.crew-member img {
@@ -1051,7 +1054,7 @@ div.mouse {
         -webkit-transition: all 300ms;
         transition: all 300ms;
         opacity: 0;
-        background-color: rgba(255,255,255,0.7)
+        background-color: rgba(43,33,33,0.7)
     }
 
     .crew article.crew-member .overlayB {
@@ -1647,16 +1650,7 @@ figure.effect-selena {
         outline: none
     }
 
-.freebies .has-overlay:after {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background-color: rgba(65,74,82,0.5)
-}
+
 
 .freebies .content-left {
     padding-right: 80px;
@@ -1704,7 +1698,7 @@ figure.effect-selena {
     -webkit-transition: opacity 300ms;
     transition: opacity 300ms;
     opacity: 0;
-    background-color: rgba(65,74,82,0.7)
+    background-color: rgba(43,33,33,0.8)
 }
 
 .freebies .freebies-intro {
@@ -1766,6 +1760,11 @@ figure.effect-selena {
     margin-right: 5px
 }
 
+.SDL {
+	width: 80vw;
+	padding: 10px 0 50px 0
+}
+
 section.get-started {
     position: relative;
     padding: 20px 0;
@@ -1785,7 +1784,7 @@ section.get-started contactHeightCorrection {
     section.get-started h2 {
         font-size: 24px;
         display: inline-block;
-        margin-right: 30px;
+        padding: 10px 7px 0 7px;
         vertical-align: middle;
         color: #fff
     }
@@ -1796,12 +1795,15 @@ section.get-started contactHeightCorrection {
         -webkit-transition: all 300ms;
         transition: all 300ms;
         color: #fff;
-        border-bottom: solid 2px rgba(255,255,255,0.5)
     }
 
         section.get-started a:hover {
             border-bottom-color: rgba(255,255,255,0)
         }
+	
+	section.get-started .letter {
+		padding: 10px 7px 0 7px;
+	}
 
     section.get-started:before {
         position: absolute;
@@ -2143,6 +2145,12 @@ body {
 
 .up {
     bottom: 28px
+}
+
+@media (max-width:993px) {
+	.up {
+		bottom: inherit;
+	}
 }
 
 fontsize-18 {
