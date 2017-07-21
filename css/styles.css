@@ -313,7 +313,7 @@ ul, ol {
     ul li {
         list-style: none
     }
-	
+
 
 /*input,textarea{outline:none}*/
 .wide {
@@ -495,7 +495,7 @@ ul, ol {
         border-bottom: 0px solid #aaaaaa;
         background-color: #FFFFFF
     }
-	
+
 
 .footer-nav-wrapper {
 	position: fixed;
@@ -510,7 +510,7 @@ ul, ol {
         padding: 8px 0;
         border-bottom: 0px solid #aaaaaa;
     }
-	
+
 
 @media (max-width:1023px) {
 
@@ -1160,15 +1160,15 @@ div.mouse {
         opacity: 0;
         background-color: rgba(20,180,222,0.8)
     }
-	
 
 
-	
+
+
 /*
 
 ///////////// END CREW-ARTICLE-EDITION ////////////////////
 
-*/	
+*/
 
 
 
@@ -1510,7 +1510,7 @@ figure.effect-selena {
         background-position: center;
         background-size: cover
     }
-	
+
 	.latest-articles article.article-post .overlay{
 		z-index: 99;
         width: 100%;
@@ -1543,7 +1543,7 @@ figure.effect-selena {
             .latest-articles article.article-post figure figcaption a {
                 color: rgba(255,255,255,0.7)
             }
-			
+
  .latest-articles article.article-post figure figcaption .crew-socials ul li {
                 display: inline-block;
                 margin-right: 10px
@@ -1552,7 +1552,7 @@ figure.effect-selena {
                 .latest-articles article.article-post figure figcaption .crew-socials ul li:last-child {
                     margin-right: 0
                 }
-				
+
                 .latest-articles article.article-post figure figcaption a:hover {
                     color: #fff
                 }
@@ -1772,6 +1772,15 @@ section.get-started {
     background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%)
 }
 
+section.get-started contactHeightCorrection {
+}
+
+@media (min-width: 993px){
+	section.get-started contactHeightCorrection {
+		max-height: 30px !important;
+	}
+}
+
     section.get-started h2 {
         font-size: 24px;
         display: inline-block;
@@ -1790,7 +1799,7 @@ section.get-started {
     }
 
         section.get-started a:hover {
-            border-bottom-color: #fff
+            border-bottom-color: rgba(255,255,255,0)
         }
 
     section.get-started:before {
@@ -1949,7 +1958,7 @@ footer .footer-nav {
 
 
 
-/* -------------------------------------------------------------- 
+/* --------------------------------------------------------------
 /* =CSS scroll to top
 -------------------------------------------------------------- */
 
@@ -1961,9 +1970,9 @@ footer .footer-nav {
     right: 40px;
 	background: hidden;
 	border-bottom: 0px solid #aaa387;
-	
+
 	 }
-	 
+
 .FB{
 
 	width:32px;
@@ -1971,7 +1980,7 @@ footer .footer-nav {
     left:calc(50vw + 26px);
 	background: hidden;
 	border-bottom: 0px solid #aaa387;
-	 }	 
+	 }
 
 .TW{
 
@@ -1998,7 +2007,7 @@ footer .footer-nav {
 	height:32px;
     bottom:17px;
     left:40px;
-    padding-top: 8px;   
+    padding-top: 8px;
 	padding-bottom: 20px;
 	border-bottom: 0px solid #aaa387;
 	font-weight:700;
@@ -2011,11 +2020,11 @@ footer .footer-nav {
     bottom:16px;
 	left: calc(50vw - 12px);
 	background: hidden;
-    padding-top: 8px;   
+    padding-top: 8px;
 	padding-bottom: 18px;
 	border-bottom: 0px solid #aaa387;
 	 }
-	 
+
 
 a.scrollup {
     outline: 0;
@@ -2072,7 +2081,7 @@ body {
     .grid img {
         width: 100%;
         border-bottom: 0px solid #ccc;
-        /* padding-bottom: 15px; 
+        /* padding-bottom: 15px;
 	margin-bottom: 5px;*/
     }
 
@@ -2123,7 +2132,7 @@ body {
 }
 
 
-/* -------------------------------------------------------------- 
+/* --------------------------------------------------------------
 /* =Contact Form
 -------------------------------------------------------------- */
 
@@ -2174,7 +2183,7 @@ textarea {
     overflow: scroll;
 }
 
-/* -------------------------------------------------------------- 
+/* --------------------------------------------------------------
 /* =Navbar fixes
 -------------------------------------------------------------- */
 
@@ -2196,7 +2205,7 @@ textarea {
 
 div.navbar-header {
 	padding-left: 0px;
-	padding-right: 0px; 
+	padding-right: 0px;
 }
 
 .navbar-wrapper {
@@ -2231,7 +2240,7 @@ div.navbar-header {
 #navbar-middle li:last-child {
     border: 0px;
 }
-    
+
 @media (max-width:993px) {
     .navbar-nav li {
         border-right: 0px;
@@ -2328,7 +2337,7 @@ div.navbar-header {
         max-width: 100%;
         height: auto;
     }
-	
+
 .article-post-l {
 	float: left;
 	width: 98%;
@@ -2339,7 +2348,7 @@ div.navbar-header {
         max-width: 100%;
         height: auto;
     }
-	
+
 	.article-text-l {
 	float: left;
 	width: 600px !important;
@@ -2356,7 +2365,7 @@ div.navbar-header {
         max-width: 100%;
         height: auto;
     }
-	
+
 	.article-text-r {
 	float: right;
 	width: 600px !important;
@@ -2414,4 +2423,15 @@ div.navbar-header {
 .webcomic-wrapper .pager a.rounded {
     padding: 5px 14px;
     border-radius: 15px;
+}
+
+.widthadjust {
+	width: 80vw;
+	max-width: 1920px;
+}
+
+@media (max-width:993px) {
+	.widthadjust {
+		width: 100%
+	}
 }
