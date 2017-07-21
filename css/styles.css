@@ -256,6 +256,10 @@ a.text-link {
     padding: 160px 0
 }
 
+.has-padding-talltop {
+    padding: 160px 0 40px 0
+}
+
 .alternate-bg {
     background-color: #F3F3F3
 }
