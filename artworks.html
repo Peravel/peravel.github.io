@@ -51,7 +51,8 @@
     <script>
         $(function () {
             $('a[href*=#]:not([href=#])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname) {
 
                     var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -85,7 +86,8 @@
             <nav class="navbar" id="custom-navbar">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle navbar-item-verticalCenter-fixed collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle navbar-item-verticalCenter-fixed collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
                          <span class="sr-only">Toggle navigation</span>
                         <p class="menu-font">...</p>
                     </button>
@@ -109,182 +111,185 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
 
-                </div><!-- /.navbar-collapse -->
+                </div>
+                <!-- /.navbar-collapse -->
             </nav>
         </div>
     </div>
 
     <section class="latest-articles">
-        <div id="wrapper">
-            
-                <a href="img/Char1Color.png" data-lightbox="example-setB" data-title="Char1COlor Bitch">                              
-                <article class="article-post"> 		
-                	<img class="example-image-4-cols" src="img/Char3Color.png" />            	</a>    
-                    	<figure>               
-				        	<figcaption class="overlay">
-                                <h2>Zoey Glitch</h2>
-                                <p>A character I designed for uni</p>								
-                            </figcaption>
-                        </figure>
-            </article>
-
-            <article class="article-post">
+        <div id="artworks-wrapper">
+            <article class="article-post" >
                 <a href="img/Char3Color.png" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Char3Color.png" />
                 </a>
-
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Char3Color.png" data-lightbox="example-setB">
+                            <h2>Zoey Glitch</h2>
+                            <p>A character I designed for uni</p>
+                        </a>
+                    </figcaption>
+                </figure>
             </article>
+
             <article class="article-post">
                 <a href="img/Mongos.jpg" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Mongos.jpg" />
                 </a>
 
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Mongos.jpg" data-lightbox="example-setB">
+                            <h2>Mongos</h2>
+                            <p>Three naked guys, hrr sexy.</p>
+                        </a>
+                    </figcaption>
+                </figure>                
             </article>
+
             <article class="article-post">
                 <a href="img/SinnersLullaby.png" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/SinnersLullaby.png" />
                 </a>
 
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/SinnersLullaby.png" data-lightbox="example-setB">
+                            <h2>Sinners Lullaby</h2>
+                            <p>Punish those who have sinned.</p>
+                        </a>
+                    </figcaption>
+                </figure>     
             </article>
+
+            <article class="article-post">
+                <a href="img/TheVinci-thumb.png" data-lightbox="example-setB">
+                    <img class="example-image-4-cols" src="img/TheVinci-thumb.png" />
+                </a>
+
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/TheVinci-thumb.png" data-lightbox="example-setB">
+                            <h2>Face Study</h2>
+                            <p>Pencils and Charcoal - Character Design Course</p>
+                        </a>
+                    </figcaption>
+                </figure>     
+            </article>            
+            
             <article class="article-post">
                 <a href="img/Project New World.jpg" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Project New World.jpg" />
                 </a>
-
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Project New World.jpg" data-lightbox="example-setB">
+                            <h2>Guy with smartphone</h2>
+                            <p>Representing modern society.</p>
+                        </a>
+                    </figcaption>
+                </figure>    
             </article>
-            <article class="article-post ">
+
+            <article class="article-post">
                 <a href="img/Granny.png" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Granny.png" />
                 </a>
-
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Granny.png" data-lightbox="example-setB">
+                            <h2>Granny</h2>
+                            <p>Dat beard!</p>
+                        </a>
+                    </figcaption>
+                </figure>  
             </article>
 
-            <article class="article-post ">
+            <article class="article-post">
                 <a href="img/Char2Color.png" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Char2Color.png" />
                 </a>
-
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Granny.png" data-lightbox="example-setB">
+                            <h2></h2>
+                            <p>Follow this way, exile.</p>
+                        </a>
+                    </figcaption>
+                </figure>  
             </article>
-            <article class="article-post ">
+
+            <article class="article-post">
                 <a href="img/Zoey_GlitchF52.jpg" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Zoey_GlitchF52.jpg" />
                 </a>
-
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Zoey_GlitchF52.jpg" data-lightbox="example-setB">
+                            <h2>Zoey Glitch</h2>
+                            <p>Character design for my Game Art Course</p>
+                        </a>
+                    </figcaption>
+                </figure>  
             </article>
 
-            <article class="article-post ">
+            <article class="article-post">
                 <a href="img/Sun For My Soul.png" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Sun For My Soul.png" />
                 </a>
-
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Sun For My Soul.png" data-lightbox="example-setB">
+                            <h2>Girl</h2>
+                            <p>Sun for my soul ~</p>
+                        </a>
+                    </figcaption>
+                </figure>  
             </article>
-            <article class="article-post ">
-                <a href="img/SinnersLullaby.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/SinnersLullaby.png" />
-                </a>
 
-            </article>
-            <article class="article-post ">
-                <a href="img/Project New World.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Project New World.jpg" />
-                </a>
-
-            </article>
-            <article class="article-post ">
+            <article class="article-post">
                 <a href="img/Prodigal.png" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Prodigal.png" />
                 </a>
-
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Prodigal.png" data-lightbox="example-setB">
+                            <h2>Fetish</h2>
+                            <p>Tight clothes!</p>
+                        </a>
+                    </figcaption>
+                </figure>  
             </article>
-            <article class="article-post ">
+
+            <article class="article-post">
                 <a href="img/feuerfee.png" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/feuerfee.png" />
                 </a>
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/feuerfee.png" data-lightbox="example-setB">
+                            <h2>Fire fairy</h2>
+                            <p>One of my first character designs.</p>
+                        </a>
+                    </figcaption>
+                </figure>                  
             </article>
-            <article class="article-post ">
+
+            <article class="article-post">
                 <a href="img/Char1Color.png" data-lightbox="example-setB">
                     <img class="example-image-4-cols" src="img/Char1Color.png" />
                 </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/Char3Color.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Char3Color.png" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/Mongos.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Mongos.jpg" />
-                </a>
-
-            </article>
-
-            <article class="article-post ">
-                <a href="img/SinnersLullaby.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/SinnersLullaby.png" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/Project New World.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Project New World.jpg" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/Granny.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Granny.png" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/Zoey_GlitchF52.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Zoey_GlitchF52.jpg" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/Char2Color.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Char2Color.png" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/Sun For My Soul.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Sun For My Soul.png" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/SinnersLullaby.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/SinnersLullaby.png" />
-                </a>
-
-            </article>
-
-            <article class="article-post ">
-                <a href="img/Project New World.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Project New World.jpg" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/Prodigal.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/Prodigal.png" />
-                </a>
-
-            </article>
-            <article class="article-post ">
-                <a href="img/feuerfee.png" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/feuerfee.png" />
-                </a>
+                <figure class="article-overlay">
+                    <figcaption class="overlay">
+                        <a href="img/Char1Color.png" data-lightbox="example-setB">
+                            <h2>Style Study</h2>
+                            <p>Copying a fellow student's style.</p>
+                        </a>
+                    </figcaption>
             </article>
         </div>
     </section>
-
-
-
 
     <!-- SECTION --------------------------------------------------------- -->
     <!--section class="collective has-padding">
@@ -303,23 +308,23 @@
     </section>
     <!-- END SECTION: Intro -->
     <!-- SECTION: Footer -->
-   <div class="container-fluid">
+    <div class="container-fluid">
 
         <div class="row">
-		  <div class="footer-nav-wrapper alternate-bg">
-				<div class="logo">  
+            <div class="footer-nav-wrapper alternate-bg">
+                <div class="logo">
 
 
-	<span class="IMP"><a href="impressum.html"><p>IMPRESSUM</p></a></span>
+                    <span class="IMP"><a href="impressum.html"><p>IMPRESSUM</p></a></span>
 
-    <span class="FB"><a href="#top"><img src="img/facebook32x32d.png" alt="Facebook"></a></span>
-    <span class="TW"><a href="#top"><img src="img/twitter32x32d.png" alt="Twitter"></a></span>
-    <span class="DA"><a href="#top"><img src="img/da32x32b.png" alt="DeviantArt"></a></span>
-    
-    <span class="scrollup"><a href="#top"><img src="img/arrow-up36x36.png" alt="PageUp" width="28" height="28"></a></span>
- 
-    			</div>
-       	  </div>
+                    <span class="FB"><a href="#top"><img src="img/facebook32x32d.png" alt="Facebook"></a></span>
+                    <span class="TW"><a href="#top"><img src="img/twitter32x32d.png" alt="Twitter"></a></span>
+                    <span class="DA"><a href="#top"><img src="img/da32x32b.png" alt="DeviantArt"></a></span>
+
+                    <span class="scrollup"><a href="#top"><img src="img/arrow-up36x36.png" alt="PageUp" width="28" height="28"></a></span>
+
+                </div>
+            </div>
         </div>
     </div>
     <!-- END SECTION: Footer -->
@@ -339,11 +344,13 @@
     <script src="js/min/flickity.pkgd.min.js"></script>
     <script src="js/min/scripts-min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js" type="text/javascript"></script>
+    
     <script>
         $(function () {
+            //copy all artwork pictures to fill the site a bit more
+            $("#artworks-wrapper").append($("#artworks-wrapper").html())
 
-
-            var $grid = $('#wrapper').imagesLoaded(function () {
+            var $grid = $('#artworks-wrapper').imagesLoaded(function () {
                 // init Isotope after all images have loaded
                 $grid.isotope({
                     masonry: {
@@ -352,18 +359,10 @@
                     }
                 });
             });
-
-
         });
     </script>
-
-
-
-
     <script src="js/lightbox.js"></script>
     <a href="#top" class="scrollup">back to top</a>
 
-
 </body>
-
 </html>
