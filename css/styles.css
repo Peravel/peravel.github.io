@@ -532,10 +532,10 @@ ul, ol {
     bottom: 0;
     z-index: 10000;
     width: 100%;
+    padding: 0px 8px;
 }
 
     .footer-nav-wrapper .logo {
-        display: inline-block;
         width: 100%;
         padding: 8px 0;
         border-bottom: 0px solid #aaaaaa;
@@ -1705,27 +1705,27 @@ footer .footer-nav {
 
 	width:32px;
 	height:32px;
-    left:calc(50vw + 26px);
 	background: hidden;
-	border-bottom: 0px solid #2b2121;
-	 }
+    border-bottom: 0px solid #2b2121;
+    float:right;
+}
 
 .TW{
 
 	width:32px;
 	height:32px;
-    left:calc(50vw - 20px);
 	background: hidden;
-	border-bottom: 0px solid #2b2121;
+    border-bottom: 0px solid #2b2121;
+    float:right;
 }
 
 .DA{
 
 	width:32px;
 	height:32px;
-    left:calc(50vw - 68px);
 	background: hidden;
-	border-bottom: 0px solid #2b2121;
+    border-bottom: 0px solid #2b2121;
+    float:right;
 }
 
 
@@ -1734,9 +1734,9 @@ footer .footer-nav {
 	width:100px;
 	height:32px;
     bottom:17px;
-    left:40px;
-    padding-top: 8px;
-	padding-bottom: 20px;
+    align-self: flex-start;
+    padding-top: 15px;
+	padding-bottom: 15px;
 	border-bottom: 0px solid #2b2121;
 	font-weight:700;
 	 }
