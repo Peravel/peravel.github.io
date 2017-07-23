@@ -497,10 +497,6 @@ ul, ol {
     animation-delay: 1s
 }
 
-.wp4 {
-    -webkit-animation-delay: 1.3s;
-    animation-delay: 1.3s
-}
 
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown, .fadeIn {
     visibility: visible
