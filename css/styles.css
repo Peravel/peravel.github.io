@@ -535,7 +535,7 @@ ul, ol {
 
     .footer-nav-wrapper .logo {
         width: 100%;
-        padding: 8px 0;
+        padding: 8px 0 10px 0;
         border-bottom: 0px solid #aaaaaa;
     }
 
@@ -1911,12 +1911,11 @@ footer .footer-nav {
 
 
 .scrollup{
-	position:relative;
-	left: 50vw;
 	width:32px;
 	height:32px;
 	border-bottom: 0px solid #2b2121;
-	opacity:0.3;
+	float:right;
+	opacity:0.6;
 	transition: all .2s ease;
 }	 
 	.scrollup:hover{
@@ -1927,7 +1926,9 @@ footer .footer-nav {
 	width:32px;
 	height:32px;
     border-bottom: 0px solid #2b2121;
-    float:right;
+    left: 50vw;
+    margin-left: 7px;
+    position: absolute;
 	opacity:0.6;
 	transition: all .2s ease;
 }	
@@ -1939,8 +1940,10 @@ footer .footer-nav {
 	width:32px;
 	height:32px;
     border-bottom: 0px solid #2b2121;
-    float:right;
-	opacity:0.5;
+    left: 50vw;
+    margin-left: -24px;
+    position: absolute;
+	opacity:0.6;
 	transition: all .2s ease;
 }
 	.TW:hover{
@@ -1951,8 +1954,10 @@ footer .footer-nav {
 	width:32px;
 	height:32px;
     border-bottom: 0px solid #2b2121;
-    float:right;
-	opacity:0.4;
+    left: 50vw;
+    margin-left: -59px;
+    position: absolute;
+	opacity:0.6;
 	transition: all .2s ease;
 }
 	.DA:hover{
@@ -1964,8 +1969,9 @@ footer .footer-nav {
 	height:32px;
 	border-bottom: 0px solid #2b2121;
 	font-weight:700;
-	opacity:0.3;
+	opacity:0.6;
 	transition: all .2s ease;
+	vertical-align: middle;
 }
 	.IMP:hover{
 		opacity:1;
@@ -1974,7 +1980,7 @@ footer .footer-nav {
 .scrollup-m{
 	visibility: visible;
     position:fixed;
-    bottom:32px;
+    bottom:24px;
 	left: calc(50vw - 12px);
 	background: hidden;
 	border-bottom: 0px solid #aaa387;
@@ -2408,9 +2414,14 @@ div.navbar-header {
     background-color: #F3F3F3 !important;
 }
 
-.webcomic-wrapper .pager a.rounded {
-    padding: 8px 14px;
-    border-radius: 15px;
+.webcomic-wrapper .pager a.rounded-p {
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+
+.webcomic-wrapper .pager a.rounded-n {
+    padding: 8px 28px;
+    border-radius: 5px;
 }
 
 .widthadjust {

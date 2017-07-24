@@ -78,7 +78,7 @@
 		function yScroll() {
 			pagebottom = document.getElementById('pagebottom');
 			yPos = window.pageYOffset;
-			if (yPos < 6784) {
+			if (yPos < 6900) {
 				pagebottom.style.bottom = "-53px";
 			} else {
 				pagebottom.style.bottom = "0px";
@@ -193,23 +193,23 @@
 
 	<div class="webcomic-wrapper">
 		<div class="pager">
-			<a href="#" class="previous rounded"><span aria-hidden="true">&larr;</span>Previous</a>
+			<a href="#" class="previous rounded-p"><span aria-hidden="true">&larr;</span>Previous</a>
 			<div class="input-group jumpTo">
 				<input class="form-control small-input" title="Go to page" type="text">
 				<a href="#" class="input-group-addon" title="Go to page"><i class="fa fa-search" aria-hidden="true"></i></a>
 			</div>
-			<a href="#" class="next rounded">Next <span aria-hidden="true">&rarr;</span></a>
+			<a href="#" class="next rounded-n">Next <span aria-hidden="true">&rarr;</span></a>
 		</div>
 
 		<img class="webcomic-page" id="webcomic-image" comic-url-base="img/cp" comic-pages="3" comic-currentPage="1" comic-page-filetype="png" src="img/cp1.png" />
 
 		<div class="pager">
-			<a href="#" class="previous rounded"><span aria-hidden="true">&larr;</span>Previous</a>
+			<a href="#" class="previous rounded-p"><span aria-hidden="true">&larr;</span>Previous</a>
 			<div class="input-group jumpTo">
 				<input class="form-control small-input" title="Go to page" type="text">
 				<a href="#" class="input-group-addon" title="Go to page"><i class="fa fa-search" aria-hidden="true"></i></a>
 			</div>
-			<a href="#" class="next rounded">Next <span aria-hidden="true">&rarr;</span></a>
+			<a href="#" class="next rounded-n">Next <span aria-hidden="true">&rarr;</span></a>
 		</div>
 	</div>
 
