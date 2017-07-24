@@ -1917,23 +1917,22 @@ footer .footer-nav {
 	height:32px;
 	border-bottom: 0px solid #2b2121;
 	opacity:0.3;
-	 }
-	 
+	transition: all .2s ease;
+}	 
 	.scrollup:hover{
 		opacity:1;
-		transition: all .2s ease;
 	}
+	
 .FB{
 	width:32px;
 	height:32px;
     border-bottom: 0px solid #2b2121;
     float:right;
-	opacity:0.3;
-}
-	
+	opacity:0.6;
+	transition: all .2s ease;
+}	
 	.FB:hover{
 		opacity:1;
-		transition: all .2s ease;
 	}
 
 .TW{
@@ -1941,12 +1940,11 @@ footer .footer-nav {
 	height:32px;
     border-bottom: 0px solid #2b2121;
     float:right;
-	opacity:0.3;
+	opacity:0.5;
+	transition: all .2s ease;
 }
-
 	.TW:hover{
 		opacity:1;
-		transition: all .2s ease;
 	}
 
 .DA{
@@ -1954,12 +1952,11 @@ footer .footer-nav {
 	height:32px;
     border-bottom: 0px solid #2b2121;
     float:right;
-	opacity:0.3;
+	opacity:0.4;
+	transition: all .2s ease;
 }
-
 	.DA:hover{
 		opacity:1;
-		transition: all .2s ease;
 	}
 	
 .IMP{
@@ -1968,11 +1965,10 @@ footer .footer-nav {
 	border-bottom: 0px solid #2b2121;
 	font-weight:700;
 	opacity:0.3;
+	transition: all .2s ease;
 }
-
 	.IMP:hover{
 		opacity:1;
-		transition: all .2s ease;
 	}
 	
 .scrollup-m{
