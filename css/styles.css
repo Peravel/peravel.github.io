@@ -210,6 +210,10 @@ a.text-link {
     padding: 125px 0
 }
 
+.has-padding-bottom {
+	padding-bottom: 125px
+}
+
 .has-padding-webb {
 	padding: 247px 0 247px 0
 }
@@ -2422,11 +2426,6 @@ div.navbar-header {
 .webcomic-wrapper .pager a.rounded-n {
     padding: 8px 28px;
     border-radius: 5px;
-}
-
-.widthadjust {
-	width: 80vw;
-	max-width: 1920px;
 }
 
 @media (max-width:993px) {
