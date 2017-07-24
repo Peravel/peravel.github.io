@@ -103,13 +103,15 @@
 	</script>-->
 
 
+
+
+
 </head>
 
 <body>
 	<!--[if lt IE 8]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
-
 
 
 	<div class="navbar-wrapper">
@@ -124,9 +126,26 @@
                         <p class="menu-font">...</p>
                     </button>
 					<div class="navbar-brand navbar-item-verticalCenter">
-						<a href="index.html"><img src="img/PSign_s.png" alt="Designportfolio"></a>
+						<a href="index.html"><img src="img/PSign_s.png" alt="peravelart"></a>
 					</div>
-					<div class="scrollup-m"><a href="#top"><img src="img/scrollup-m.png" alt="PageUp" width="28" height="28"></a></div>
+                    <!--<div class="scrollup-m">
+                        <a href="#top">
+                            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/scrollup-m.png" alt="scroll-to-top" id="scrollup-m" width="14" height="14">
+                            <script>
+                            function bigImg(x) {
+								x.style.height = "28px";
+                                x.style.width = "28px";
+                                document.getElementById("scrollup-m").style.transition = "all .2s"; 
+                            }
+                            
+                            function normalImg(x) {
+                                x.style.height = "14px";
+                                x.style.width = "14px";
+                            }
+                            </script>
+                        </a>
+                    </div> -->
+					<div class="scrollup-m"><a href="#top"><img src="img/scrollup-m.png" alt="PageUp" height="16px" width="16px"></a></div>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -205,7 +224,7 @@
 				<div class="logo">
 
 
-					<span class="IMP"><a href="impressum.html"><p>IMPRESSUM</p></a></span>
+					<span class="IMP"><a href="impressum.html"><img src="img/IMP.png" alt="Impressum"></a></span>
 					<span class="FB"><a href="#fb"><img src="img/facebook32x32d.png" alt="Facebook"></a></span>
 					<span class="TW"><a href="#tw"><img src="img/twitter32x32d.png" alt="Twitter"></a></span>
 					<span class="DA"><a href="#da"><img src="img/da32x32b.png" alt="DeviantArt"></a></span>

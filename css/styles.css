@@ -210,15 +210,17 @@ a.text-link {
     padding: 125px 0
 }
 
-.has-padding-webcomic {
-	padding-top: 140px
+.has-padding-webb {
+	padding: 247px 0 247px 0
 }
 
+/*
 @media (max-width: 993px){
-	.has-padding-webcomic {
-	padding-top: 100px
+	.has-padding-webb {
+	padding: 200px 0 200px 0
 }
 }
+*/
 
 .has-padding-aboutme {
     padding: 125px 0 110px 0
@@ -497,10 +499,6 @@ ul, ol {
     animation-delay: 1s
 }
 
-.wp4 {
-    -webkit-animation-delay: 1.3s;
-    animation-delay: 1.3s
-}
 
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown, .fadeIn {
     visibility: visible
@@ -532,10 +530,10 @@ ul, ol {
     bottom: 0;
     z-index: 10000;
     width: 100%;
+    padding: 0px 8px;
 }
 
     .footer-nav-wrapper .logo {
-        display: inline-block;
         width: 100%;
         padding: 8px 0;
         border-bottom: 0px solid #aaaaaa;
@@ -950,9 +948,8 @@ div.mouse {
 }
 
 .stats {
-    background: url("../img/my-webcomicv4.png") no-repeat center center;
-    background-size: cover;
-	height: 100%
+    background: url("../img/my-webcomicv4s.png") no-repeat center center;
+	background-size: auto;
 }
 
     .stats i.icon {
@@ -1003,7 +1000,9 @@ div.mouse {
 	padding-top: 130px
 }
 
-.crew article.crew-member {
+/* Crew-Article and artworks article */
+
+article.crew-member {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -1016,46 +1015,50 @@ div.mouse {
     background-size: cover
 }
 
-    .crew article.crew-member figure {
-        display: table;
-        width: calc(100% + 1px);
-        height: 100%
+    article figure.article-overlay {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+   
     }
 
-        .crew article.crew-member figure figcaption {
-            display: table-cell;
+        article figure.article-overlay figcaption {
             height: 100%;
             text-align: center;
             vertical-align: middle
         }
 
-            .crew article.crew-member figure figcaption p {
+            article figure.article-overlay figcaption p {
                 padding: 15px 15px 25px;
                 color: #fff
             }
 
-            .crew article.crew-member figure figcaption a {
+            article figure.article-overlay figcaption a {
                 color: rgba(255,255,255,0.7)
             }
 
-                .crew article.crew-member figure figcaption a:hover {
+                article figure.article-overlay figcaption a:hover {
                     color: #fff
                 }
 
-            .crew article.crew-member figure figcaption .crew-socials ul li {
+            article figure.article-overlay figcaption .crew-socials ul li {
                 display: inline-block;
                 margin-right: 10px
             }
 
-                .crew article.crew-member figure figcaption .crew-socials ul li:last-child {
+                article figure.article-overlay figcaption .crew-socials ul li:last-child {
                     margin-right: 0
                 }
 
-        .crew article.crew-member figure:hover .overlay {
+        article figure.article-overlay:hover .overlay {
             opacity: 1
         }
 
-    .crew article.crew-member h2 {
+    article figure.article-overlay h2 {
         font-size: 15px;
         font-weight: 600;
         line-height: 20px;
@@ -1063,7 +1066,7 @@ div.mouse {
         color: #fff
     }
 
-    .crew article.crew-member img {
+    article figure.article-overlay img {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1079,115 +1082,33 @@ div.mouse {
         transform: translate(-50%, -50%)
     }
 
-    .crew article.crew-member .overlay {
+    article figure.article-overlay .overlay  {
         z-index: 99;
         width: 100%;
         height: 100%;
         -webkit-transition: all 300ms;
         transition: all 300ms;
         opacity: 0;
-        background-color: rgba(43,33,33,0.7)
+        background-color: rgba(43,33,33,0.7);
+
+
+        /* center items in overlay - this is needed*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;          
     }
 
-    .crew article.crew-member .overlayB {
-        z-index: 99;
+    article figure.article-overlay .overlay a {
         width: 100%;
         height: 100%;
-        -webkit-transition: all 300ms;
-        transition: all 300ms;
-        opacity: 0;
-        background-color: rgba(20,180,222,0.8)
+
+        /* center items in overlay */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
     }
 
---> /// CREW-ARTICLE EDITION ///////
-
-.crew-aw article.crew-member {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 300px;
-	margin-bottom: 130px;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover
-}
-
-    .crew-aw article.crew-member figure {
-        display: table;
-        width: calc(100% + 1px);
-        height: 100%
-    }
-
-        .crew-aw article.crew-member figure figcaption {
-            display: table-cell;
-            height: 100%;
-            text-align: center;
-            vertical-align: middle
-        }
-
-            .crew-aw article.crew-member figure figcaption p {
-                padding: 15px 15px 25px;
-                color: #fff
-            }
-
-            .crew-aw article.crew-member figure figcaption a {
-                color: rgba(255,255,255,0.7)
-            }
-
-                .crew-aw article.crew-member figure figcaption a:hover {
-                    color: #fff
-                }
-
-            .crew-aw article.crew-member figure figcaption .crew-socials ul li {
-                display: inline-block;
-                margin-right: 10px
-            }
-
-                .crew-aw article.crew-member figure figcaption .crew-socials ul li:last-child {
-                    margin-right: 0
-                }
-
-        .crew-aw article.crew-member figure:hover .overlay {
-            opacity: 1
-        }
-
-    .crew-aw article.crew-member h2 {
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 20px;
-        text-transform: uppercase;
-        color: #fff
-    }
-
-    .crew-aw article.crew-member img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: auto;
-        min-width: 100%;
-        height: auto;
-        min-height: 100%;
-        margin: 0;
-        padding: 0;
-        -webkit-transition: all 300ms;
-        transition: all 300ms;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%)
-    }
-
-    .crew-aw article.crew-member .overlay {
-        z-index: 99;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: all 300ms;
-        transition: all 300ms;
-        opacity: 0;
-        background-color: rgba(255,255,255,0.7)
-    }
-
-    .crew-aw article.crew-member .overlayB {
+    article figure.article-overlay .overlayB {
         z-index: 99;
         width: 100%;
         height: 100%;
@@ -1197,273 +1118,9 @@ div.mouse {
         background-color: rgba(20,180,222,0.8)
     }
 
+/* END ARTICLE OVERLAY */
 
-
-
-/*
-
-///////////// END CREW-ARTICLE-EDITION ////////////////////
-
-*/
-
-
-.mail-me {
-	margin-bottom: 100px;
-}
-
-
-.contact-formular article.contact-formular-member {
-    position: relative;
-    overflow: hidden;
-    width: 60%;
-    height: 400px;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover
-}
-
-    .contact-formular article.contact-formular-member figure {
-        display: table;
-        width: calc(100% + 1px);
-        height: 100%
-    }
-
-        .contact-formular article.contact-formular-member figure figcaption {
-            display: table-cell;
-            height: 100%;
-            text-align: center;
-            vertical-align: middle
-        }
-
-            .contact-formular article.contact-formular-member figure figcaption p {
-                padding: 15px 15px 25px;
-                color: #fff
-            }
-
-            .contact-formular article.contact-formular-member figure figcaption a {
-                color: rgba(255,255,255,0.7)
-            }
-
-                .contact-formular article.contact-formular-member figure figcaption a:hover {
-                    color: #fff
-                }
-
-            .contact-formular article.contact-formular-member figure figcaption .contact-formular-socials ul li {
-                display: inline-block;
-                margin-right: 10px
-            }
-
-                .contact-formular article.contact-formular-member figure figcaption .contact-formular-socials ul li:last-child {
-                    margin-right: 0
-                }
-
-        .contact-formular article.contact-formular-member figure:hover .overlay {
-            opacity: 1
-        }
-
-    .contact-formular article.contact-formular-member h2 {
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 20px;
-        text-transform: uppercase;
-        color: #fff
-    }
-
-    .contact-formular article.contact-formular-member img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: auto;
-        min-width: 100%;
-        height: auto;
-        min-height: 100%;
-        margin: 0;
-        padding: 0;
-        -webkit-transition: all 300ms;
-        transition: all 300ms;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%)
-    }
-
-    .contact-formular article.contact-formular-member .overlay {
-        z-index: 99;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: all 300ms;
-        transition: all 300ms;
-        opacity: 0;
-        background-color: rgba(122,226,222,0.8)
-    }
-
-    .contact-formular article.contact-formular-member .overlayB {
-        z-index: 99;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: all 300ms;
-        transition: all 300ms;
-        opacity: 0;
-        background-color: rgba(20,180,222,0.8)
-    }
-
-
-/*---------------*/
-/***** Ming *****/
-/*---------------*/
-
-figure.effect-ming {
-    background: #030c17;
-}
-
-    figure.effect-ming img {
-        opacity: 0.9;
-        -webkit-transition: opacity 0.35s;
-        transition: opacity 0.35s;
-    }
-
-    figure.effect-ming figcaption {
-        padding: 1em;
-    }
-
-
-        figure.effect-ming figcaption::before {
-            position: absolute;
-            top: 30px;
-            right: 30px;
-            bottom: 30px;
-            left: 30px;
-            border: 2px solid #fff;
-            box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
-            content: '';
-            opacity: 0;
-            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-            transition: opacity 0.35s, transform 0.35s;
-            -webkit-transform: scale3d(1.4,1.4,1);
-            transform: scale3d(1.4,1.4,1);
-        }
-
-    figure.effect-ming h2 {
-        margin: 20% 0 10px 0;
-        -webkit-transition: -webkit-transform 0.35s;
-        transition: transform 0.35s;
-    }
-
-    figure.effect-ming p {
-        padding: 1em;
-        opacity: 0;
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
-    }
-
-    figure.effect-ming:hover h2 {
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
-    }
-
-    figure.effect-ming:hover figcaption::before,
-    figure.effect-ming:hover p {
-        opacity: 1;
-        -webkit-transform: scale3d(1,1,1);
-        transform: scale3d(1,1,1);
-    }
-
-    figure.effect-ming:hover figcaption {
-        background-color: rgba(58,52,42,0);
-    }
-
-    figure.effect-ming:hover img {
-        opacity: 0.4;
-    }
-
-
-
-
-
-/*-----------------*/
-/***** Selena *****/
-/*-----------------*/
-
-figure.effect-selena {
-    background: #fff;
-}
-
-    figure.effect-selena img {
-    }
-
-    figure.effect-selena:hover img {
-    }
-
-    figure.effect-selena h2 {
-        -webkit-transition: -webkit-transform 0.35s;
-        transition: transform 0.35s;
-        -webkit-transform: translate3d(0,20px,0);
-        transform: translate3d(0,20px,0);
-    }
-
-    figure.effect-selena p {
-        opacity: 0;
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: perspective(1000px) rotate3d(1,0,0,90deg);
-        transform: perspective(1000px) rotate3d(1,0,0,90deg);
-        -webkit-transform-origin: 50% 0%;
-        transform-origin: 50% 0%;
-    }
-
-    figure.effect-selena:hover h2 {
-        -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-    }
-
-    figure.effect-selena:hover p {
-        opacity: 1;
-        -webkit-transform: perspective(1000px) rotate3d(1,0,0,0);
-        transform: perspective(1000px) rotate3d(1,0,0,0);
-    }
-
-
-
-
-
-
-
-
-
-/*---------------*/
-/***** END OF HOVER-SAMPLES *****/
-/*---------------*/
-
-.skillset {
-    margin-top: 55px
-}
-
-    .skillset .bar-chart-wrapper {
-        position: relative;
-        margin-bottom: 35px
-    }
-
-    .skillset .bar-wrapper {
-        background-color: #414A52
-    }
-
-        .skillset .bar-wrapper .bar {
-            height: 10px;
-            margin: 10px 0;
-            background-color: #aaaaaa
-        }
-
-    .skillset .bar-chart-figure {
-        float: right
-    }
-
-    .skillset .push-right {
-        position: absolute;
-        top: 0;
-        right: 0
-    }
+/* Article index bottom */
 
 .latest-articles .sort {
     text-align: right
@@ -1685,7 +1342,256 @@ figure.effect-selena {
         outline: none
     }
 
+.mail-me {
+	margin-bottom: 100px;
+}
 
+
+.contact-formular article.contact-formular-member {
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    height: 400px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+    .contact-formular article.contact-formular-member figure {
+        display: table;
+        width: calc(100% + 1px);
+        height: 100%
+    }
+
+        .contact-formular article.contact-formular-member figure figcaption {
+            display: table-cell;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle
+        }
+
+            .contact-formular article.contact-formular-member figure figcaption p {
+                padding: 15px 15px 25px;
+                color: #fff
+            }
+
+            .contact-formular article.contact-formular-member figure figcaption a {
+                color: rgba(255,255,255,0.7)
+            }
+
+                .contact-formular article.contact-formular-member figure figcaption a:hover {
+                    color: #fff
+                }
+
+            .contact-formular article.contact-formular-member figure figcaption .contact-formular-socials ul li {
+                display: inline-block;
+                margin-right: 10px
+            }
+
+                .contact-formular article.contact-formular-member figure figcaption .contact-formular-socials ul li:last-child {
+                    margin-right: 0
+                }
+
+        .contact-formular article.contact-formular-member figure:hover .overlay {
+            opacity: 1
+        }
+
+    .contact-formular article.contact-formular-member h2 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #fff
+    }
+
+    .contact-formular article.contact-formular-member img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        min-width: 100%;
+        height: auto;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    .contact-formular article.contact-formular-member .overlay {
+        z-index: 99;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
+        opacity: 0;
+        background-color: rgba(122,226,222,0.8)
+    }
+
+    .contact-formular article.contact-formular-member .overlayB {
+        z-index: 99;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
+        opacity: 0;
+        background-color: rgba(20,180,222,0.8)
+    }
+
+
+/*---------------*/
+/***** Ming *****/
+/*---------------*/
+
+figure.effect-ming {
+    background: #030c17;
+}
+
+    figure.effect-ming img {
+        opacity: 0.9;
+        -webkit-transition: opacity 0.35s;
+        transition: opacity 0.35s;
+    }
+
+    figure.effect-ming figcaption {
+        padding: 1em;
+    }
+
+
+        figure.effect-ming figcaption::before {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            bottom: 30px;
+            left: 30px;
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+            content: '';
+            opacity: 0;
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            -webkit-transform: scale3d(1.4,1.4,1);
+            transform: scale3d(1.4,1.4,1);
+        }
+
+    figure.effect-ming h2 {
+        margin: 20% 0 10px 0;
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
+    }
+
+    figure.effect-ming p {
+        padding: 1em;
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    figure.effect-ming:hover h2 {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    figure.effect-ming:hover figcaption::before,
+    figure.effect-ming:hover p {
+        opacity: 1;
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+    }
+
+    figure.effect-ming:hover figcaption {
+        background-color: rgba(58,52,42,0);
+    }
+
+    figure.effect-ming:hover img {
+        opacity: 0.4;
+    }
+
+
+
+
+
+/*-----------------*/
+/***** Selena *****/
+/*-----------------*/
+
+figure.effect-selena {
+    background: #fff;
+}
+
+    figure.effect-selena img {
+    }
+
+    figure.effect-selena:hover img {
+    }
+
+    figure.effect-selena h2 {
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
+        -webkit-transform: translate3d(0,20px,0);
+        transform: translate3d(0,20px,0);
+    }
+
+    figure.effect-selena p {
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: perspective(1000px) rotate3d(1,0,0,90deg);
+        transform: perspective(1000px) rotate3d(1,0,0,90deg);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+    }
+
+    figure.effect-selena:hover h2 {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    figure.effect-selena:hover p {
+        opacity: 1;
+        -webkit-transform: perspective(1000px) rotate3d(1,0,0,0);
+        transform: perspective(1000px) rotate3d(1,0,0,0);
+    }
+
+
+/*---------------*/
+/***** END OF HOVER-SAMPLES *****/
+/*---------------*/
+
+.skillset {
+    margin-top: 55px
+}
+
+    .skillset .bar-chart-wrapper {
+        position: relative;
+        margin-bottom: 35px
+    }
+
+    .skillset .bar-wrapper {
+        background-color: #414A52
+    }
+
+        .skillset .bar-wrapper .bar {
+            height: 10px;
+            margin: 10px 0;
+            background-color: #aaaaaa
+        }
+
+    .skillset .bar-chart-figure {
+        float: right
+    }
+
+    .skillset .push-right {
+        position: absolute;
+        top: 0;
+        right: 0
+    }
 
 .freebies .content-left {
     padding-right: 80px;
@@ -2005,66 +1911,104 @@ footer .footer-nav {
 
 
 .scrollup{
-	position:relative;;
+	position:relative;
+	left: 50vw;
 	width:32px;
 	height:32px;
-    right: 40px;
-	background: hidden;
 	border-bottom: 0px solid #2b2121;
-
+	opacity:0.3;
 	 }
-
+	 
+	.scrollup:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
 .FB{
-
 	width:32px;
 	height:32px;
-    left:calc(50vw + 26px);
-	background: hidden;
-	border-bottom: 0px solid #2b2121;
-	 }
+    border-bottom: 0px solid #2b2121;
+    float:right;
+	opacity:0.3;
+}
+	
+	.FB:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
 
 .TW{
-
 	width:32px;
 	height:32px;
-    left:calc(50vw - 20px);
-	background: hidden;
-	border-bottom: 0px solid #2b2121;
+    border-bottom: 0px solid #2b2121;
+    float:right;
+	opacity:0.3;
 }
+
+	.TW:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
 
 .DA{
-
 	width:32px;
 	height:32px;
-    left:calc(50vw - 68px);
-	background: hidden;
-	border-bottom: 0px solid #2b2121;
+    border-bottom: 0px solid #2b2121;
+    float:right;
+	opacity:0.3;
 }
 
-
+	.DA:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
+	
 .IMP{
-    position:fixed;
 	width:100px;
 	height:32px;
-    bottom:17px;
-    left:40px;
-    padding-top: 8px;
-	padding-bottom: 20px;
 	border-bottom: 0px solid #2b2121;
 	font-weight:700;
-	 }
+	opacity:0.3;
+}
 
+	.IMP:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
+	
 .scrollup-m{
+	visibility: visible;
     position:fixed;
-	width:32px;
-	height:32px;
-    bottom:16px;
+    bottom:32px;
+	left: calc(50vw - 12px);
+	background: hidden;
+	border-bottom: 0px solid #aaa387;
+	opacity:0.6;
+	transition: all .2s ease;
+}
+
+	.scrollup-m:hover{
+		opacity:1;
+		transform: scale(2,2)
+	}
+	 
+@media (max-width:993px){
+	.scrollup-m {
+	visibility: visible;
+    position:fixed;
+    bottom:32px;
 	left: calc(50vw - 12px);
 	background: hidden;
     padding-top: 8px;
 	padding-bottom: 18px;
 	border-bottom: 0px solid #aaa387;
-	 }
+	opacity:0.5;
+	}
+}
+
+.suimg{
+    background: url("../img/webcomicv4.png") no-repeat center center;
+	background-size: auto;
+}
 
 
 a.scrollup {
@@ -2094,7 +2038,7 @@ body {
 	color: #2b2121;
 }
 
-#wrapper {
+#artworks-wrapper {
     width: 99%;
     margin: 0 auto;
 }
@@ -2416,7 +2360,9 @@ div.navbar-header {
 	.article-text-r {
 	float: right;
 	width: 600px !important;
-	}
+    }
+
+/* ------------ Artworks Overlay ----------- */
 
 /* ------------ WEBCOMIC ------------- */
 .webcomic-wrapper {
@@ -2441,7 +2387,6 @@ div.navbar-header {
     flex-direction: row;
     justify-content: space-between;
     margin: 20px 20px;
-	padding-bottom: 40px;
 }
 
 .webcomic-wrapper .jumpTo {
@@ -2468,7 +2413,7 @@ div.navbar-header {
 }
 
 .webcomic-wrapper .pager a.rounded {
-    padding: 5px 14px;
+    padding: 8px 14px;
     border-radius: 15px;
 }
 
