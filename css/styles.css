@@ -210,15 +210,17 @@ a.text-link {
     padding: 125px 0
 }
 
-.has-padding-webcomic {
-	padding-top: 140px
+.has-padding-webb {
+	padding: 247px 0 247px 0
 }
 
+/*
 @media (max-width: 993px){
-	.has-padding-webcomic {
-	padding-top: 100px
+	.has-padding-webb {
+	padding: 200px 0 200px 0
 }
 }
+*/
 
 .has-padding-aboutme {
     padding: 125px 0 110px 0
@@ -946,9 +948,8 @@ div.mouse {
 }
 
 .stats {
-    background: url("../img/my-webcomicv4.png") no-repeat center center;
-    background-size: cover;
-	height: 100%
+    background: url("../img/my-webcomicv4s.png") no-repeat center center;
+	background-size: auto;
 }
 
     .stats i.icon {
