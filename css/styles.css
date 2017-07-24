@@ -1911,66 +1911,104 @@ footer .footer-nav {
 
 
 .scrollup{
-	position:relative;;
+	position:relative;
+	left: 50vw;
 	width:32px;
 	height:32px;
-    right: 40px;
-	background: hidden;
 	border-bottom: 0px solid #2b2121;
-
+	opacity:0.3;
 	 }
-
+	 
+	.scrollup:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
 .FB{
-
 	width:32px;
 	height:32px;
-	background: hidden;
     border-bottom: 0px solid #2b2121;
     float:right;
+	opacity:0.3;
 }
+	
+	.FB:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
 
 .TW{
-
 	width:32px;
 	height:32px;
-	background: hidden;
     border-bottom: 0px solid #2b2121;
     float:right;
+	opacity:0.3;
 }
+
+	.TW:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
 
 .DA{
-
 	width:32px;
 	height:32px;
-	background: hidden;
     border-bottom: 0px solid #2b2121;
     float:right;
+	opacity:0.3;
 }
 
-
+	.DA:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
+	
 .IMP{
-    position:fixed;
 	width:100px;
 	height:32px;
-    bottom:17px;
-    align-self: flex-start;
-    padding-top: 15px;
-	padding-bottom: 15px;
 	border-bottom: 0px solid #2b2121;
 	font-weight:700;
-	 }
+	opacity:0.3;
+}
 
+	.IMP:hover{
+		opacity:1;
+		transition: all .2s ease;
+	}
+	
 .scrollup-m{
+	visibility: visible;
     position:fixed;
-	width:32px;
-	height:32px;
-    bottom:16px;
+    bottom:32px;
+	left: calc(50vw - 12px);
+	background: hidden;
+	border-bottom: 0px solid #aaa387;
+	opacity:0.6;
+	transition: all .2s ease;
+}
+
+	.scrollup-m:hover{
+		opacity:1;
+		transform: scale(2,2)
+	}
+	 
+@media (max-width:993px){
+	.scrollup-m {
+	visibility: visible;
+    position:fixed;
+    bottom:32px;
 	left: calc(50vw - 12px);
 	background: hidden;
     padding-top: 8px;
 	padding-bottom: 18px;
 	border-bottom: 0px solid #aaa387;
-	 }
+	opacity:0.5;
+	}
+}
+
+.suimg{
+    background: url("../img/webcomicv4.png") no-repeat center center;
+	background-size: auto;
+}
 
 
 a.scrollup {
@@ -2375,7 +2413,7 @@ div.navbar-header {
 }
 
 .webcomic-wrapper .pager a.rounded {
-    padding: 5px 14px;
+    padding: 8px 14px;
     border-radius: 15px;
 }
 
