@@ -59,6 +59,16 @@
     </script>
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+ 
+<script>   
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+</script>
 
 </head>
 
@@ -190,7 +200,7 @@
 
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <a href="artworks.html" </a>
-                    <article class="crew-member" style="background-image: url('img/SinnersLullaby.png')">
+                    <article class="crew-member" style="background-image: url('img/thumb/artwork01.png')">
                         <figure class="article-overlay">
                             <figcaption class="overlay">
                                 <h2>Fanart</h2>
@@ -202,7 +212,7 @@
 
                 <div class="col-md-3 col-sm-6 col-xs-12">
                    <a href="artworks.html" </a>
-                    <article class="crew-member" style="background-image: url(img/Zoey_GlitchF52.jpg)">
+                    <article class="crew-member" style="background-image: url(img/thumb/artwork02.png)">
                         <figure class="article-overlay">
                             <figcaption class="overlay">
                                 <h2>Zoey Glitch</h2>
@@ -213,7 +223,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <a href="artworks.html" </a>
-                    <article class="crew-member" style="background-image: url(img/Char1Color.png)">
+                    <article class="crew-member" style="background-image: url(img/thumb/artwork03.png)">
                         <figure class="article-overlay">
                             <figcaption class="overlay">
                                 <h2>Style Study</h2>
@@ -223,7 +233,7 @@
                     </article>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
-                    <article class="crew-member" style="background-image: url('img/thumbnails/TheVinci-thumb.png')">
+                    <article class="crew-member" style="background-image: url('img/thumb/artwork04.png')">
                         <figure class="article-overlay">
                             <figcaption class="overlay">
                                 <h2>Face Study</h2>
@@ -268,7 +278,7 @@
                 <div class="col-md-4">
                     <article class="article-post">
                         <a href="blog.html">
-                            <div class="article-image has-overlay" style="background-image: url(img/article-01.png)">
+                            <div class="article-image has-overlay" style="background-image: url(img/thumb/article01t.png)">
                             </div>
                             <figure>
                                 <figcaption>
@@ -282,7 +292,7 @@
                 <div class="col-md-4">
                     <article class="article-post">
                         <a href="blog.html">
-                            <div class="article-image has-overlay" style="background-image: url(img/stats-bg.jpg)">
+                            <div class="article-image has-overlay" style="background-image: url(img/thumb/article02t.jpg)">
                             </div>
                             <figure>
                                 <figcaption>
@@ -296,7 +306,7 @@
                 <div class="col-md-4">
                     <article class="article-post">
                         <a href="blog.html">
-                            <div class="article-image has-overlay" style="background-image: url(img/article_03.gif)">
+                            <div class="article-image has-overlay" style="background-image: url(img/thumb/article03t.gif)">
                             </div>
                             <figure>
                                 <figcaption>
@@ -313,7 +323,7 @@
                 <div class="col-md-4">
                     <article class="article-post">
                         <a href="blog.html">
-                            <div class="article-image has-overlay" style="background-image: url(img/raining.gif)">
+                            <div class="article-image has-overlay" style="background-image: url(img/thumb/article04t.gif)">
                             </div>
                             <figure>
                                 <figcaption>
@@ -327,7 +337,7 @@
                 <div class="col-md-4">
                     <article class="article-post">
                         <a href="blog.html">
-                            <div class="article-image has-overlay" style="background-image: url(img/article-052.jpg)">
+                            <div class="article-image has-overlay" style="background-image: url(img/thumb/article05t.jpg)">
                             </div>
                             <figure>
                                 <figcaption>
@@ -341,7 +351,7 @@
                 <div class="col-md-4">
                     <article class="article-post">
                         <a href="blog.html">
-                            <div class="article-image has-overlay" style="background-image: url(img/article-06.png)">
+                            <div class="article-image has-overlay" style="background-image: url(img/thumb/article06t.png)">
                             </div>
                             <figure>
                                 <figcaption>
