@@ -482,7 +482,15 @@ ul, ol {
             background: white
         }
 
-
+.has-color-singublue{
+	color: #295668
+}
+.has-color-singuyellow{
+	color: #816936
+}
+.has-color-singured{
+	color: #7A2F25
+}
 
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp10 {
     visibility: hidden
