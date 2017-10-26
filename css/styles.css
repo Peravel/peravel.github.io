@@ -88,6 +88,18 @@ h4 {
         content: '';
         background-color: #aaaaaa
     }
+	
+		h4.has-color-singublue{
+		color: #295668
+		}
+		
+		h4.has-color-singuyellow{
+			color: #816936 !important
+		}
+		
+		h4.has-color-singured{
+			color: #7A2F25 !important
+		}
 
 h5 {
     font-size: 13px;
@@ -481,16 +493,6 @@ ul, ol {
         .flickity-page-dotsC .dot.is-selected {
             background: white
         }
-
-.has-color-singublue{
-	color: #295668
-}
-.has-color-singuyellow{
-	color: #816936 !important
-}
-.has-color-singured{
-	color: #7A2F25 !important
-}
 
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp10 {
     visibility: hidden
