@@ -483,13 +483,13 @@ ul, ol {
         }
 
 .has-color-singublue{
-	color: #295668
+	color: #295668 !important
 }
 .has-color-singuyellow{
-	color: #816936
+	color: #816936 !important
 }
 .has-color-singured{
-	color: #7A2F25
+	color: #7A2F25 !important
 }
 
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp10 {
