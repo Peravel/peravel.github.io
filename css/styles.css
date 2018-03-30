@@ -554,7 +554,7 @@ ul, ol {
     }
 
 
-@media (max-width:1103px) {
+@media (max-width:1023px) {
 
     .header-nav-wrapper .logo {
         padding: 30px 0 30px 30px;
