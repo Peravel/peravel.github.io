@@ -2262,7 +2262,7 @@ div.navbar-header {
     }
 }
 
-@media(min-width:993px) {
+@media(min-width: 1103px) {
     #navbar-right {
         margin-left: 75px;
     }
