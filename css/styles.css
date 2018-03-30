@@ -2248,7 +2248,7 @@ div.navbar-header {
     border: 0px;
 }
 
-@media (max-width:993px) {
+@media (max-width:1103px) {
     .navbar-nav li {
         border-right: 0px;
     }
@@ -2324,7 +2324,7 @@ div.navbar-header {
     margin-right: 0px;
 }
 
-@media(max-width:993px) {
+@media(max-width:1103px) {
     .navbar {
         padding: 0px;
     }
