@@ -554,7 +554,7 @@ ul, ol {
     }
 
 
-@media (max-width:1023px) {
+@media (max-width:1103px) {
 
     .header-nav-wrapper .logo {
         padding: 30px 0 30px 30px;
@@ -567,7 +567,7 @@ ul, ol {
     }
 }
 
-@media (max-width:993px) {
+@media (max-width:593px) {
 
     .footer-nav-wrapper {
         visibility: hidden;
