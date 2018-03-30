@@ -1955,7 +1955,7 @@ footer .footer-nav {
 	height:32px;
     border-bottom: 0px solid #2b2121;
     left: 50vw;
-    margin-left: 7px;
+    margin-left: -59px;
     position: absolute;
 	opacity:0.6;
 	transition: all .2s ease;
