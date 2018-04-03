@@ -278,6 +278,10 @@ a.text-link {
     padding: 160px 0 40px 0
 }
 
+.margin-left-40 {
+	margin-left: 40px;
+}
+
 .alternate-bg {
     background-color: #F3F3F3
 }
@@ -2251,6 +2255,7 @@ div.navbar-header {
 	margin-top: 3px;
     -border-right: solid 1px #a29d9d;
 }
+
 
 #navbar-middle li a {
     font-weight: 600;
