@@ -1079,24 +1079,10 @@ article.crew-member {
                     margin-right: 0
                 }
 
-        article figure.article-overlay:hover .overlay {
+        article figure.article-overlay:hover .overlay o r g b v{
             opacity: 1
         }
-		article figure.article-overlay:hover .overlay-o {
-            opacity: 1
-        }
-		article figure.article-overlay:hover .overlay-r {
-            opacity: 1
-        }
-		article figure.article-overlay:hover .overlay-g {
-            opacity: 1
-        }
-		article figure.article-overlay:hover .overlay-b {
-            opacity: 1
-        }
-		article figure.article-overlay:hover .overlay-v {
-            opacity: 1
-        }
+
 
     article figure.article-overlay h2 {
         font-size: 15px;
@@ -1138,92 +1124,13 @@ article.crew-member {
         justify-content: center;          
     }
 
-article figure.article-overlay .overlay-o{
-        z-index: 99;
-        width: 100%;
-		align-content: center
-        height: 150px;
-        -webkit-transition: all 300ms;
-        transition: all 350ms;
-        opacity: 0;
-        background-color: rgba(212,137,54,0.7);
 
-        /* center items in overlay - this is needed*/
-        display: flex;
-        flex-direction: column;
-        justify-content: center;          
-    }
-
-article figure.article-overlay .overlay-r{
-        z-index: 99;
-        width: 100%;
-		align-content: center
-        height: 150px;
-        -webkit-transition: all 300ms;
-        transition: all 350ms;
-        opacity: 0;
-        background-color: rgba(212,53,53,0.7);
-
-        /* center items in overlay - this is needed*/
-        display: flex;
-        flex-direction: column;
-        justify-content: center;          
-    }
-
-article figure.article-overlay .overlay-g{
-        z-index: 99;
-        width: 100%;
-		align-content: center
-        height: 150px;
-        -webkit-transition: all 300ms;
-        transition: all 350ms;
-        opacity: 0;
-        background-color: rgba(65,196,76,0.70);
-
-        /* center items in overlay - this is needed*/
-        display: flex;
-        flex-direction: column;
-        justify-content: center;          
-    }
-
-article figure.article-overlay .overlay-b{
-        z-index: 99;
-        width: 100%;
-		align-content: center
-        height: 150px;
-        -webkit-transition: all 300ms;
-        transition: all 350ms;
-        opacity: 0;
-        background-color: rgba(53,86,212,0.70);
-
-        /* center items in overlay - this is needed*/
-        display: flex;
-        flex-direction: column;
-        justify-content: center;          
-    }
-
-article figure.article-overlay .overlay-v{
-        z-index: 99;
-        width: 100%;
-		align-content: center
-        height: 150px;
-        -webkit-transition: all 300ms;
-        transition: all 350ms;
-        opacity: 0;
-        background-color: rgba(212,53,137,0.70);
-
-        /* center items in overlay - this is needed*/
-        display: flex;
-        flex-direction: column;
-        justify-content: center;          
-    }
-
-/*	article figure.article-overlay .overlay o {!background-color: rgba(212,137,54,0.7); }
+	article figure.article-overlay .overlay o {!background-color: rgba(212,137,54,0.7); }
 	article figure.article-overlay .overlay r {!background-color: rgba(212,53,53,0.70); }
 	article figure.article-overlay .overlay g {!background-color: rgba(65,196,76,0.70); }
 	article figure.article-overlay .overlay b {!background-color: rgba(53,86,212,0.70); }
 	article figure.article-overlay .overlay v {!background-color: rgba(212,53,137,0.70); }
-*/
+
     article figure.article-overlay .overlay a {
         width: 100%;
         height: 100%;
