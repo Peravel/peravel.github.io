@@ -1082,6 +1082,21 @@ article.crew-member {
         article figure.article-overlay:hover .overlay {
             opacity: 1
         }
+		article figure.article-overlay:hover .overlay-o {
+            opacity: 1
+        }
+		article figure.article-overlay:hover .overlay-r {
+            opacity: 1
+        }
+		article figure.article-overlay:hover .overlay-g {
+            opacity: 1
+        }
+		article figure.article-overlay:hover .overlay-b {
+            opacity: 1
+        }
+		article figure.article-overlay:hover .overlay-v {
+            opacity: 1
+        }
 
     article figure.article-overlay h2 {
         font-size: 15px;
