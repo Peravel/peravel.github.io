@@ -1139,11 +1139,11 @@ article.crew-member {
     }
 
 
-	article figure.article-overlay .overlay .o {!background-color: rgba(212,137,54,0.7); }
-	article figure.article-overlay .overlay .r {!background-color: rgba(212,53,53,0.70); }
-	article figure.article-overlay .overlay .g {!background-color: rgba(65,196,76,0.70); }
-	article figure.article-overlay .overlay .b {!background-color: rgba(53,86,212,0.70); }
-	article figure.article-overlay .overlay .v {!background-color: rgba(212,53,137,0.70); }
+	article figure.article-overlay .overlay .o {background-color: rgba(212,137,54,0.7); }
+	article figure.article-overlay .overlay .r {background-color: rgba(212,53,53,0.70); }
+	article figure.article-overlay .overlay .g {background-color: rgba(65,196,76,0.70); }
+	article figure.article-overlay .overlay .b {background-color: rgba(53,86,212,0.70); }
+	article figure.article-overlay .overlay .v {background-color: rgba(212,53,137,0.70); }
 
     article figure.article-overlay .overlay a {
         width: 100%;
