@@ -282,6 +282,13 @@ a.text-link {
 	margin-left: 40px;
 }
 
+@media  (max-width:1103px){
+	.margin-left-40{
+		margin-left: 0px;
+	}
+	
+}
+
 .alternate-bg {
     background-color: #F3F3F3
 }
@@ -1100,7 +1107,7 @@ article.crew-member {
         transform: translate(-50%, -50%)
     }
 
-    article figure.article-overlay .overlay {
+    article figure.article-overlay .overlay{
         z-index: 99;
         width: 100%;
 		align-content: center
@@ -1116,11 +1123,11 @@ article.crew-member {
         justify-content: center;          
     }
 
-article figure.article-overlay .overlay .orange {background-color: rgba(212,137,54,0.7); }
-article figure.article-overlay .overlay .red {background-color: rgba(212,53,53,0.70); }
-article figure.article-overlay .overlay .green {background-color: rgba(65,196,76,0.70); }
-article figure.article-overlay .overlay .blue {background-color: rgba(53,86,212,0.70); }
-article figure.article-overlay .overlay .violet {background-color: rgba(212,53,137,0.70); }
+	article figure.article-overlay .overlay orange {background-color: rgba(212,137,54,0.7); }
+	article figure.article-overlay .overlay red {background-color: rgba(212,53,53,0.70); }
+	article figure.article-overlay .overlay green {background-color: rgba(65,196,76,0.70); }
+	article figure.article-overlay .overlay blue {background-color: rgba(53,86,212,0.70); }
+	article figure.article-overlay .overlay violet {background-color: rgba(212,53,137,0.70); }
 
     article figure.article-overlay .overlay a {
         width: 100%;
