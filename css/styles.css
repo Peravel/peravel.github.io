@@ -416,6 +416,7 @@ ul, ol {
 }
 
 .carousel-cell {
+	max-height: 880px;
     display: table;
     width: 100%;
     height: calc(100vh - 18.2em);
