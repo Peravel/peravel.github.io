@@ -2041,7 +2041,7 @@ footer .footer-nav {
 	opacity:0.6;
 	transition: all .2s ease;
 }
-	.DA:hover{
+	.Mail-about:hover{
 		opacity:1;
 	}
 
@@ -2053,7 +2053,7 @@ footer .footer-nav {
 	opacity:0.6;
 	transition: all .2s ease;
 }
-	.TW:hover{
+	.TW-about:hover{
 		opacity:1;
 	}
 
@@ -2065,7 +2065,7 @@ footer .footer-nav {
 	opacity:0.6;
 	transition: all .2s ease;
 }	
-	.IG:hover{
+	.IG-about:hover{
 		opacity:1;
 	}
 	
@@ -2077,7 +2077,7 @@ footer .footer-nav {
 	opacity:0.6;
 	transition: all .2s ease;
 }
-	.DA:hover{
+	.AS-about:hover{
 		opacity:1;
 	}
 	
@@ -2152,7 +2152,7 @@ footer .footer-nav {
 	opacity:0.6;
 	transition: all .2s ease;
 }
-	.DA:hover{
+	.AS:hover{
 		opacity:1;
 	}
 	
