@@ -252,6 +252,10 @@ a.text-link {
     padding: 40px 0
 }
 
+.has-pading-top-2px {
+	padding: 2px 0 0 0
+}
+
 .has-padding-exlow {
     padding: 20px 0
 }
@@ -416,7 +420,7 @@ ul, ol {
 }
 
 .carousel-cell {
-	max-height: 880px;
+	max-height: 900px;
     display: table;
     width: 100%;
     height: calc(100vh - 18.2em);
