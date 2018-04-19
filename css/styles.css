@@ -2034,8 +2034,7 @@ footer .footer-nav {
 -------------------------------------------------------------- */
 
 .IG-about{
-	width:28px;
-	height:28px;
+    border-bottom: 0px solid #2b2121;
     margin-left: 24px;
     position: relative;
 	opacity:0.6;
@@ -2046,8 +2045,7 @@ footer .footer-nav {
 	}
 	
 .TW-about{
-	width:28px;
-	height:28px;
+    border-bottom: 0px solid #2b2121;
     margin-left: -11px;
     position: relative;
 	opacity:0.6;
@@ -2058,8 +2056,7 @@ footer .footer-nav {
 	}
 
 .DA-about{
-	width:28px;
-	height:28px;
+    border-bottom: 0px solid #2b2121;
     margin-left: -44px;
     position: relative;
 	opacity:0.6;
@@ -2070,8 +2067,7 @@ footer .footer-nav {
 	}
 	
 .Mail-about{
-	width:28px;
-	height:28px;
+    border-bottom: 0px solid #2b2121;
     margin-left: -77px;
     position: relative;
 	opacity:0.6;
