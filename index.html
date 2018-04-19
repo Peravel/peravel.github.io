@@ -63,10 +63,10 @@
 		function yScroll() {
 			pagebottom = document.getElementById('pagebottom');
 			yPos = window.pageYOffset;
-			if (yPos < 1900) {
-				pagebottom.style.bottom = "-53px";
-			} else {
+			if (yPos < 1500) {
 				pagebottom.style.bottom = "0px";
+			} else {
+				pagebottom.style.bottom = "-53px";
 			}
 		}
 		window.addEventListener("scroll", yScroll);
