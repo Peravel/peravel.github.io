@@ -222,6 +222,8 @@ a.text-link {
     padding: 125px 0
 }
 
+.has-padding-allsides {padding: 5px 5px 5px 5px;}
+
 .has-padding-bottom {
 	padding-bottom: 125px
 }
@@ -416,7 +418,7 @@ ul, ol {
 .carousel-cell {
     display: table;
     width: 100%;
-    height: calc(100vh - 8.2em);
+    height: calc(100vh - 18.2em);
     margin-right: 10px;
     background-position: center;
     background-size: cover
@@ -1357,8 +1359,8 @@ article figure.article-overlay .overlay-v{
         }
 
             .latest-articles article.article-post figure figcaption p {
-                padding: 10px 5px 25px 5px;
-				text-align: right;
+                padding: 10px 0px 25px 20px;
+				text-align: justify;
                 color: #2B2121
             }
 
@@ -2397,7 +2399,7 @@ div.navbar-header {
    /* box-shadow: 0px 2px 22px 0px rgba(0,0,0,0.11); */
     background-color: #FEFEFE;
     z-index: 10000;
-	padding-bottom:67px;
+	padding-bottom:57px;
 }
 
 .navbar-nav li a {
@@ -2411,7 +2413,7 @@ div.navbar-header {
 }
 
 .nav li {
-    padding: 0px 22px;
+    padding: 0px 15px;
 	margin-top: 3px;
     -border-right: solid 1px #a29d9d;
 }
@@ -2463,11 +2465,11 @@ div.navbar-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 65px;
+    height: 55px;
 }
 
 .navbar-item-verticalCenter-fixed {
-    margin-top: 17px;
+    margin-top: 12px;
 }
 
 /*
