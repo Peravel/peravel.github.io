@@ -58,6 +58,20 @@
         });
     </script>
 
+	<script>
+		var pagebottom, yPos;
+		function yScroll() {
+			pagebottom = document.getElementById('pagebottom');
+			yPos = window.pageYOffset;
+			if (yPos < 2900) {
+				pagebottom.style.bottom = "-53px";
+			} else {
+				pagebottom.style.bottom = "0px";
+			}
+		}
+		window.addEventListener("scroll", yScroll);
+	</script>
+
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
  
 <script>   
@@ -100,10 +114,10 @@ RewriteRule ^(.*)\.html$ /$1 [R=301,L]
                     </ul>
                   <ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-middle">
                   		<li><a href="#top">News</a></li>
-                        <li><a href="#about">About</a></li>
-                   <!-- <li><a href="#webcomic">Webcomic</a></li> -->
-                        <li><a href="#articles">Blog</a></li>
                         <li><a href="#projects">Projects</a></li>
+                   <!-- <li><a href="#webcomic">Webcomic</a></li> -->
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#articles">Blog</a></li>
                    <!-- <li><a href="#contactMe">Contact</a></li> -->
                     </ul>
             </div><!-- /.navbar-collapse -->
@@ -521,17 +535,17 @@ END SECTION: Contact Me -->
 
 
     <!-- SECTION: Footer -->
-        <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row">
-		  <div class="footer-nav-wrapper alternate-bg">
+		    <div class="footer-nav-wrapper alternate-bg" id="pagebottom">
 				<div class="logo">
 <!--                  	<span class="IMP"><a href="impressum.html"><img src="img/IMP.png" alt="Impressum"></a></span> -->
                     <span class="AS"><a href="#top"><img src="img/da128d.png" alt="DeviantArt" width="28" height="28"> </a></span>
                     <span class="TW"><a href="https://twitter.com/Peravel_Art"><img src="img/tw128d.png" alt="Twitter" width="28" height="28"></a></span>
                     <span class="IG"><a href="#top"><img src="img/ig128d.png" alt="Instagram" width="28" height="28"></a></span>
                     <span class="scrollup"><a href="#top"><img src="img/arrow-up36x36.png" alt="PageUp" width="28" height="28"></a></span>
-   			</div>
-       	  </div>
+   				</div>
+       	    </div>
         </div>
     </div>
     <!-- END SECTION: Footer -->
