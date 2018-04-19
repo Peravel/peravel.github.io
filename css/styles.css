@@ -2622,3 +2622,25 @@ div.navbar-header {
 		width: 100%
 	}
 }
+
+/* --------------------------------------------------------------
+/* =ZOOM on HOVER
+-------------------------------------------------------------- */
+
+img.zoom {
+ transition: transform 0.8s;
+ -moz-transition: transform 0.8s;
+ -webkit-transition: transform 0.8s;
+ -o-transition: transform 0.8s;
+ -ms-transition: transform 0.8s;
+}
+img.zoom:hover {
+ cursor: zoom-in; 
+ cursor: -moz-zoom-in;
+ cursor: -webkit-zoom-in;
+ transform: scale(4.0, 4.0);
+ -moz-transform: scale(4.0, 4.0);
+ -webkit-transform: scale(4.0, 4.0);
+ -o-transform: scale(4.0, 4.0);
+ -ms-transform: scale(4.0, 4.0);
+}
