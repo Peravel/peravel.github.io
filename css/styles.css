@@ -1358,7 +1358,7 @@ article figure.article-overlay .overlay-v{
 
             .latest-articles article.article-post figure figcaption p {
                 padding: 10px 5px 25px 5px;
-				text-align: right;
+				text-align:justify;
                 color: #2B2121
             }
 
