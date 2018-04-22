@@ -252,8 +252,12 @@ a.text-link {
     padding: 40px 0
 }
 
-.has-pading-top-2px {
+.has-padding-top-2px {
 	padding: 2px 0 0 0
+}
+
+.has-padding-bottom-2px {
+	padding: 0 0 2px 0
 }
 
 .has-padding-exlow {
