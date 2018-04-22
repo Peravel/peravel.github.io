@@ -54,10 +54,6 @@ p {
     color: #414A52
 }
 
-margin-tastic {
-	margin:0 0 0 60px;
-}
-
 h1 {
     font-size: 45px;
     font-weight: 300;
@@ -290,6 +286,10 @@ a.text-link {
 
 .margin-left-40 {
 	margin-left: 40px;
+}
+
+.margin-tastic {
+	margin:0 0 0 60px;
 }
 
 @media  (max-width:1103px){
