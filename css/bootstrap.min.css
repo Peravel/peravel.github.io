@@ -1453,6 +1453,10 @@ pre code {
 	margin-left: -15px
 }
 
+	.row .marg1px {
+		margin-top: 1px
+	}
+
 .centered {
 	margin: auto;
 	width: inherit

@@ -1760,12 +1760,12 @@ figure.effect-selena {
     color: #aaa;
     border-bottom: solid 2px #aaa
 }
-	.btn.secondary:hover {
+	.freebies article.item h2:hover {
     color: #fff;
     border-color: #fff
     }
 
-    .btn.secondary:focus {
+    .freebies article.item h2:focus {
         color: #fff;
         background-color: rgba(170,170,170,0.8);;
         border-color: #aaaaaa
