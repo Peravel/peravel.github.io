@@ -152,6 +152,8 @@ h5 {
         background-color: rgba(170,170,170,0.8);;
         border-color: #aaaaaa
     }
+	
+	.btn.secondary.taller { transform: scaleY(1.1); }
 
 .btn.secondary-white {
     display: inline-block;
@@ -1765,12 +1767,6 @@ figure.effect-selena {
     border-color: #fff
     }
 
-    .freebies article.item h2:focus {
-        color: #fff;
-        background-color: rgba(170,170,170,0.8);;
-        border-color: #aaaaaa
-    }
-
 .freebies article.item img {
     position: absolute;
     top: 50%;
@@ -2668,4 +2664,9 @@ div.navbar-header {
  -webkit-transform: scale(4.0, 4.0);
  -o-transform: scale(4.0, 4.0);
  -ms-transform: scale(4.0, 4.0);
+}
+/* ------------------------------------------------ */
+
+.marg1px {
+	margin-top: 1px;
 }
