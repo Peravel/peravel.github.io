@@ -149,7 +149,7 @@ h5 {
 
     .btn.secondary:focus {
         color: #fff;
-        background-color: #aaaaaa;
+        background-color: rgba(170,170,170,0.8);;
         border-color: #aaaaaa
     }
 
@@ -1757,9 +1757,19 @@ figure.effect-selena {
     padding: 15px 30px 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #fff;
-    border-bottom: solid 2px #fff
+    color: #aaa;
+    border-bottom: solid 2px #aaa
 }
+	.btn.secondary:hover {
+    color: #fff;
+    border-color: #fff
+    }
+
+    .btn.secondary:focus {
+        color: #fff;
+        background-color: rgba(170,170,170,0.8);;
+        border-color: #aaaaaa
+    }
 
 .freebies article.item img {
     position: absolute;
@@ -2642,14 +2652,14 @@ div.navbar-header {
 /* =ZOOM on HOVER
 -------------------------------------------------------------- */
 
-img.zoom {
+.zoom {
  transition: transform 0.8s;
  -moz-transition: transform 0.8s;
  -webkit-transition: transform 0.8s;
  -o-transition: transform 0.8s;
  -ms-transition: transform 0.8s;
 }
-img.zoom:hover {
+.zoom:hover {
  cursor: zoom-in; 
  cursor: -moz-zoom-in;
  cursor: -webkit-zoom-in;
