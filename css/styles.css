@@ -183,6 +183,25 @@ h5 {
         border-color: #fff
     }
 
+.btn.tertiary {
+    display: inline-block;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1
+}
+
+    .btn.tertiary:focus {
+        color: #fff;
+        background-color: rgba(170,170,170,0.8);;
+        -border-color: #aaaaaa
+    }
+	
+
+
+
+
 .view-more {
     margin-top: 70px
 }
