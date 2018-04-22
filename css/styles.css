@@ -1780,7 +1780,7 @@ figure.effect-selena {
     -webkit-transition: opacity 300ms;
     transition: opacity 300ms;
     opacity: 0;
-    background-color: rgba(43,33,33,0.8)
+    background-color: rgba(43,33,33,0.3)
 }
 
 .freebies .overlayStayTuned {
