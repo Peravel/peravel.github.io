@@ -244,8 +244,8 @@ a.text-link {
     padding: 125px 0
 }
 
-.has-padding-bottom-65px {
-	padding: 0 0 65px 0
+.has-padding-top-65px {
+	padding: 65px 0 
 }
 
 .has-padding-allsides {padding: 2px 2px 2px 2px}
@@ -2083,11 +2083,20 @@ footer .footer-nav {
 -------------------------------------------------------------- */
 
 
+.PP-about{
+	width:150px;
+	height:200px;
+    border-bottom: 0px solid #2b2121;
+    margin-left: 60px;
+	opacity:1;
+	transition: all .2s ease;
+}
+
 .TW-about{
 	width:32px;
 	height:32px;
     border-bottom: 0px solid #2b2121;
-    margin-left: 53px;
+    margin-left: 60px;
 	opacity:0.6;
 	transition: all .2s ease;
 }
