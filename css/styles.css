@@ -2074,23 +2074,12 @@ footer .footer-nav {
 /* =Icons In About Section
 -------------------------------------------------------------- */
 
-.Mail-about{
-	width:32px;
-	height:32px;
-    border-bottom: 0px solid #2b2121;
-    margin-left: 60px;
-	opacity:0.6;
-	transition: all .2s ease;
-}
-	.Mail-about:hover{
-		opacity:1;
-	}
 
 .TW-about{
 	width:32px;
 	height:32px;
     border-bottom: 0px solid #2b2121;
-    margin-left: 7px;
+    margin-left: 53px;
 	opacity:0.6;
 	transition: all .2s ease;
 }
@@ -2107,6 +2096,30 @@ footer .footer-nav {
 	transition: all .2s ease;
 }	
 	.IG-about:hover{
+		opacity:1;
+	}
+	
+.IN-about{
+	width:32px;
+	height:32px;
+    border-bottom: 0px solid #2b2121;
+    margin-left: 7px;
+	opacity:0.6;
+	transition: all .2s ease;
+}	
+	.IN-about:hover{
+		opacity:1;
+	}
+	
+.Mail-about{
+	width:32px;
+	height:32px;
+    border-bottom: 0px solid #2b2121;
+    margin-left: 7px;
+	opacity:0.6;
+	transition: all .2s ease;
+}
+	.Mail-about:hover{
 		opacity:1;
 	}
 	
