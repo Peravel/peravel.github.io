@@ -2140,8 +2140,67 @@ footer .footer-nav {
 /* --------------------------------------------------------------
 /* =CSS scroll to top
 -------------------------------------------------------------- */
+	
+
+.TW{
+	width:32px;
+	height:32px;
+    border-bottom: 0px solid #2b2121;
+    left: 50vw;
+    margin-left: -11px -3px -16px -6px -32px;
+    position: absolute;
+	opacity:0.6;
+	transition: all .2s ease;
+}
+	.TW:hover{
+		opacity:1;
+	}
 
 
+.IG{
+	width:32px;
+	height:32px;
+    border-bottom: 0px solid #2b2121;
+    left: 50vw;
+    margin-left: -11px -3px -16px;
+    position: absolute;
+	opacity:0.6;
+	transition: all .2s ease;
+}	
+	.IG:hover{
+		opacity:1;
+	}
+	
+.IN{
+	width:32px;
+	height:32px;
+    border-bottom: 0px solid #2b2121;
+    left: 50vw;
+    margin-left: -11px +3px +16px;
+    position: absolute;
+	opacity:0.6;
+	transition: all .2s ease;
+}	
+	.IN:hover{
+		opacity:1;
+	}
+
+
+.MAIL{
+	width:32px;
+	height:32px;
+    border-bottom: 0px solid #2b2121;
+    left: 50vw;
+    margin-left: -11px +3px +16px +6px +32px;
+    position: absolute;
+	opacity:0.6;
+	transition: all .2s ease;
+}	
+	.MAIL:hover{
+		opacity:1;
+	}
+		
+	
 .scrollup{
 	width:32px;
 	height:32px;
@@ -2152,8 +2211,12 @@ footer .footer-nav {
 }	 
 	.scrollup:hover{
 		opacity:1;
-	}
+	}	
 	
+
+/* ------------------------------ OBSOLETE -------------------------------- */
+
+
 .FB{
 	width:32px;
 	height:32px;
@@ -2167,35 +2230,8 @@ footer .footer-nav {
 	.FB:hover{
 		opacity:1;
 	}
-
-.IG{
-	width:32px;
-	height:32px;
-    border-bottom: 0px solid #2b2121;
-    left: 50vw;
-    margin-left: 24px;
-    position: absolute;
-	opacity:0.6;
-	transition: all .2s ease;
-}	
-	.IG:hover{
-		opacity:1;
-	}
 	
-.TW{
-	width:32px;
-	height:32px;
-    border-bottom: 0px solid #2b2121;
-    left: 50vw;
-    margin-left: -11px;
-    position: absolute;
-	opacity:0.6;
-	transition: all .2s ease;
-}
-	.TW:hover{
-		opacity:1;
-	}
-
+	
 .AS{
 	width:32px;
 	height:32px;
@@ -2222,6 +2258,9 @@ footer .footer-nav {
 	.IMP:hover{
 		opacity:1;
 	}
+
+/* ----------------------------- OBSOLETE END ------------------------------- */
+
 	
 .scrollup-m{
 	visibility: visible;
