@@ -302,6 +302,10 @@ a.text-link {
     padding: 0 50px
 }
 
+.has-padding-leftonly-30px {
+    padding: 0 30px
+}
+
 .has-padding-tall {
     padding: 160px 0
 }
@@ -2147,7 +2151,7 @@ footer .footer-nav {
 	height:32px;
     border-bottom: 0px solid #2b2121;
     left: 50vw;
-    margin-left: -11px -3px -16px -6px -32px;
+    margin-left: -68px;
     position: absolute;
 	opacity:0.6;
 	transition: all .2s ease;
@@ -2162,7 +2166,7 @@ footer .footer-nav {
 	height:32px;
     border-bottom: 0px solid #2b2121;
     left: 50vw;
-    margin-left: -11px -3px -16px;
+    margin-left: -30px;
     position: absolute;
 	opacity:0.6;
 	transition: all .2s ease;
@@ -2176,7 +2180,7 @@ footer .footer-nav {
 	height:32px;
     border-bottom: 0px solid #2b2121;
     left: 50vw;
-    margin-left: -11px +3px +16px;
+    margin-left: 8px;
     position: absolute;
 	opacity:0.6;
 	transition: all .2s ease;
@@ -2191,7 +2195,7 @@ footer .footer-nav {
 	height:32px;
     border-bottom: 0px solid #2b2121;
     left: 50vw;
-    margin-left: -11px +3px +16px +6px +32px;
+    margin-left: 46px;
     position: absolute;
 	opacity:0.6;
 	transition: all .2s ease;
