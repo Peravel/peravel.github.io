@@ -254,6 +254,10 @@ a.text-link {
 	padding-bottom: 125px
 }
 
+.has-padding-bottom-25px {
+	padding-bottom: 25px
+}
+
 .has-padding-webb {
 	padding: 245px 0 245px 0
 }
