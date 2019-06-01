@@ -76,7 +76,7 @@ h3 {
 h4 {
     font-size: 15px;
     font-weight: 600;
-    margin: 7px 0 65px 60px;
+    margin: 7px 0 61px 60px;
     text-transform: uppercase
 }
 
@@ -245,7 +245,11 @@ a.text-link {
 }
 
 .has-padding-top-65px {
-	padding: 65px 0 
+	padding: 61px 0 
+}
+
+.has-padding-top-98px {
+	padding: 94px 0 
 }
 
 .has-padding-allsides {padding: 2px 2px 2px 2px}
