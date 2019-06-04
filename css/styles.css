@@ -1872,6 +1872,12 @@ figure.effect-selena {
     color: rgba(255,255,255,0.5)
 }
 
+.freebies figure figcaption .freebie-content .date_c {
+    font-size: 13px;
+    display: block;
+    color: rgba(0,0,0,0.5)
+}
+
 .freebies figure figcaption .like-share-wrapper {
     font-size: 13px;
     position: absolute;
