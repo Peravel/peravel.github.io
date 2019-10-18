@@ -2005,6 +2005,11 @@ section.get-started {
         content: ' ';
         background-image: url("../img/texture-shapes-bg.png")
     }
+	
+	section.get-started .altimg {
+		!background-image: url("../img/proj-singularity-dark.png")
+	
+	}
 
 footer p {
     font-size: 14px;
