@@ -272,6 +272,11 @@ a.text-link {
     padding: 125px 0
 }
 
+		.pad0{
+		padding: 0 0 0 0;
+		color: #fff;
+		}
+		
 		.pad1{
 		padding: 0 26px 0 0;
 		color: #fff;
@@ -1967,7 +1972,7 @@ section.get-started {
 
 
     section.get-started h2 {
-        font-size: 24px;
+        font-size: 28px;
         display: inline-block;
         padding: 10px 7px 0 7px;
         vertical-align: middle;
