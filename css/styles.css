@@ -1965,7 +1965,7 @@ figure.effect-selena {
 
 section.get-started {
     position: relative;
-    padding: 120px 0;
+    padding: 60px 0 40px 0;
     background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
     background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%)
 }
