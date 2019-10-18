@@ -272,6 +272,22 @@ a.text-link {
     padding: 125px 0
 }
 
+		.pad1{
+		padding: 0 135px 0 0;
+		}
+		
+		.pad2{
+		padding: 0 45px 0 0;
+		}
+		
+		.pad3{
+		padding: 0 0 0 45px;
+		}
+		
+		.pad4{
+		padding: 0 0 0 135px;
+		}
+
 .has-padding-top-61px {
 	padding: 61px 0 
 }
@@ -1968,23 +1984,8 @@ section.get-started {
 	
 	section.get-started .letter {
 		padding: 30px 7px 0 7px;
+		color: #fff
 	}
-	
-		.1{
-		margin: 0 135px 0 0;
-		}
-		
-		.2{
-		margin: 0 45px 0 0;
-		}
-		
-		.3{
-		margin: 0 0 0 45px;
-		}
-		
-		.4{
-		margin: 0 0 0 135px;
-		}
 
     section.get-started:before {
         position: absolute;
