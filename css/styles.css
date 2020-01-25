@@ -2205,7 +2205,7 @@ footer .footer-nav {
 	width:150px;
 	height:200px;
     border-bottom: 0px solid #2b2121;
-    margin-left: 60px;
+/*    margin-left: 60px;  */
 	opacity:1;
 	transition: all .2s ease;
 }
