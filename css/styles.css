@@ -298,8 +298,8 @@ a.text-link {
 		color: #fff;
 		}
 
-.has-padding-top-61px {
-	padding: 61px 0 
+.has-padding-top-9px {
+	padding: 9px 0 
 }
 
 .has-padding-top-94px {
@@ -329,11 +329,11 @@ a.text-link {
 */
 
 .has-padding-aboutme {
-    padding: 100px 0 10px 0
+    padding: 100px 0 0 0
 }
 
 .has-padding-atcl {
-	padding: 100px 0 60px 0;
+	padding: 40px 0 40px 0;
 }
 
 .has-padding-low {
@@ -365,7 +365,7 @@ a.text-link {
 }
 
 .has-padding-left-right-10px {
-	padding: 0 10px 94px 10px
+	padding: 0 10px 90px 10px
 }
 
 .has-padding-leftonly {
