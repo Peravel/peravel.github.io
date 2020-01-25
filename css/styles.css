@@ -1967,8 +1967,7 @@ figure.effect-selena {
 section.get-started {
     position: relative;
     padding: 60px 0 20px 0;
-	border-style: solid; 
-	border: medium;
+	border-bottom:solid;
 	border-color: #000;
 	background-color: rgba(0,0,0, .8);
 /*    background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
