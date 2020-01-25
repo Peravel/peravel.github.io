@@ -56,13 +56,13 @@ p {
 
 h1 {
     font-size: 45px;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 68px;
 	color: #bc4a3f
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 300;
     color: #bc4a3f
 }
@@ -71,7 +71,7 @@ h3 {
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 20px;
-    color: #8A9097
+    color: #bc4a3f
 }
 
 h4 {
