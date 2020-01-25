@@ -1418,17 +1418,12 @@ pre code {
 }
 @media (min-width:1103px) {
 	.container {
-		width: 750px
-	}
-}
-@media (min-width:1102px) {
-	.container {
-		width: 970px
+		width: 770px
 	}
 }
 @media (min-width:1200px) {
 	.container {
-		width: 1170px
+		width: 970px
 	}
 }
 .container-fluid {
