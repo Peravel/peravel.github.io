@@ -51,20 +51,20 @@ p {
     font-size: 15px;
     line-height: 27px;
     padding-bottom: 15px;
-    color: #b83e32
+    color: #a93528
 }
 
 h1 {
     font-size: 45px;
     font-weight: 300;
     line-height: 68px;
-	color: #b83e32
+	color: #bc4a3f
 }
 
 h2 {
     font-size: 36px;
     font-weight: 300;
-    color: #fff
+    color: #bc4a3f
 }
 
 h3 {
@@ -400,7 +400,7 @@ a.text-link {
 }
 
 .alternate-bg {
-    background-color: #b83e32
+    background-color: #bc4a3f
 }
 
 .alternate-bg-a {
