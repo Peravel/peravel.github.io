@@ -1986,10 +1986,10 @@ section.get-started {
     padding: 45px 0 0px 0;
 	border: solid;
 	border-color: #fff;
-	border-width: thick;
+	/* border-width: thick; */
 	background-color: rgba(188, 74, 63, 1);
 /*    background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%); */
-    background-image: linear-gradient(225deg, rgba(188, 74, 63, .8) 10%,rgba(81,204,220,0.8) 100%))
+    background-image: linear-gradient(225deg, rgba(188, 74, 63, .8) 10%,rgba(188, 74, 63, .8) 100%))
 }
 
 
@@ -2033,7 +2033,7 @@ section.get-started-2 {
     position: relative;
     padding: 45px 0 0px 0;
 	border: solid;
-	border-width: thick;
+	/* border-width: thick; */
 	border-color: #fff;
     background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
     background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%)
