@@ -2086,6 +2086,53 @@ section.get-started-2 {
 		background-image: url("../img/proj-singularity-dark.png")
 
     }
+	
+	section.get-started-3 {
+    position: relative;
+    padding: 45px 0 0px 0;
+	border: solid;
+	/* border-width: thick; */
+	border-color: #fff;
+    background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
+    background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%)
+}
+
+
+    section.get-started-3 h2 {
+        font-size: 28px;
+        display: inline-block;
+        padding: 10px 7px 0 7px;
+        vertical-align: middle;
+        color: #fff
+    }
+
+    section.get-started-3 a {
+        font-weight: bold;
+        margin-bottom: 5px;
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
+        color: #fff;
+    }
+
+        section.get-started-3 a:hover {
+            border-bottom-color: rgba(255,255,255,0)
+        }
+	
+	section.get-started-3 .letter {
+		padding: 30px 7px 0 7px;
+		color: #fff
+	}
+
+    section.get-started-3:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+		background-image: url("../img/gd-portfolio.png")
+
+    }
 
 footer p {
     font-size: 14px;
