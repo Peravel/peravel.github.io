@@ -316,6 +316,10 @@ a.text-link {
 	padding-bottom: 25px
 }
 
+.has-padding-pfp {
+padding: 210px 0px 210px 0px;
+}
+
 .has-padding-webb {
 	padding: 245px 0 245px 0
 }
@@ -2286,7 +2290,8 @@ footer .footer-nav {
 .PP-about{
 	width:150px;
 	height:200px;
-    border-bottom: 0px solid #2b2121;
+    border: solid;
+	border-color: #bc4a3f;
 /*    margin-left: 60px;  */
 	opacity:1;
 	transition: all .2s ease;
