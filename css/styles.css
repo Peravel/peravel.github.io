@@ -1981,6 +1981,7 @@ figure.effect-selena {
 	padding: 10px 0 50px 0
 }
 
+/*
 section.collective:before {
         position: absolute;
         top: 0;
@@ -1989,7 +1990,7 @@ section.collective:before {
         height: 100%;
         content: ' ';
         background-image: url("../img/texture-shapes-bg-b.png")
-}
+} */
 
 section.get-started {
     position: relative;
@@ -2035,7 +2036,7 @@ section.get-started {
         width: 100%;
         height: 100%;
         content: ' ';
-        /* background-image: url("../img/texture-shapes-bg.png") */
+        background-image: url("../img/texture-shapes-bg.png")
     }
 
 
