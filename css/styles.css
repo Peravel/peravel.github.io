@@ -278,9 +278,17 @@ a.text-link {
 		color: #fff;
 		}
 		
+		.pad0:hover{
+		color: #bc4a3f;
+		}
+		
 		.pad1{
 		padding: 0 26px 0 0;
 		color: #fff;
+		}
+		
+		.pad1:hover{
+		color: #bc4a3f;
 		}
 		
 		.pad2{
@@ -296,6 +304,10 @@ a.text-link {
 		.pad4{
 		padding: 0 0 0 26px;
 		color: #fff;
+		}
+		
+		.pad4:hover{
+		color: #bc4a3f;
 		}
 
 .has-padding-top-9px {
@@ -1431,12 +1443,6 @@ article figure.article-overlay .overlay-v{
     padding: 0;
     -webkit-transition: all 300ms;
     transition: all 300ms
-}
-
-.latest-articles img:hover {
-	color: #bc4a3f;
-	-webkit-transition: all 200ms;
-	transition: all 200ms
 }
 
 .latest-articles figcaption h2 {
