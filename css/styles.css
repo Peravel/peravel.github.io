@@ -1512,7 +1512,7 @@ article figure.article-overlay .overlay-v{
             .latest-articles article.article-post figure figcaption p {
                 /*padding: 10px 0px 25px 20px;*/
 				text-align: center;
-                color: #2B2121
+                color: #bc4a3f
             }
 
             .latest-articles article.article-post figure figcaption a {
@@ -1541,7 +1541,7 @@ article figure.article-overlay .overlay-v{
         font-weight: 500;
         line-height: 30px;
         text-transform: uppercase;
-        color: #2B2121
+        color: #fff
     }
 
 .latest-articles article.article-post-l {
