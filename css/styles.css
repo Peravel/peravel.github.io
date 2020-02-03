@@ -654,18 +654,23 @@ ul, ol {
 }
 
 .wp1 {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s
+}
+
+.wp2 {
     -webkit-animation-delay: .5s;
     animation-delay: .5s
 }
 
-.wp2 {
+.wp3 {
     -webkit-animation-delay: .7s;
     animation-delay: .7s
 }
 
-.wp3 {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s
+.wp4 {
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s
 }
 
 
