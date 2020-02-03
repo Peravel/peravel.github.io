@@ -2015,6 +2015,15 @@ section.collective:before {
 
 /* _____ red hex code: #bc4a3f _____ */
 
+
+.HOV{
+	opacity: 1;	
+}
+
+	HOV:hover {
+		color: #bc4a3f;	
+	}
+
 section.get-started {
     position: relative;
     padding: 45px 0 0px 0;
