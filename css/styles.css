@@ -2020,7 +2020,7 @@ section.collective:before {
 	opacity: 1;	
 }
 
-	HOV:hover {
+	.HOV:hover {
 		color: #bc4a3f;	
 	}
 
