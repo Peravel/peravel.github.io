@@ -2022,6 +2022,7 @@ section.collective:before {
 
 	.HOV:hover {
 		color: #bc4a3f;	
+		opacity: 0.6;
 	}
 
 section.get-started {
