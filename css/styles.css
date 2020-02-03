@@ -2021,16 +2021,17 @@ section.collective:before {
 }
 
 	.HOV:hover {
-		color: #bc4a3f;	
+		color: #bc4a3f !important;	
 		opacity: 0.5;
 		transition: all 150ms;
+		scale: 105%;
 	}
 
 section.get-started {
     position: relative;
     padding: 45px 0 0px 0;
 	border: solid;
-	border-color: #fff;
+	border-color: #bc4a3f;
 	/* border-width: thick; */
 /*	background-color: rgba(188, 74, 63, 1); 
     background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%); 
@@ -2040,7 +2041,6 @@ section.get-started {
 	section.get-started:hover {
 		border-color: #bc4a3f;
 		transition: all 250ms;
-		border: medium;
 	}
 
     section.get-started h2 {
@@ -2080,7 +2080,7 @@ section.get-started-2 {
     padding: 45px 0 0px 0;
 	border: solid;
 	/* border-width: thick; */
-	border-color: #fff;
+	border-color: #bc4a3f;
   /*  background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
     background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%) */
 }
@@ -2127,7 +2127,7 @@ section.get-started-2 {
     padding: 45px 0 0px 0;
 	border: solid;
 	/* border-width: thick; */
-	border-color: #fff;
+	border-color: #bc4a3f;
  /*   background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
     background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%) */
 }
