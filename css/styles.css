@@ -2027,7 +2027,8 @@ section.get-started {
 }
 
 	section.get-started:hover {
-		border-color: #bc4a3f
+		border-color: #bc4a3f;
+		transition: all 250ms;
 	}
 
     section.get-started h2 {
