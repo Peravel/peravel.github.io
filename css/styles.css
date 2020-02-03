@@ -345,7 +345,7 @@ padding: 210px 0px 210px 0px;
 */
 
 .has-padding-aboutme {
-    padding: 100px 0 20px 0
+    padding: 45vh 0 20px 0
 }
 
 .has-padding-atcl {
@@ -2018,7 +2018,7 @@ section.collective:before {
 /* _____ red hex code: #bc4a3f _____ */
 
 
-.HOV{
+.HOV {
 	opacity: 1;	
 }
 
@@ -2026,7 +2026,16 @@ section.collective:before {
 		color: #bc4a3f !important;	
 		transition: all 150ms;
 		scale: 105%;
-		background-image:
+	}
+	
+.HOV-scroll {
+	opacity: 0.6;
+}
+
+	.HOV-scroll:hover {
+		opacity: 1;
+		scale: (2,2);	
+		transition: all .2s ease;
 	}
 
 section.get-started {
