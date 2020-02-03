@@ -2040,6 +2040,7 @@ section.get-started {
 	section.get-started:hover {
 		border-color: #bc4a3f;
 		transition: all 250ms;
+		border: medium;
 	}
 
     section.get-started h2 {
