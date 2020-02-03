@@ -2039,7 +2039,7 @@ section.collective:before {
 
 	.HOV-scroll:hover {
 		opacity: 1;
-		scale: (2,2);	
+		scale: 150%;	
 	}
 
 section.get-started {
