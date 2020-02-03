@@ -2034,12 +2034,12 @@ section.collective:before {
 	
 .HOV-scroll {
 	opacity: 0.6;
+	transition: all .2s ease;
 }
 
 	.HOV-scroll:hover {
 		opacity: 1;
 		scale: (2,2);	
-		transition: all .2s ease;
 	}
 
 section.get-started {
