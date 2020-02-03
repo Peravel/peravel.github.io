@@ -2085,6 +2085,10 @@ section.get-started-2 {
         color: #fff
     }
 
+	        section.get-started-2 h2:hover {
+            border-color: #bc4a3f
+        }
+
     section.get-started-2 a {
         font-weight: bold;
         margin-bottom: 5px;
@@ -2094,7 +2098,7 @@ section.get-started-2 {
     }
 
         section.get-started-2 a:hover {
-            border-bottom-color: rgba(255,255,255,0)
+            border-color: #bc4a3f
         }
 	
 	section.get-started-2 .letter {
@@ -2141,7 +2145,7 @@ section.get-started-2 {
     }
 
         section.get-started-3 a:hover {
-            border-bottom-color: rgba(255,255,255,0)
+            border-color: #bc4a3f
         }
 	
 	section.get-started-3 .letter {
