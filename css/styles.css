@@ -440,7 +440,13 @@ section.latest-articles {
         width: 100%;
         height: 100%;
         content: ' ';
-        background-image: url("../img/texture-shapes-bg.png")
+        background-image: url("../img/texture-shapes-bg.png");
+		border-top: solid;
+		border-bottom: solid;
+		border-top-color: #bc4a3f;
+		border-bottom-color: #bc4a3f;
+		border-top-width: medium;
+		border-bottom-width: medium;
     }
 
 
