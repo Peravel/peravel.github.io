@@ -54,6 +54,14 @@ p {
 /*    color: #a93528	*/
 }
 
+	p.right {
+		text-align: right;	
+	}
+
+	p.justify {
+		text-align: justify;	
+	}
+
 h1 {
     font-size: 42px;
     font-weight: 600;
@@ -446,7 +454,7 @@ section.latest-articles {
 		border-top-color: #bc4a3f;
 		border-bottom-color: #bc4a3f;
 		border-top-width: medium;
-		border-bottom-width: medium;
+		order-bottom-width: medium;
     }
 
 
