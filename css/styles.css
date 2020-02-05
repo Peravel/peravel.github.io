@@ -439,8 +439,17 @@ section.name {
 	background-color: rgba(25,25,25, .8);
 }
 
+/* LOGO IMAGE POS FIXED */
+/* BG IMAGE OF THIS SECTION POS ABSOLUTE CAN BE SCROLLED AWAY */
+
 	section.name:before {
-		background-image:	url("../img/feuerfee.png");
+		background-image:	url("../img/section-name-bg.png");
+		position: absolute;
+		bottom: 0px;
+		right: -10vw;
+		width: 100%;
+		height: 100%;
+		content: ' ';
 	}
 
 section.latest-articles {
