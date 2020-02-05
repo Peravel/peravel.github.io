@@ -435,6 +435,10 @@ padding: 210px 0px 210px 0px;
     background-color: #bc4a3f
 }
 
+section.name:before {
+	background-image:	url("../img/feuerfee.png");
+}
+
 section.latest-articles {
     position: relative;
 	background-color: rgba(25,25,25, .8);
