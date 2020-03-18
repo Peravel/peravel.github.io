@@ -531,12 +531,12 @@ a {
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
     transition-duration: 200ms;
-    color: #2B2121;
+    color: #fff;
 }
 
     a:hover {
         text-decoration: none;
-		color: grey;
+		color: #bc4a3f;
     }
 
 .hover-color {color: grey;}
