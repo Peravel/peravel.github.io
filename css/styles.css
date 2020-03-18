@@ -1149,8 +1149,23 @@ div.mouse {
         background: #fff
     }
 
-section.collective {
+section.about {
 	background-color: #4F395D;	
+}
+
+section.about p {
+	color: #fff;
+}
+
+.about .video-player {
+    display: inline-block;
+    margin: 25px 0 50px -100px;
+    padding: 10px;
+    background-color: #F4F6F9
+}
+
+section.collective {
+	background-color: #fff;	
 }
 
 .collective p {
@@ -1158,12 +1173,7 @@ section.collective {
 	padding-top: 0 px;
 }
 
-.collective .video-player {
-    display: inline-block;
-    margin: 25px 0 50px -100px;
-    padding: 10px;
-    background-color: #F4F6F9
-}
+
 
 .stats {
     background: url("../img/my-webcomicv4s.png") no-repeat center center;
