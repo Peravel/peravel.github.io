@@ -998,7 +998,8 @@ header.hero {
     width: 1370px;
     height: calc(100vh - 8.2em);
     max-height: 560px;
-    padding: 0px
+    padding: 0px;
+	margin: auto;
 }
 
     header.hero .hero-bg {
