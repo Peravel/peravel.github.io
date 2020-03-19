@@ -2092,6 +2092,10 @@ section.collective:before {
 		scale: 150%;	
 	}
 
+section.vid-1 {
+	padding: 0 0 0 80px;
+}
+
 section.get-started {
     position: relative;
     padding: 45px 0 0px 0;
