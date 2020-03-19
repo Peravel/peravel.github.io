@@ -2094,6 +2094,7 @@ section.collective:before {
 
 section.vid-1 {
 	padding: 0 0 0 80px;
+	margin: auto;
 }
 
 section.get-started {
@@ -2406,7 +2407,7 @@ footer .footer-nav {
 }
 
 .pfp {
-	padding: 3px;
+	padding: 0px;
 }
 
 .TW-about{
