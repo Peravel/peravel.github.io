@@ -1150,7 +1150,7 @@ div.mouse {
     }
 
 section.about {
-	background-color: #4F395D;	
+	background-color: #ffaf97;	
 }
 
 section.about p {
@@ -2083,7 +2083,7 @@ section.collective:before {
 	}
 	
 .HOV-scroll {
-	opacity: 0.6;
+	opacity: 0.7;
 	transition: all .2s ease;
 }
 
@@ -2395,9 +2395,14 @@ footer .footer-nav {
 	height:200px;
     border: solid;
 	border-color: #bc4a3f;
+	border-width: 4px;
 /*    margin-left: 60px;  */
 	opacity:1;
 	transition: all .2s ease;
+}
+
+.pfp {
+	padding: 3px;
 }
 
 .TW-about{
