@@ -2093,7 +2093,7 @@ section.collective:before {
 	}
 
 section.vid-1 {
-	padding: 60px 0 0 0;
+	/*padding: 60px 0 0 0;	*/
 	margin: auto;
 	background-color: #4F395D;
 }
