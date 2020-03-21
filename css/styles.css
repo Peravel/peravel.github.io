@@ -365,7 +365,7 @@ padding: 210px 0px 210px 0px;
 }
 
 .has-padding-atcl {
-	padding: 40px 0 120px 0;
+	padding: 76px 0 120px 0;
 }
 
 .has-padding-low {
@@ -2093,8 +2093,9 @@ section.collective:before {
 	}
 
 section.vid-1 {
-	padding: 0 0 0 80px;
+	padding: 60px 0 0 0;
 	margin: auto;
+	background-color: #4F395D;
 }
 
 section.get-started {
