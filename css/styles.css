@@ -443,7 +443,7 @@ section.name {
 /* BG IMAGE OF THIS SECTION POS ABSOLUTE CAN BE SCROLLED AWAY */
 
 	section.name:before {
-/*		background-image:	url("../img/section-name-bg.png"); */
+		background-image:	url("../img/salmoncircle.png"); 
 		position: absolute;
 		bottom: 0px;
 		right: -10vw;
