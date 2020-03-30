@@ -2098,6 +2098,11 @@ section.vid-1 {
 	background-color: #FFAF97;
 }
 
+
+horizontal-correction {
+	padding: 0 74px 0 0;
+}
+
 section.get-started {
     position: relative;
     padding: 45px 0 0px 0;
@@ -2241,10 +2246,6 @@ section.get-started-2 {
 		padding: 30px 0 0 0;
 		color: #fff
 	}
-	
-		section.get-started-3 .letter .vertical-padding {
-			padding: 0 74px 0 0;
-		}
 
     section.get-started-3:before {
         position: absolute;
