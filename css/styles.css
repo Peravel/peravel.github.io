@@ -1594,7 +1594,7 @@ article figure.article-overlay .overlay-v{
       /*  text-transform: uppercase;  */
         color: #fff;
 		text-align: right;
-		padding: 75px 160px 0 0;
+		padding: 0 160px 0 0;
     }
 
 .latest-articles article.article-post-l {
