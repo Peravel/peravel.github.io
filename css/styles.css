@@ -443,7 +443,7 @@ section.name {
 /* BG IMAGE OF THIS SECTION POS ABSOLUTE CAN BE SCROLLED AWAY */
 
 	section.name:before {
-		background-image:	url("../img/salmoncircle.png"); 
+		/*	background-image:	url("../img/salmoncircle.png"); 	*/
 		background-repeat: no-repeat;
 		position: absolute;
 		bottom: 0px;
@@ -2259,6 +2259,19 @@ section.get-started-2 {
 
     }
 
+section.true-banner-1 {}
+
+	section.true-banner-1:before {
+		position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+		background-image: url("../img/banner/1_Portfolio.jpg")
+	}
+
+
 footer p {
     font-size: 14px;
     color: #fff
@@ -2413,7 +2426,7 @@ footer .footer-nav {
 	height:200px;
     border: solid;
 	border-color: #bc4a3f;
-	border-width: 4px;
+	border-width: 7px;
 /*    margin-left: 60px;  */
 	opacity:1;
 	transition: all .2s ease;
