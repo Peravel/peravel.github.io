@@ -1594,7 +1594,7 @@ article figure.article-overlay .overlay-v{
       /*  text-transform: uppercase;  */
         color: #fff;
 		text-align: right;
-		padding: 0 160px 0 0;
+		padding: 85px 160px 0 0;
     }
 
 .latest-articles article.article-post-l {
@@ -2270,7 +2270,9 @@ section.true-banner-1 {}
         width: 100%;
         height: 100%;
         content: ' ';
-		/* background-image: url("../img/banner/1_Portfolio.jpg") */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("../img/banner/1_Portfolio.jpg");
 	}
 
 	section.true-banner-1 .letter {
