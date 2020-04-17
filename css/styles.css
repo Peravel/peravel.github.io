@@ -2080,11 +2080,11 @@ section.collective:before {
 
 
 .mail-hover {
-	background-image: url(../img/icons/mail-V.png)
+	background-image: url("../img/icons/mail-V.png")
 }
 
 	.mail-hover:hover {
-		background-image: url(../img/icons/mail.png);
+		background-image: url("../img/icons/mail.png");
 		transition: all 150ms;		
 	}
 
