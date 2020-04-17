@@ -72,7 +72,7 @@ h1 {
 h2 {
     font-size: 20px;
     font-weight: 400;
-    color: #4e385c /*#bc4a3f*/
+    color: #bc4a3f
 }
 
 h3 {
@@ -2113,11 +2113,11 @@ section.icon-hub {
 }
 
 	section.icon-hub h2{
-        font-size: 22px;
+        font-size: 20px;
         display: inline-block;
         padding: 0 0 40px 0;
         vertical-align: middle;
-        color: #4e385c;
+        color: bc4a3f
 	}
 
 	section.get-started .icon-bar {
