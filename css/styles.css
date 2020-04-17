@@ -2079,6 +2079,15 @@ section.collective:before {
 /* _____ red hex code: #bc4a3f _____ */
 
 
+.mail-hover {
+	background-image: url(../img/icons/mail-V.png)
+}
+
+	.mail-hover:hover {
+		background-image: url(../img/icons/mail.png);
+		transition: all 150ms;		
+	}
+
 .HOV {
 	opacity: 1;	
 }
