@@ -285,6 +285,10 @@ a.text-link {
 	padding: 95px 0 0 0;	
 }
 
+.has-padding-BuJi-icon {
+	padding: 90px 0 0 0;	
+}
+
 		.pad0{
 		padding: 0 0 0 0;
 		color: #fff;
@@ -2110,13 +2114,14 @@ section.collective:before {
 
 .HOV-text {
 	opacity: 0;	
+	height: 100%
 }
 
 	.HOV-text:hover {	
-		transition: all 150ms;
+		transition: all 350ms;
 		opacity: 1;	
 		scale: 250%;
-		
+		transition-timing-function: ease;		
 	}
 
 .HOV {
@@ -2127,6 +2132,7 @@ section.collective:before {
 		color: #bc4a3f !important;	
 		transition: all 150ms;
 		scale: 125%;
+
 	}
 	
 .HOV-scroll {
