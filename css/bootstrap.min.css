@@ -1433,6 +1433,18 @@ pre code {
 		width: 970px
 	}
 }
+
+@media (min-width:1103px) {
+	.container-no-margin {
+		width: 970px
+	}
+}
+@media (min-width:1200px) {
+	.container-no-margin {
+		width: 970px
+	}
+}
+
 .container-fluid {
 	width:100%;
 	padding-right: 15px;
