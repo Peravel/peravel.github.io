@@ -1533,8 +1533,8 @@ article figure.article-overlay .overlay-v{
     .latest-articles article.article-post .article-image {
         position: relative;
         overflow: hidden;
-        height: 181px;
-        max-height: 250px;
+        height: 223px;
+        max-height: 223px;
         background-color: #fff;
         background-repeat: no-repeat;
         background-position: center;
@@ -1592,13 +1592,13 @@ article figure.article-overlay .overlay-v{
         }
 
     .latest-articles article.article-post h2 {
-        font-size: 26px;
+        font-size: 20px;
         font-weight: 500;
         line-height: 30px;
       /*  text-transform: uppercase;  */
         color: #fff;
-		text-align: right;
-		padding: 85px 160px 0 0;
+		text-align: center;
+		/* padding: 85px 160px 0 0;	*/
     }
 
 .latest-articles article.article-post-l {
@@ -1649,9 +1649,9 @@ article figure.article-overlay .overlay-v{
     content: '';
     -webkit-transition: background-color 300ms;
     transition: background-color 300ms;
-    background-color: rgba(43, 33, 33, 0.3);
+/*    background-color: rgba(43, 33, 33, 0.3);
 	border: solid;
-	border-color: #bc4a3f;
+	border-color: #bc4a3f;	*/
 }
 
 .latest-articles select#inputArticle-Sort {
@@ -2086,6 +2086,16 @@ section.collective:before {
 	.mail-hover:hover {
 		background-image: url("../img/icons/mail.png");
 		transition: all 150ms;		
+	}
+
+.HOV-text {
+	opacity: 0;	
+}
+
+	.HOV-text:hover {	
+		transition: all 150ms;
+		opacity: 1;	
+		scale: 125%;
 	}
 
 .HOV {
