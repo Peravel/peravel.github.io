@@ -389,7 +389,7 @@ padding: 209px 0px 211px 0px;
 }
 
 .has-padding-exlow {
-    padding: 20px 0
+    padding: 0 0 60px 0
 }
 
 .has-padding-contact1 {
@@ -487,6 +487,9 @@ section.latest-articles {
 		order-bottom-width: medium; */
     }
 
+	section.latest-articles .h2 {
+		color: #fff
+	}
 
 .alternate-bg-a {
     background-color: rgba(169, 053, 040, 0.9)
