@@ -281,6 +281,10 @@ a.text-link {
     padding: 125px 0
 }
 
+.has-padding-GDP-icon {
+	padding: 95px 0 0 0;	
+}
+
 		.pad0{
 		padding: 0 0 0 0;
 		color: #fff;
@@ -1599,7 +1603,7 @@ article figure.article-overlay .overlay-v{
         color: #fff;
 		text-align: center;
 		height: 100%;
-		padding: 95px 0 0 0;
+		padding: 95px 0 0 0;	
     }
 
 .latest-articles article.article-post-l {
