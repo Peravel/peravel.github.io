@@ -2124,7 +2124,7 @@ section.collective:before {
 	.HOV-text:hover {	
 		transition: all 350ms;
 		opacity: 1;	
-		scale: 250%;
+		scale: 150%;
 		transition-timing-function: ease;		
 	}
 
