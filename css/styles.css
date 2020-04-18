@@ -2109,13 +2109,14 @@ section.collective:before {
 	}
 
 .HOV-text {
-	opacity: 1;	
+	opacity: 0;	
 }
 
 	.HOV-text:hover {	
 		transition: all 150ms;
 		opacity: 1;	
-		scale: 125%;
+		scale: 250%;
+		
 	}
 
 .HOV {
