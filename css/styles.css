@@ -436,7 +436,7 @@ padding: 209px 0px 211px 0px;
 }
 
 .alternate-bg {
-    background-color: #bc4a3f
+    background-color: #ffaf97
 }
 
 section.name {
@@ -459,7 +459,7 @@ section.name {
 
 section.latest-articles {
     position: relative;
-	background-color:  #fff/* rgba(25,25,25, .8)*/;
+/*	background-color:  #fff/* rgba(25,25,25, .8)*/;
 /*    background-image: -webkit-linear-gradient(225deg, #70f6ea 0%, #51ccdc 100%);
     background-image: linear-gradient(225deg, #70f6ea 0%,#51ccdc 100%)	*/
 }
