@@ -2311,6 +2311,12 @@ section.true-banner-1 {}
 	section.true-banner-1 .letter {
 			padding: 30px 7px 0 7px;
 			color: #fff
+	}
+
+		section.true-banner-1 .letter .h2{
+				font-size: 20px;
+				font-weight: 400;
+				color: #bc4a3f
 		}
 
 footer p {
