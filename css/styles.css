@@ -1240,6 +1240,14 @@ section.collective {
 	float: right;
 }
 
+.is-white {
+	color: #fff
+}
+
+.uppercase {
+	text-transform:uppercase
+}
+
 .crew {
 	padding-top: 130px
 }
