@@ -1673,8 +1673,8 @@ article figure.article-overlay .overlay-v{
     content: '';
     -webkit-transition: background-color 300ms;
     transition: background-color 300ms;
-/*    background-color: rgba(43, 33, 33, 0.3);
-	border: solid;
+    background-color: rgba(43, 33, 33, 0.3);
+/*	border: solid;
 	border-color: #bc4a3f;	*/
 }
 
