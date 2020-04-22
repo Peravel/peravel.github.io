@@ -1054,14 +1054,14 @@ ul, ol {
 }
 
 #news>:first-child:before {
-    bottom: 40px;
-    right: -20px;     
+    bottom: -30px;
+    right: -30px;     
     border-width: 0 7px 7px 0
 }
 
 #news>:first-child:after {
-    bottom: 40px;
-    left: -20px;
+    bottom: -30px;
+    left: -30px;
     border-width: 0 0 7px 7px
 }
 
