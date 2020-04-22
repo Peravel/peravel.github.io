@@ -1069,11 +1069,18 @@ ul, ol {
 header.hero {
     position: relative;
     display: table;
-    width: 1270px;
+    width: 1070px;
     height: calc(100vh - 8.2em);
     max-height: 560px;
     padding: 40px;
 	margin: auto;
+}
+
+@media  (max-width:1123px){
+	header.hero{
+		width: 95wv;
+	}
+	
 }
 
     header.hero .hero-bg {
