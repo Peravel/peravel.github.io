@@ -635,11 +635,11 @@ ul, ol {
     border-radius: 8px;
 }
 
-
 .carousel-cell {
+	max-height: 500px;
     display: table;
     width: 100%;
-    height: calc(100vh - 8.2em);
+    height: 500px;
     margin-right: 10px;
     background-position: center;
     background-size: cover
@@ -648,10 +648,23 @@ ul, ol {
 .carousel-cellB {
     display: table;
     width: 100%;
-    height: calc(40vh - 8.2em);
+    height: 500px;
     margin-right: 10px;
     background-position: center;
     background-size: cover
+}
+
+.carousel-cellC {
+	margin-top: 180px;
+	margin-bottom: 180px;
+    display: table;
+    width: 98%;
+	max-width: 1320px;
+	height: 500px;
+    margin-right: 200px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size:contain;
 }
 
 .flickity-prev-next-button {
@@ -672,19 +685,48 @@ ul, ol {
     text-align: center
 }
 
-.flickity-page-dots .dot {
-    display: block;
-    width: 12px;
-    height: 12px;
-    margin: 0 4px 20px;
-    opacity: 1;
-    border: 2px solid white;
-    background: transparent
+    .flickity-page-dots .dot {
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin: 0 4px 20px;
+        opacity: 1;
+        border: 2px solid white;
+        background: transparent
+    }
+
+        .flickity-page-dots .dot.is-selected {
+            background: white
+        }
+
+
+.flickity-page-dotsC {
+    line-height: 1;
+    position: fixed;
+    top: auto;
+    right: 50%;
+    bottom: 10%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transform: translateY(-50%);
+    text-align: center
 }
 
-.flickity-page-dots .dot.is-selected {
-    background: white
-}
+    .flickity-page-dotsC .dot {
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin: 0 4px 20px;
+        opacity: 1;
+        border: 2px solid white;
+        background: transparent
+    }
+
+        .flickity-page-dotsC .dot.is-selected {
+            background: white
+        }
 
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .wp10 {
     visibility: hidden
