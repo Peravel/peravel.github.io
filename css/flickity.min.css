@@ -12,7 +12,7 @@ http://flickity.metafizzy.co
 .flickity-viewport {
 	overflow: hidden;
 	position: relative;
-	height: 500px
+	height: 50%
 }
 
 .flickity-slider {
@@ -156,7 +156,7 @@ http://flickity.metafizzy.co
 .flickity-viewport {
 	overflow: hidden;
 	position: relative;
-	height: 500px
+	height: 50%
 }
 
 .flickity-slider {
