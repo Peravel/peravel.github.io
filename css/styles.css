@@ -1029,7 +1029,41 @@ ul, ol {
     z-index: 999
 }
 
+#news:before, 
+#news:after, 
+#news>:last-child:before, 
+#news>:last-child:after {
+    position: absolute;
+    width: 60px; 
+    height: 50px;
+    border-color: #4e385c; 
+    border-style: solid;
+    content: ' ';
+}
 
+#news:before {
+    top: 10px;
+    left: 10px;
+    border-width: 7px 0 0 7px
+}
+
+#news:after {
+    top: 10px;
+    right: 10px;
+    border-width: 7px 7px 0 0
+}
+
+#news>:last-child:before {
+    bottom: 10px;
+    right: 10px;     
+    border-width: 0 7px 7px 0
+}
+
+#news>:last-child:after {
+    bottom: 10px;
+    left: 10px;
+    border-width: 0 0 7px 7px
+}
 
 
 header.hero {
