@@ -636,10 +636,10 @@ ul, ol {
 }
 
 .carousel-cell {
-	max-height: 900px;
+	max-height: 500px;
     display: table;
     width: 100%;
-    height: calc(100vh - 18.2em);
+    height: 500px;
     margin-right: 10px;
     background-position: center;
     background-size: cover
@@ -648,7 +648,7 @@ ul, ol {
 .carousel-cellB {
     display: table;
     width: 100%;
-    height: calc(36vh - 8.2em);
+    height: 500px;
     margin-right: 10px;
     background-position: center;
     background-size: cover
@@ -660,7 +660,7 @@ ul, ol {
     display: table;
     width: 98%;
 	max-width: 1320px;
-	height: 10000px;
+	height: 500px;
     margin-right: 200px;
 	background-repeat: no-repeat;
 	background-position: top;
