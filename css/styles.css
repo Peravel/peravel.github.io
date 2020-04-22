@@ -1035,7 +1035,7 @@ ul, ol {
 header.hero {
     position: relative;
     display: table;
-    width: 1370px;
+    width: 970px;
     height: calc(100vh - 8.2em);
     max-height: 560px;
     padding: 0px;
