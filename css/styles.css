@@ -1035,10 +1035,10 @@ ul, ol {
 header.hero {
     position: relative;
     display: table;
-    width: 970px;
+    width: 1270px;
     height: calc(100vh - 8.2em);
     max-height: 560px;
-    padding: 0px;
+    padding: 40px;
 	margin: auto;
 }
 
