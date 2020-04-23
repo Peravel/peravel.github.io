@@ -1065,6 +1065,12 @@ ul, ol {
     border-width: 0 0 7px 7px
 }
 
+@media only screen and(max-width:1123px){
+	header.hero {
+		width: 95wv;
+	}
+	
+}
 
 header.hero {
     position: relative;
@@ -1074,13 +1080,6 @@ header.hero {
     max-height: 560px;
     padding: 40px;
 	margin: auto;
-}
-
-@media  (max-width:1123px){
-	header.hero{
-		width: 95wv;
-	}
-	
 }
 
     header.hero .hero-bg {
