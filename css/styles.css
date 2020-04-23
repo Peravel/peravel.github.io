@@ -1539,6 +1539,14 @@ article figure.article-overlay .overlay-v{
 
 /* Article index bottom */
 
+
+.has-overlay {
+    height: 100%
+}
+.has-overlay:after {
+    background-color: rgba(65,74,82,0.0)
+}
+
 .latest-articles .sort {
     text-align: right
 }
