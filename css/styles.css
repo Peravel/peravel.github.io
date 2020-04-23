@@ -1104,7 +1104,9 @@ header.hero {
     header.hero h1 {
         margin-bottom: 40px;
         color: #fff;
-        font-size: 65px;
+        font-size: 36px;
+		font-weight: 400;
+		text-transform: uppercase
     }
 
     header.hero h3 {

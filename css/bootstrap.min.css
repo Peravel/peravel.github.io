@@ -1463,8 +1463,8 @@ pre code {
 	z-index: 10000;
 }
 .row {
-/*	margin-right: -15px; */
-	margin-left: -15px
+	margin-right: -15px; 
+/*	margin-left: -15px */
 }
 
 .centered {
