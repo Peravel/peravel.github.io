@@ -3088,7 +3088,7 @@ div.navbar-header {
     transition: all .3s ease-in-out 0s;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    background-color: #aaaaaa
+    background-color: #fff
 }
 
 .navbar-nav li a:hover:before {
