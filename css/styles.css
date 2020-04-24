@@ -377,7 +377,7 @@ padding: 210px 0px 210px 0px;
 }
 
 .has-padding-name {
-	padding: 15vh 0 21vh 0	
+	padding: 5vh 0 11vh 0	
 }
 
 .has-padding-portfolio-title {
@@ -421,7 +421,7 @@ padding: 210px 0px 210px 0px;
 }
 
 .has-padding-GD-portfolio {
-	padding: 15px 0
+	padding: 25px 0
 }
 
 .has-padding-left {
@@ -445,7 +445,7 @@ padding: 210px 0px 210px 0px;
 }
 
 .has-padding-tall {
-    padding: 60px 0
+    padding: 40px 0
 }
 
 .has-padding-talltop {
@@ -1065,6 +1065,11 @@ ul, ol {
     border-width: 0 0 7px 7px
 }
 
+#red { color: #fff }
+
+#red:hover { color: #bc4a3f }
+
+
 @media only screen and(max-width:1123px){
 	header.hero {
 		width: 95wv;
@@ -1104,7 +1109,7 @@ header.hero {
     header.hero h1 {
        /*  margin-bottom: 25px; */
         color: #fff;
-        font-size: 23px;
+        font-size: 20px;
 		font-weight: 400;
 		text-transform: uppercase
     }
@@ -2574,7 +2579,7 @@ footer .footer-nav {
 	width:150px;
 	height:200px;
     border: solid;
-	border-color: #bc4a3f;
+	border-color: #4e385c;
 	border-width: 7px;
 /*    margin-left: 60px;  */
 	opacity:1;
@@ -3202,7 +3207,7 @@ div.navbar-header {
 
 .webcomic-wrapper .pager a {
     background-color: #ffaf97;
-    border: 2px solid #4F395D
+/*    border: 2px solid #4F395D	*/
 }
 
 .webcomic-wrapper .pager a.disabled, .webcomic-wrapper .pager a.disabled span {
