@@ -3684,7 +3684,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 .navbar-toggle {
 	position: relative;
 	float: right;
-	padding: 4px 10px;
+	padding: 0px 6px;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	background-color: transparent;

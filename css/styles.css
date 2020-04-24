@@ -343,7 +343,7 @@ a.text-link {
 }
 
 .has-padding-top-94px {
-	padding: 94px 0 
+	padding: 94px 0 !important
 }
 
 .has-padding-allsides {padding: 2px 2px 2px 2px}
@@ -2832,7 +2832,8 @@ body {
 	line-height: 0px;
 	margin-top: 9px;
 	margin-bottom: 1px;
-	color: #2b2121;
+	color: #fff;
+	letter-spacing: 1px;
 }
 
 #artworks-wrapper {
@@ -3055,7 +3056,7 @@ div.navbar-header {
 }
 
 .navbar-toggle {
-    border: 1px solid #aaa;
+    border: 2px solid #fff;
 }
 
     .navbar-toggle .icon-bar {
