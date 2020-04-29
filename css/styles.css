@@ -1400,7 +1400,7 @@ article.true-banner-1 {
         font-size: 15px;
         font-weight: 600;
         line-height: 20px;
-     /*   text-transform: uppercase;	*/
+        text-transform: uppercase;	
         color: #fff
     }
 
@@ -3123,9 +3123,9 @@ div.navbar-header {
 */
 
 .article-post {
-/*    float: left;
+    float: left;
     padding: 5px;
-    width: 300px !important;	*/
+    width: 300px !important;
 }
 
     .article-post a img {
