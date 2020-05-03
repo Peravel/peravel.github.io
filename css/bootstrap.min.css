@@ -1447,6 +1447,12 @@ pre code {
 	}
 }
 
+@media (max-width:1088px) {
+	.pp-about {
+		border: hidden;
+		
+	}
+}
 
 @media (min-width:1103px) {
 	.container-no-margin {
