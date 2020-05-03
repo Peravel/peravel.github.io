@@ -315,9 +315,16 @@ a.text-link {
 		color: #fff;
 		}
 		
-		@media (max-width:436px) {
+		@media (max-width:452px) {
 			.pad1{
-				padding: 0 26px 0 0;
+				padding: 0 26px 0 0 !important;
+				color: #fff;
+			}
+		}	
+		
+		@media (max-width:408px) {
+			.pad1{
+				padding: 0 16px 0 0 !important;
 				color: #fff;
 			}
 		}		
@@ -341,9 +348,16 @@ a.text-link {
 		color: #fff;
 		}
 		
-		@media (max-width:436px) {
+		@media (max-width:452px) {
 			.pad4{
-				padding: 0 0 0 26px;
+				padding: 0 0 0 26px !important;
+				color: #fff;
+			}
+		}
+		
+		@media (max-width:408px) {
+			.pad4{
+				padding: 0 0 0 16px !important;
 				color: #fff;
 			}
 		}
