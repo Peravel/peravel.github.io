@@ -1442,17 +1442,13 @@ pre code {
 
 @media (max-width:436px) {
 	.pfp {
-		width: 85%;
-		height: 85%
+		width: 98%;
+		height: 98%;
+		padding: 3px !imporant;
 	}
 }
 
-@media (max-width:1088px) {
-	.pp-about {
-		border: hidden;
-		
-	}
-}
+
 
 @media (min-width:1103px) {
 	.container-no-margin {
