@@ -374,6 +374,10 @@ a.text-link {
 	padding: 94px 0 !important
 }
 
+.has-padding-top-54px {
+	padding: 54px 0 !important
+}
+
 .has-padding-allsides {padding: 2px 2px 2px 2px}
 
 .has-padding-bottom {
