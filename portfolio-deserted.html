@@ -70,11 +70,13 @@
 		var pagebottom, yPos;
 		function yScroll() {
 			pagebottom = document.getElementById('pagebottom');
-			yPos = window.pageYOffset;
-			if (yPos < 6900) {
-				pagebottom.style.bottom = "-53px";
-			} else {
-				pagebottom.style.bottom = "0px";
+			if(pagebottom){
+				yPos = window.pageYOffset;
+				if (yPos < 6900) {
+					pagebottom.style.bottom = "-53px";
+				} else {
+					pagebottom.style.bottom = "0px";
+				}
 			}
 		}
 		window.addEventListener("scroll", yScroll);
