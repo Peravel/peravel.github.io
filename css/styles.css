@@ -68,6 +68,7 @@ p {
 		text-align: justify;	
 	}
 
+
 h1 {
     font-size: 38px;
     font-weight: 600;
@@ -465,7 +466,8 @@ padding: 210px 0px 210px 0px;
 }
 
 .has-padding-left-7 {
-    padding-left: 7px
+    padding-left: 7px;
+	padding-top: 10px
 }
 
 .has-padding-left-right-10px {
@@ -1299,7 +1301,16 @@ section.collective {
 	padding-top: 0 px;
 }
 
+section.about-me-stats {
+		font-weight:500
+}
 
+	.about-me-stats p {
+		font-size: 15px;
+		line-height: normal;
+		padding-bottom: 10px;	 
+	}
+	
 
 .stats {
     background: url("../img/my-webcomicv4s.png") no-repeat center center;
