@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html class="no-js" lang="en-US">
+<html class="no-js" lang="en-US" data-theme="dark">
 
 <head>
 
@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/flickity.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/toggle.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 	<style>
@@ -42,7 +44,7 @@
 	</style>
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
-    
+  
     
 </head>
 
@@ -58,10 +60,19 @@
 
     <a name="top" id="top"></a>
 
+<!-- SECTION: Toggle -->
+    <section class="toggleswitch">
+        <div class="toggle-notthatcword">
+            <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+        </div>
+    </section>
+<!-- END SECTION: Name -->
+
+
 <!-- SECTION: Name -->
 	<section class="name collective" id="name">
     <div class="container has-padding-name is-centered">
-    	 <span class="wp1"><a href="http://www.cs-boeckh.com"><img src="img/controller-icon.png" alt="PageDown" height="128px" width="128px"></a></span>
+    	 <span class="wp1"><a href="http://www.cs-boeckh.com"><img src="img/controller-icon.png" alt="PageDown" height="128px" width="128px" style="padding-left: 2px"></a></span>
          <br>
          <br>
          <br>
@@ -69,7 +80,7 @@
          <br>
          <h1 class="wp1 animated fadeInUp">CHRISTOPHER BOECKH</h1>
          <br>
-         <h2 class="wp2 animated fadeInUp">Game Designer</h2>
+         <h2 class="wp2 animated fadeInUp GD">Game Designer</h2>
          <br>
          <br>
          <span class="wp2"><a href="#end"><img src="img/scrolldown-m-purple.png" alt="PageDown" height="16px" width="16px" class="HOV-scroll"></a></span>
@@ -188,16 +199,16 @@
                     <br>
                     <div class="icon-bar">
                         <span class="pad1">
-                            <a href="https://twitter.com/cs_boeckh"> <img src="img/icons/tw-V.png" alt="Twitter" width="42" height="42" class="HOV"/> </a>
+                            <a href="https://twitter.com/cs_boeckh"> <img src="imgTw" alt="Twitter" id="tw" width="42" height="42" class="HOV"/> </a>
                         </span>
                         <span class="pad0">
-                            <a href="https://www.linkedin.com/in/cs-boeckh"> <img src="img/icons/in-V.png" alt="LinkedIn" width="42" height="42" class="HOV"/></a>
+                            <a href="https://www.linkedin.com/in/cs-boeckh"> <img src="imgIn" alt="LinkedIn" id="in" width="42" height="42" class="HOV"/></a>
                         </span>
                         <span class="pad4">
-                            <a href="mailto:christopher.boeckh@web.de"> <img src="img/icons/mail-V.png" alt="mail" width="42" height="42" class="HOV"/></a>
+                            <a href="mailto:christopher.boeckh@web.de"> <img src="imgMail" alt="Mail" id="mail" width="42" height="42" class="HOV"/></a>
                         </span>
                         <span class="pad4">
-                            <a href="https://cs-boeckh.itch.io/"> <img src="img/icons/itch icon-V.png" alt="mail" width="42" height="42" class="HOV"/></a>
+                            <a href="https://cs-boeckh.itch.io/"> <img src="imgItch" alt="Itch" id="itch" width="42" height="42" class="HOV"/></a>
                         </span>
                     </div>
                 </div>
@@ -208,7 +219,6 @@
 
     </div>
 </section>
-
 <!-- END SECTION: Articles 2 -->
 
 
@@ -230,29 +240,34 @@
                     
                 </div>
                 <div class="col-md-7 has-padding-left-right-10px">
-                    <p class="justify">Chris is a game designer from the Black Forest, currently living in Berlin, Germany. He's always been passionate about logical thinking, drawing, writing and generally visualizing his thoughts on paper. He loves comfy bars, Japanese vending machines, and tinkering with game mechanics.</p>
-                    <p class="justify">He studied Game Design at the University of Applied Sciences Europe in Berlin, where he found his passion for design thinking.</p>
-                    <p class="justify">What he does best is adjusting game mechanics, creating target-aimed gameplay experiences and designing ingame levels and spaces accordingly. He particularily enjoys communicating concepts to the team so everyone is on the same page. For that purpose he creates easy to read documents such as one page designs to make design guidelines understandable for everyone.</p>
+                    <p class="justify dark">Chris is a game designer from the Black Forest, currently living in Berlin, Germany. He's always been passionate about logical thinking, drawing, writing and generally visualizing his thoughts on paper. He loves comfy bars, Japanese vending machines, and tinkering with game mechanics.</p>
+                    <p class="justify dark">He studied Game Design at the University of Applied Sciences Europe in Berlin, where he found his passion for design thinking.</p>
+                    <p class="justify dark">What he does best is adjusting game mechanics, creating target-aimed gameplay experiences and designing ingame levels and spaces accordingly. He particularily enjoys communicating concepts to the team so everyone is on the same page. For that purpose he creates easy to read documents such as one page designs to make design guidelines understandable for everyone.</p>
                   	<br>
                    <!-- <div class="col-md-1 about-me-stats">
                    		<p style="color:#4e385c; font-weight:500; padding-right: 20px" class="justify">Stats</p>
                     </div>	-->
                     <section style="padding-top: 11px" class="about-me-stats col-md-6" id="stats">
-					<p style="color:#4e385c">Age: 25</p>  
-                    <p style="color:#4e385c">Vision: Make a difference</p> 
-                    <p style="color:#4e385c">Vision*: -2,75</p>  
-                    <p style="color:#4e385c; font-size:9px; line-height:0px; margin-top:-5px">*(according to eye doctor)</p>  
-    
+                   
+                    <div>
+                    <p class="violet">Age: 25</p>  
+                    <p class="violet">Vision: Make a difference</p> 
+                    <p class="violet">Vision*: -2,75</p>  
+                    <p class="violet" style="font-size:9px; line-height:0px; margin-top:-5px">*(according to eye doctor)</p>  
+                    </div>
+
                     </section>	           
                     
-                    <div class="col-md-12">
-                    <p class="right" style="margin-top: -23px;"><a href="https://docdro.id/8IxkvJq">- Download CV Here -</a> </p>
-           <!--     <p class="right" style="margin-top: -23px;"><a href="https://docdro.id/S0LJUC6">- Download CV Here -</a> </p>
-             	 	<p class="right"><a href="https://www.docdroid.net/qvEg5dn/singularity-rule-sheet.pdf">- Download CV Here -</a> </p> -->
-             		</div>
+                    <section style="padding-top: 81px; justify-content: right;" class="about-me-stats col-md-6" id="stats">
+                        <div class="bg-square-CV">
+                            <p class="center"><a class="violet" href="https://docdro.id/8IxkvJq">- Download CV Here -</a> </p>
+                     <!--   <p class="right" style="margin-top: -23px;"><a href="https://docdro.id/S0LJUC6">- Download CV Here -</a> </p>
+                            <p class="right"><a href="https://www.docdroid.net/qvEg5dn/singularity-rule-sheet.pdf">- Download CV Here -</a> </p> -->
+                        </div> 
+                    </section>
                 </div>
                 <div class="col-md-12">
-                <p class="is-centered" style="font-size: 12px;">© 2020 by Christopher Boeckh</p>
+                <p class="is-centered violet" style="font-size: 12px;">© 2020 by Christopher Boeckh</p>
                 </div>
             </div>
         </div>
@@ -260,50 +275,8 @@
     <!-- END SECTION: About -->
 
 
-
 	<a name="end" id="end"></a>
 
-
-
-<!-- SECTION: Footer -->
- <!--    
-    <div class="container-fluid">
-        <div class="row">
-		    <div class="footer-nav-wrapper alternate-bg" id="pagebottom">
-				<div class="logo">
-				<!-- <span class="IMP"><a href="impressum.html"><img src="img/IMP.png" alt="Impressum"></a></span> -->
- <!--               <span class="TW"><a href="https://twitter.com/Peravel_Art"><img src="img/icons/TW.png" alt="Twitter" width="32" height="32"></a></span>                    
-                    <span class="IG"><a href="#top"><img src="img/icons/IG.png" alt="Instagram" width="32" height="32"></a></span>
-                    <span class="IN"><a href="https://www.linkedin.com/in/christopher-boeckh-72a167188/"><img src="img/icons/IN.png" alt="LinkedIn" width="32" height="32"></a></span>
-                    <span class="MAIL"><a href="mailto:contact@peravel.art"><img src="img/icons/mail.png" alt="Mail" width="32" height="32"> </a></span>
-                    <span class="scrollup"><a href="#top"><img src="img/icons/arrow-up.png" alt="PageUp" width="32" height="32"></a></span>
-                    
-   				</div>
-       	    </div>
-        </div>
-    </div>
-    
-    <!-- END SECTION: Footer -->
-
-
-
-		<!-- SCROLL UP
-        
-<div class="navbar-wrapper">
-	<div class="container-fluid alternate-bg" id="pagetop">
-		<nav class="is-centered" id="custom-navbar">				
-			<div class="scrollup-m"><a href="#top"><img src="img/scrollup-m.png" alt="PageUp" height="16px" width="16px"></a></div>
-        </nav>
-    </div>
-</div>
-
-		--> 
-        
-        
-        
-        
-        
-        
 
     <!-- JS CDNs -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -320,27 +293,41 @@
     <script src="js/min/jquery.waypoints.min.js"></script>
     <script src="js/min/flickity.pkgd.min.js"></script>
     <script src="js/min/scripts-min.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID and uncomment -->
-    <!--
+
+    <!-- toggle -->
     <script>
-    (function(b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function() {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X', 'auto');
-    ga('send', 'pageview');
+
+
+        var checkbox = document.querySelector('input[name=theme]');
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {               
+                trans()
+                document.documentElement.setAttribute('data-theme', 'dark')      
+
+            } else {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'light')     
+         
+            }
+        })
+
+        let trans = () => {
+            document.documentElement.classList.add('transition');
+            window.setTimeout(() => {
+                document.documentElement.classList.remove('transition')
+            }, 1000)
+        }
+
+        let imgTw = 'img/icons/tw-V.png';
+        let imgIn = 'img/icons/in-V.png';
+        let imgMail = 'img/icons/mail-V.png';
+        let imgItch = 'img/icons/itch icon-V.png';
+        document.getElementById('tw').src = imgTw;
+        document.getElementById('in').src = imgIn;
+        document.getElementById('mail').src = imgMail;
+        document.getElementById('itch').src = imgItch;
+
     </script>
-    -->
-
-
 
 </body>
 

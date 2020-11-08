@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html class="no-js" lang="en-US">
+<html class="no-js" lang="en-US" data-theme="dark">
 
 <head>
 	<meta charset="UTF-8">
@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/flickity.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/toggle.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 	<link href="css/lightbox.css" rel="stylesheet">
@@ -52,55 +53,6 @@
 	</script>
 
 
-	<script>
-		var pagetop, yPos;
-		function yScroll() {
-			pagetop = document.getElementById('pagetop');
-			yPos = window.pageYOffset;
-			if (yPos > 500) {
-				pagetop.style.top = "-68px";
-			} else {
-				pagetop.style.top = "0px";
-			}
-		}
-		window.addEventListener("scroll", yScroll);
-	</script>
-
-	<script>
-		var pagebottom, yPos;
-		function yScroll() {
-			pagebottom = document.getElementById('pagebottom');
-			if(pagebottom){
-				yPos = window.pageYOffset;
-				if (yPos < 6900) {
-					pagebottom.style.bottom = "-53px";
-				} else {
-					pagebottom.style.bottom = "0px";
-				}
-			}
-		}
-		window.addEventListener("scroll", yScroll);
-	</script>
-
-
-	<!-- DIV HEIGHT == IMG HEIGHT (wegen Mobil-Ansicht)
-
-    <script>
-	var containerHeight, img, imgHeight,
-	function ShortenContainerHeight(){
-		containerHeight = document.getElementsByClassName('Carousel-cellC');
-		img = document.getElementById('#myImg');
-		imgHeight = img.clientHeight;
-		if (imgHeight < 10000) {
-			containerHeight.style.height = imgHeight;
-		}
-	}
-	</script>-->
-
-
-
-
-
 </head>
 
 <body>
@@ -116,7 +68,7 @@
                         <p class="menu-font">...</p>
                     </button>
 					<div class="navbar-brand navbar-item-verticalCenter">
-						<a href="http://www.cs-boeckh.com"><img src="img/navbar-icon.png" alt="GD Christopher Boeckh" width="42px" height="42px"></a>
+						<a href="http://www.cs-boeckh.com"><img src="img/navbar-icon-2.png" alt="GD Christopher Boeckh" width="42px" height="42px"></a>
 					</div>
 
 				</div>
@@ -125,17 +77,17 @@
 				<div class="navbar-collapse collapsed collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
 
 					<ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-right">
-						<li class="subscribe"><a href="http://www.cs-boeckh.com">Home</a></li>
+						<li class="subscribe"><a id="header" href="http://www.cs-boeckh.com">Home</a></li>
 						</li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-middle">
 						<!--<li><a href="artworks.html">Artworks</a></li>
 						<li><a href="webcomic.html">Webcomic</a></li> -->
-                        <li><a style="font-style:italic" href="https://cs-boeckh.itch.io/">Play it on itch!</a></li>
-						<li><a href="http://www.cs-boeckh.com/portfolio-buji">Burakumin Jidai</a></li>
-						<li><a href="http://www.cs-boeckh.com/portfolio-deserted">Deserted</a></li>
-                        <li><a href="http://www.cs-boeckh.com/portfolio-singularity">Singularity</a></li>
+                        <li><a id="header" style="font-style:italic" href="https://cs-boeckh.itch.io/">Play it on itch!</a></li>
+						<li><a id="header" href="http://www.cs-boeckh.com/portfolio-buji">Burakumin Jidai</a></li>
+						<li><a id="header" href="http://www.cs-boeckh.com/portfolio-deserted">Deserted</a></li>
+                        <li><a id="header" href="http://www.cs-boeckh.com/portfolio-singularity">Singularity</a></li>
 					</ul>
 
 				</div>
@@ -143,6 +95,14 @@
 			</nav>
 		</div>
 	</div>
+
+	<!-- SECTION: Toggle -->
+	<section class="toggleswitch">
+		<div class="toggle-notthatcword">
+			<input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+		</div>
+	</section>
+	<!-- END SECTION: Name -->
 
 
 	<div class="webcomic-wrapper has-padding-top-94px">
@@ -213,6 +173,39 @@
 	<script src="js/min/scripts-min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<script src="js/webcomic.js"></script>
+	<script>
+
+
+        var checkbox = document.querySelector('input[name=theme]');
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {               
+                trans()
+                document.documentElement.setAttribute('data-theme', 'dark')      
+
+            } else {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'light')     
+         
+            }
+        })
+
+        let trans = () => {
+            document.documentElement.classList.add('transition');
+            window.setTimeout(() => {
+                document.documentElement.classList.remove('transition')
+            }, 1000)
+        }
+
+        let imgTw = 'img/icons/tw-V.png';
+        let imgIn = 'img/icons/in-V.png';
+        let imgMail = 'img/icons/mail-V.png';
+        let imgItch = 'img/icons/itch icon-V.png';
+        document.getElementById('tw').src = imgTw;
+        document.getElementById('in').src = imgIn;
+        document.getElementById('mail').src = imgMail;
+        document.getElementById('itch').src = imgItch;
+
+    </script>
 
 
 </body>

@@ -1,6 +1,6 @@
 ﻿<!doctype html>
 
-<html class="no-js" lang="en-US">
+<html class="no-js" lang="en-US" data-theme="dark">
 
 <head>
     <meta charset="utf-8">
@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/flickity.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/toggle.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link href="css/lightbox.css" rel="stylesheet">
@@ -56,43 +57,7 @@
         });
     </script>
 
-<!--    <script>
-        $(function () {
-            $('a[href*=#]:not([href=#])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 2);
-                        return false;
-                    }
-                }
-            });
-        });
-    </script>
-
-
-	<script>
-		var pagebottom, yPos;
-		function yScroll() {
-			pagebottom = document.getElementById('pagebottom');
-			yPos = window.pageYOffset;
-			if (yPos < 1400) {
-				pagebottom.style.bottom = "0px";
-			} else {
-				pagebottom.style.bottom = "-53px";
-			}
-		}
-		window.addEventListener("scroll", yScroll);
-	</script>
-
-
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet"> 
-    
-    -->
 </head>
 
 
@@ -112,40 +77,22 @@
                         <p class="menu-font">...</p>
                     </button>
 					<div class="navbar-brand navbar-item-verticalCenter">
-						<a href="http://www.cs-boeckh.com"><img src="img/navbar-icon.png" alt="GD Christopher Boeckh" width="42px" height="42px"></a>
+						<a href="http://www.cs-boeckh.com"><img src="img/navbar-icon-2.png" alt="GD Christopher Boeckh" width="42px" height="42px"></a>
 					</div>
-                    <!--<div class="scrollup-m">
-                        <a href="#top">
-                            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/scrollup-m.png" alt="scroll-to-top" id="scrollup-m" width="14" height="14">
-                            <script>
-                            function bigImg(x) {
-								x.style.height = "28px";
-                                x.style.width = "28px";
-                                document.getElementById("scrollup-m").style.transition = "all .2s"; 
-                            }
-                            
-                            function normalImg(x) {
-                                x.style.height = "14px";
-                                x.style.width = "14px";
-                            }
-                            </script>
-                        </a>
-                    </div> -->
-					<!-- <div class="scrollup-m"><a href="#top"><img src="img/scrollup-m.png" alt="PageUp" height="16px" width="16px"></a></div>	-->
-				</div>
+                </div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="navbar-collapse collapsed collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
 
 					<ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-right">
-						<li class="subscribe"><a href="http://www.cs-boeckh.com">Home</a></li>
+						<li class="subscribe"><a id="header" href="http://www.cs-boeckh.com">Home</a></li>
 						</li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right navbar-item-verticalCenter-fixed" id="navbar-middle">
-						<li><a href="http://www.cs-boeckh.com/portfolio-buji">Burakumin Jidai</a></li>
-						<li><a href="http://www.cs-boeckh.com/portfolio-deserted">Deserted</a></li>
-                        <li><a href="http://www.cs-boeckh.com/portfolio-singularity">Singularity</a></li>
+						<li><a id="header" href="http://www.cs-boeckh.com/portfolio-buji">Burakumin Jidai</a></li>
+						<li><a id="header" href="http://www.cs-boeckh.com/portfolio-deserted">Deserted</a></li>
+                        <li><a id="header" href="http://www.cs-boeckh.com/portfolio-singularity">Singularity</a></li>
 					</ul>
 
 				</div>
@@ -154,7 +101,14 @@
 		</div>
 	</div>
     
-    
+    <!-- SECTION: Toggle -->
+    <section class="toggleswitch">
+        <div class="toggle-notthatcword">
+            <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+        </div>
+    </section>
+    <!-- END SECTION: Name -->
+
 <!-- SECTION: Name -->
 	<section class="name collective" id="name">
     <div class="container has-padding-portfolio-title is-centered">
@@ -167,7 +121,7 @@
          <br>
          <h1 class="wp1 animated fadeInUp">Singularity</h1>
          <br>
-         <p class="wp2 animated fadeInUp">This is a board game I developed with my fellow students Erik Lopez Gerner and Manual Arabadzic during my first semester.</p>
+         <p class="wp2 animated fadeInUp singularity">This is a board game I developed with my fellow students Erik Lopez Gerner and Manual Arabadzic during my first semester.</p>
 <!--         <br>
          <br>
          <span class="wp2"><a href="#articles"><img src="img/scrolldown-m-purple.png" alt="PageDown" height="16px" width="16px" class="HOV-scroll"></a></span>			-->
@@ -184,156 +138,7 @@
 
 	</div>
 
-<!-- SECTION: Lightbox 
-<section class="artwork-articles">
-        <div id="artworks-wrapper">
-        
-            <article class="article-post">
-                <a href="img/singularity/s-1.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-1-thumb.jpg"/>
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                    
-                </a>
-            </article>
 
-            <article class="article-post">
-                <a href="img/singularity/s-2.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-2-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                           
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-3.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-3-thumb.jpg"/>
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>200</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>    
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-4.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-4-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                        
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-5.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-5-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-6.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-6-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                      
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-7.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-7-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                      
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-8.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-8-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                      
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-9.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-9-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                      
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-10.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-10-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                      
-                </a>
-            </article>
-
-            <article class="article-post">
-                <a href="img/singularity/s-11.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-11-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                             
-                </a>
-            </article>	
-
-            <article class="article-post">
-                <a href="img/singularity/s-12.jpg" data-lightbox="example-setB">
-                    <img class="example-image-4-cols" src="img/singularity/s-12-thumb.jpg" />
-                    <figure class="article-overlay">
-                        <figcaption class="overlay">
-                                <h2>Title</h2>
-                                <p>Subtitle</p>
-                        </figcaption>
-                    </figure>                    
-                </a>
-            </article>
-        </div>
-    </section>
- <!-- END SECTION: Lightbox -->   
 
     <!-- SECTION: Copyright -->
     <section class="about" id="copyright">
@@ -346,63 +151,7 @@
     <!-- END SECTION: Copyright -->
 
 
-<!-- SECTION: Articles 
-	<section class="latest-articles has-padding-atc1" id="articles">
-		<div class="container">
-              
-        <div class="has-padding-top-9px"></div>
-        
-            <section class="icon-hub text-center has-padding">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>Check out my games or contact me:</h2>
-                            <br>
-                            <div class="icon-bar">
-                                <span class="pad1">
-                                    <a href="https://twitter.com/cs_boeckh"> <img src="img/icons/tw-V.png" alt="Twitter" width="42" height="42" class="HOV"/> </a>
-                                </span>
-                                <span class="pad0">
-                                    <a href="https://www.linkedin.com/in/cs-boeckh"> <img src="img/icons/in-V.png" alt="LinkedIn" width="42" height="42" class="HOV"/></a>
-                                </span>
-                                <span class="pad4">
-                                    <a href="mailto:christopher.boeckh@web.de"> <img src="img/icons/mail-V.png" alt="mail" width="42" height="42" class="HOV"/></a>
-                                </span>
-                                <span class="pad4">
-                                    <a href="https://cs-boeckh.itch.io/"> <img src="img/icons/itch icon-V.png" alt="mail" width="42" height="42" class="HOV"/></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>           
-                </div>
-            </section>
-           
-		</div> 
-	</section> 
-<!--  END SECTION: Articles -->
 
-
-<!-- SECTION: Description
-    <section class="about" id="description">
-        <div class="container has-padding-aboutme wp5">
-            <div>
-                <div class="col-md-12">
-                    <p class="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p class="justify">Euismod quis viverra nibh cras. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. </p>
-                    <p class="justify">Consequat ac felis donec et odio pellentesque diam volutpat commodo. Mauris cursus mattis molestie a iaculis at. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Ultrices dui sapien eget mi proin. Mus mauris vitae ultricies leo integer malesuada nunc vel. Nec feugiat in fermentum posuere urna nec tincidunt.</p>
-                    <br>
-                    <p class="justify">Velit scelerisque in dictum non. Est velit egestas dui id ornare arcu. Tristique nulla aliquet enim tortor at auctor urna. Vitae ultricies leo integer malesuada nunc vel.</p>
-                    <p class="justify">Viverra aliquet eget sit amet tellus cras adipiscing enim eu. Ut tristique et egestas quis ipsum suspendisse.</p>
-                    <p class="justify">Eu facilisis sed odio morbi quis commodo odio. Pretium quam vulputate dignissim suspendisse. Diam sollicitudin tempor id eu nisl nunc. Eleifend donec pretium vulputate sapien nec sagittis.</p>
-                    <br>
-                    <br>
-             	    <p class="right"><a href="https://www.docdroid.net/qvEg5dn/singularity-rule-sheet.pdf">- Download Rulesheet Here -</a> </p>
-                </div>
-                <p class="is-centered" style="font-size: 12px;">© 2020 by Christopher Boeckh</p>
-            </div>
-        </div>
-    </section>
-<!-- END SECTION: Description -->
 
 
 
@@ -422,6 +171,39 @@
     <script src="js/min/flickity.pkgd.min.js"></script>
     <script src="js/min/scripts-min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script>
+
+
+        var checkbox = document.querySelector('input[name=theme]');
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {               
+                trans()
+                document.documentElement.setAttribute('data-theme', 'dark')      
+
+            } else {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'light')     
+         
+            }
+        })
+
+        let trans = () => {
+            document.documentElement.classList.add('transition');
+            window.setTimeout(() => {
+                document.documentElement.classList.remove('transition')
+            }, 1000)
+        }
+
+        let imgTw = 'img/icons/tw-V.png';
+        let imgIn = 'img/icons/in-V.png';
+        let imgMail = 'img/icons/mail-V.png';
+        let imgItch = 'img/icons/itch icon-V.png';
+        document.getElementById('tw').src = imgTw;
+        document.getElementById('in').src = imgIn;
+        document.getElementById('mail').src = imgMail;
+        document.getElementById('itch').src = imgItch;
+
+    </script>
 
     <script>
         $(function () {

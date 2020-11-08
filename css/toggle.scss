@@ -1,0 +1,148 @@
+html[data-theme='dark'] {
+	--bg: #18181d;
+	--bgalt: #25252e;
+
+    body{
+		background-color: var(--bg);
+		
+    }
+}
+
+[data-theme='dark'] {
+
+	section.collective { background-color: var(--bg); }
+	section.about { background-color: #25252e; }
+
+	a {color:  #000 }
+	a:hover {color:  #4e4e5f }
+
+	#red { color: #fff }
+	#red:hover { color: #bbb !important }
+
+	#header { color: #fff }
+	#header:hover { color: #ff5050 !important}	
+
+	h1 { color: #ff5050 }
+	h2 { color: #ff5050 }
+	h2.GD { color: #eee }
+	h2.is-white { color: #eee }
+
+	.dark { color: #eee !important }
+	.violet { color: #ff5050 !important }
+	a.violet { color: #e69a83 !important }
+	a.violet:hover { color: #fff !important }
+
+	.alternate-bg { background-color: var(--bgalt); }
+
+	#news:before, 
+	#news:after, 
+	#news>:first-child:before, 
+	#news>:first-child:after {
+		border-color: #ff5050; 
+	}
+
+	.bg-square {
+		background-color: #333;
+	}
+
+	.bg-square-CV {
+		background-color: #373742;
+	}
+
+	.PP-about { border-color: #e69a83 }
+
+	label:after { 	background: var(--bg) }
+
+
+
+
+
+	/* WEBCOMIC WRAPPER PAGE NAVIGATION */
+
+	.webcomic-wrapper .pager a {
+		background-color: #ffaf97;
+	}
+
+	
+	.webcomic-wrapper .pager a.disabled, .webcomic-wrapper .pager a.disabled span {
+		color: #777 !important;
+		background-color: var(--bgalt) !important;
+	}
+
+	.webcomic-wrapper .pager a.disabled:hover {color:  #777 !important }
+
+	.form-control {
+		background-color: var(--bgalt);
+		border-color: #ffaf97;
+		color: #eee;
+	}
+
+	.form-control::-moz-placeholder {
+		color: #bbb;
+	}
+}
+
+.singularity {
+	color: #eee;
+}
+
+/*
+.notthatcword {
+    background-color: var(--bg-panel);
+    margin: 5em;
+    padding: 5em;
+	border-radius: 15px;
+}
+*/
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 42px;
+	height: 14px;
+	background: #ffaf97;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+	margin-top: 20px;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 4px;
+	width: 20px;
+	height: 8px;
+	background: #fff;
+	float: right;
+	border-radius: 20px;
+	transition: 0.7s;
+}
+
+input:checked + label {
+	background: #ffaf97;
+}
+
+input:checked + label:after {
+	left: calc(100% - 4px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 20px;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+	transition: all 700ms !important;
+	transition-delay: 0 !important;
+}
