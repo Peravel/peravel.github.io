@@ -125,18 +125,10 @@ html[data-theme='dark'] body {
   color: #bbb;
 }
 
-.singularity {
+[data-theme='dark'] .singularity {
   color: #eee;
 }
 
-/*
-.notthatcword {
-    background-color: var(--bg-panel);
-    margin: 5em;
-    padding: 5em;
-	border-radius: 15px;
-}
-*/
 input[type=checkbox] {
   height: 0;
   width: 0;
