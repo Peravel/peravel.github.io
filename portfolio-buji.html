@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html class="no-js" lang="en-US" data-theme="light">
+<html class="no-js" lang="en-US" data-theme="currentTheme">
 
 <head>
 	<meta charset="UTF-8">
@@ -52,7 +52,10 @@
 		});
 	</script>
 
-
+    <!-- get data theme depending on current switch toggle, also making theme persistent on other sites -->
+    <script>
+		document.getElementById("currentTheme").innerHTML = localStorage.getItem("data-theme");
+	</script>
 
 </head>
 
@@ -87,6 +90,7 @@
 						<!--<li><a href="artworks.html">Artworks</a></li>
 						<li><a href="webcomic.html">Webcomic</a></li> -->
                         <li><a id="header" style="font-style:italic" href="https://wolfniedermark.itch.io/deserted">Play it on itch!</a></li>
+						<li><a id="header" href="http://www.cs-boeckh.com/portfolio-ui-ux-practices">UI/UX</a></li>
 						<li><a id="header" href="http://www.cs-boeckh.com/portfolio-buji">Burakumin Jidai</a></li>
 						<li><a id="header" href="http://www.cs-boeckh.com/portfolio-deserted">Deserted</a></li>
                         <li><a id="header" href="http://www.cs-boeckh.com/portfolio-singularity">Singularity</a></li>
@@ -182,11 +186,11 @@
             if(this.checked) {               
                 trans()
                 document.documentElement.setAttribute('data-theme', 'dark')      
-
+                window.localStorage.setItem('data-theme', 'dark');
             } else {
                 trans()
                 document.documentElement.setAttribute('data-theme', 'light')     
-         
+                window.localStorage.setItem('data-theme', 'light');
             }
         })
 

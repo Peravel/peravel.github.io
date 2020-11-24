@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html class="no-js" lang="en-US" data-theme="light">
+<html class="no-js" lang="en-US" data-theme="dark">
 
 <head>
 
@@ -45,7 +45,11 @@
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
   
-    
+    <!-- get data theme depending on current switch toggle, also making theme persistent on other sites -->
+    <script>
+    document.getElementById("currentTheme").innerHTML = localStorage.getItem("data-theme");
+    </script>
+
 </head>
 
 <body>
@@ -290,13 +294,21 @@
             if(this.checked) {               
                 trans()
                 document.documentElement.setAttribute('data-theme', 'dark')      
-                
+                window.localStorage.setItem('data-theme', 'dark');
             } else {
                 trans()
                 document.documentElement.setAttribute('data-theme', 'light')     
-                
+                window.localStorage.setItem('data-theme', 'light');
             }
         })
+
+        /*
+        data-theme.addEventListener('change', function() {
+            if(this = "dark") { 
+                document.documentElement.setAttribute(checkbox, checked)
+            }
+        })
+        */
 
         let trans = () => {
             document.documentElement.classList.add('transition');

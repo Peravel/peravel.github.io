@@ -9,6 +9,7 @@ html[data-theme='dark'] body {
 
 [data-theme='dark'] {
   /* WEBCOMIC WRAPPER PAGE NAVIGATION */
+  /* UI / UX Page */
 }
 
 [data-theme='dark'] section.collective {
@@ -25,6 +26,14 @@ html[data-theme='dark'] body {
 
 [data-theme='dark'] a:hover {
   color: #4e4e5f;
+}
+
+[data-theme='dark'] a.abtn {
+  color: #fff !important;
+}
+
+[data-theme='dark'] a.abtn:hover {
+  color: #222 !important;
 }
 
 [data-theme='dark'] #red {
@@ -127,6 +136,39 @@ html[data-theme='dark'] body {
 
 [data-theme='dark'] .singularity {
   color: #eee;
+}
+
+[data-theme='dark'] .ui-ux-container {
+  background: #25252e;
+  border-color: #b3;
+}
+
+[data-theme='dark'] .ui-ux-container .ui-ux-h {
+  color: #ff5050;
+}
+
+[data-theme='dark'] .ui-ux-container .ui-ux-p {
+  color: #ddd;
+}
+
+[data-theme='dark'] .ui-ux-container .ui-ux-p-j {
+  color: #ffaf97;
+}
+
+[data-theme='dark'] .ui-ux-container-titlemenu {
+  background: #25252e;
+}
+
+[data-theme='dark'] .ui-ux-container-titlemenu .ui-ux-h {
+  color: #ff5050;
+}
+
+[data-theme='dark'] .ui-ux-container-titlemenu .ui-ux-p {
+  color: #ddd;
+}
+
+[data-theme='dark'] .ui-ux-container-titlemenu .ui-ux-p-j {
+  color: #ffaf97;
 }
 
 input[type=checkbox] {

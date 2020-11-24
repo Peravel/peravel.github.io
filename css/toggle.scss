@@ -16,6 +16,9 @@ html[data-theme='dark'] {
 	a {color:  #000 }
 	a:hover {color:  #4e4e5f }
 
+	a.abtn {       color: #fff !important }
+	a.abtn:hover { color: #222 !important }
+
 	#red { color: #fff }
 	#red:hover { color: #bbb !important }
 
@@ -84,6 +87,42 @@ html[data-theme='dark'] {
 	.singularity {
 		color: #eee;
 	}
+
+
+	/* UI / UX Page */
+
+	.ui-ux-container {
+		background: #25252e;
+		border-color: #b3;
+	}
+
+		.ui-ux-container .ui-ux-h {
+			color: #ff5050;
+		}
+
+		.ui-ux-container .ui-ux-p {
+			color: #ddd
+		}
+
+		.ui-ux-container .ui-ux-p-j {
+			color: #ffaf97;
+		}
+
+	.ui-ux-container-titlemenu {
+		background: #25252e;
+	}
+
+		.ui-ux-container-titlemenu .ui-ux-h {
+			color:#ff5050;
+		}
+
+		.ui-ux-container-titlemenu .ui-ux-p {
+			color: #ddd
+		}
+
+		.ui-ux-container-titlemenu .ui-ux-p-j {
+			color: #ffaf97;
+		}
 }
 
 
