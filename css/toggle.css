@@ -140,7 +140,7 @@ html[data-theme='dark'] body {
 
 [data-theme='dark'] .ui-ux-container {
   background: #25252e;
-  border-color: #b3;
+  border-color: #434352;
 }
 
 [data-theme='dark'] .ui-ux-container .ui-ux-h {
@@ -157,6 +157,7 @@ html[data-theme='dark'] body {
 
 [data-theme='dark'] .ui-ux-container-titlemenu {
   background: #25252e;
+  border-color: #434352;
 }
 
 [data-theme='dark'] .ui-ux-container-titlemenu .ui-ux-h {
