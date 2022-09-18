@@ -58,7 +58,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 p {
     font-size: 15px;
-    line-height: 27px;
+    line-height: 25px;
     padding-bottom: 15px;
 /*    color: #a93528	*/
 }
@@ -170,6 +170,9 @@ a.violet:hover { color: #bc4a3f !important }
 a.abtn {       color: #222 !important }
 a.abtn:hover { color: #fff !important }
 
+.size16 {
+    font-size: 16px;
+}
 
 .bold-italic {
     font-weight: 600;
@@ -410,13 +413,13 @@ a.text-link {
 		}
 		
 		.pad1{
-		padding: 0 36px 0 0;
+		padding: 0 16px 0 0;
 		color: #fff;
 		}
 		
 		@media (max-width:452px) {
 			.pad1{
-				padding: 0 26px 0 0 !important;
+				padding: 0 16px 0 0 !important;
 				color: #fff;
 			}
 		}	
@@ -443,13 +446,13 @@ a.text-link {
 		}
 		
 		.pad4{
-		padding: 0 0 0 36px;
+		padding: 0 0 0 16px;
 		color: #fff;
 		}
 		
 		@media (max-width:452px) {
 			.pad4{
-				padding: 0 0 0 26px !important;
+				padding: 0 0 0 16px !important;
 				color: #fff;
 			}
 		}
@@ -488,7 +491,7 @@ a.text-link {
 }
 
 .has-padding-pfp {
-padding: 210px 0px 210px 0px;
+padding: 166px 0px 167px 0px;
 }
 
 .has-padding-webb {
@@ -569,7 +572,7 @@ padding: 210px 0px 210px 0px;
 }
 
 .has-padding-left-right-10px {
-	padding: 0 10px 90px 10px
+	padding: 0 10px 20px 10px
 }
 
 .has-padding-leftonly {
@@ -1588,12 +1591,11 @@ section.toggleswitch {
 
 .bg-square-CV {
     width: 200px;
-    height: 34px;
     box-sizing: border-box;
     background-color: #4e385c;
     background-blend-mode: multiply;
-    border-radius: 12px;
-    padding-top: 9px;
+    border-radius: 42px;
+    padding-top: 12px;
     margin-top: -16px;
     justify-content: center;
 }
@@ -1634,7 +1636,7 @@ section.about-me-stats {
 section.about-me-stats-2 {
     font-weight:500;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }	
 
     .about-me-stats-2 p {
